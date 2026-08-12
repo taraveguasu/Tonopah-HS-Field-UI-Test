@@ -79,6 +79,32 @@ def repo_url():
     return url[:-4] if url.endswith(".git") else url
 
 
+def default_branch():
+    """The remote's default branch, asked of the remote rather than assumed.
+
+    Every download link is built against this, so guessing "main" on a repo
+    whose trunk is named something else produces a page of dead buttons. Cloud
+    clones often have no local origin/HEAD, so ls-remote is the reliable route.
+    """
+    try:
+        out = subprocess.run(["git", "ls-remote", "--symref", "origin", "HEAD"],
+                             cwd=ROOT, capture_output=True, text=True,
+                             check=True, timeout=30).stdout
+        m = re.search(r"^ref:\s+refs/heads/(\S+)\s+HEAD", out, re.M)
+        if m:
+            return m.group(1)
+    except (subprocess.CalledProcessError, FileNotFoundError, subprocess.TimeoutExpired):
+        pass
+    try:
+        out = subprocess.run(["git", "symbolic-ref", "--short", "refs/remotes/origin/HEAD"],
+                             cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
+        if out:
+            return out.split("/")[-1]
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+    return "main"
+
+
 def tier_number(tier):
     """'2 - next 60 work days' -> 2.  A removed package sorts last."""
     m = re.match(r"\s*(\d+)", tier or "")
@@ -158,7 +184,7 @@ def main():
         "generated": date.today().strftime("%m.%d.%y"),
         "repo": url,
         "repo_name": "/".join(url.split("/")[-2:]),
-        "branch": "main",
+        "branch": default_branch(),
         "packages": packages,
     }
 
