@@ -1,0 +1,1366 @@
+{
+ "_generated": "2026-08-08",
+ "_source": "00-source-docs/07-budget/Procore Project Budget.csv",
+ "_code_format": "Cost-type suffix (-.O / -.L / -.S) and trailing hyphen stripped, per PM direction: 31-2000-10000-.S is written 31-2000-10000",
+ "_totals_by_category": {
+  "core_self_perform": 201725.0,
+  "general_conditions": 1145886.0,
+  "bid_package": 9675291.0,
+  "allowance": 200000.0,
+  "bonds_and_insurance": 465836.0,
+  "contingency": 315101.0,
+  "fee": 600190.0
+ },
+ "_grand_total": 12604029.0,
+ "_problems": [
+  "ITB-019: 3 phase codes (32-7605-10000, 32-7610-10000, 32-7615-10000) \u2014 the cover sheet allows one per subcontractor",
+  "ITB-044: no budget line (carried $0.00)",
+  "ITB-062: no budget line (carried $0.00)"
+ ],
+ "packages": {
+  "ITB-008": {
+   "package_id": "ITB-008",
+   "phase_codes": [
+    "02-1010-10000"
+   ],
+   "budget_total": 80768.0,
+   "lines": [
+    {
+     "phase_code": "02-1010-10000",
+     "description": "Surveying/Staking",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 80768.0
+    }
+   ],
+   "carried_value": 80767.5,
+   "cover_sheet_phase_code": "02-1010-10000",
+   "delta_vs_carried": 0.5
+  },
+  "ITB-018": {
+   "package_id": "ITB-018",
+   "phase_codes": [
+    "32-7600-10000"
+   ],
+   "budget_total": 17221.0,
+   "lines": [
+    {
+     "phase_code": "32-7600-10000",
+     "description": "Site Furnishings",
+     "cost_type": "O - Other Direct Costs",
+     "amount": 17221.0
+    }
+   ],
+   "carried_value": 17221.0,
+   "cover_sheet_phase_code": "32-7600-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-019": {
+   "package_id": "ITB-019",
+   "phase_codes": [
+    "32-7605-10000",
+    "32-7610-10000",
+    "32-7615-10000"
+   ],
+   "budget_total": 307090.0,
+   "lines": [
+    {
+     "phase_code": "32-7605-10000",
+     "description": "Track & Field Equipment (Supply)",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 156973.0
+    },
+    {
+     "phase_code": "32-7610-10000",
+     "description": "Track Equipment (Install)",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 109237.0
+    },
+    {
+     "phase_code": "32-7615-10000",
+     "description": "Field Equipment (Install)",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 40880.0
+    }
+   ],
+   "carried_value": 307090.0,
+   "cover_sheet_phase_code": null,
+   "delta_vs_carried": 0.0
+  },
+  "ITB-040": {
+   "package_id": "ITB-040",
+   "phase_codes": [
+    "07-1000-10000"
+   ],
+   "budget_total": 15500.0,
+   "lines": [
+    {
+     "phase_code": "07-1000-10000",
+     "description": "Moisture Protection & Sealants",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 15500.0
+    }
+   ],
+   "carried_value": 15500.0,
+   "cover_sheet_phase_code": "07-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-054": {
+   "package_id": "ITB-054",
+   "phase_codes": [
+    "08-3050-10000"
+   ],
+   "budget_total": 31214.0,
+   "lines": [
+    {
+     "phase_code": "08-3050-10000",
+     "description": "Overhead Coiling Doors",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 31214.0
+    }
+   ],
+   "carried_value": 31214.0,
+   "cover_sheet_phase_code": "08-3050-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-056": {
+   "package_id": "ITB-056",
+   "phase_codes": [
+    "08-1000-10000"
+   ],
+   "budget_total": 43186.0,
+   "lines": [
+    {
+     "phase_code": "08-1000-10000",
+     "description": "Doors, Frames, & Hardware",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 43186.0
+    }
+   ],
+   "carried_value": 43186.0,
+   "cover_sheet_phase_code": "08-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-067": {
+   "package_id": "ITB-067",
+   "phase_codes": [
+    "09-8100-10000"
+   ],
+   "budget_total": 35993.0,
+   "lines": [
+    {
+     "phase_code": "09-8100-10000",
+     "description": "Concrete Finishing",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 35993.0
+    }
+   ],
+   "carried_value": 35993.0,
+   "cover_sheet_phase_code": "09-8100-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-070": {
+   "package_id": "ITB-070",
+   "phase_codes": [
+    "50-1000-10000"
+   ],
+   "budget_total": 5226.0,
+   "lines": [
+    {
+     "phase_code": "50-1000-10000",
+     "description": "Final Clean",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 5226.0
+    }
+   ],
+   "carried_value": 5226.0,
+   "cover_sheet_phase_code": "50-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-071": {
+   "package_id": "ITB-071",
+   "phase_codes": [
+    "10-1020-10000"
+   ],
+   "budget_total": 6696.0,
+   "lines": [
+    {
+     "phase_code": "10-1020-10000",
+     "description": "Visual Display Boards",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 6696.0
+    }
+   ],
+   "carried_value": 6695.82,
+   "cover_sheet_phase_code": "10-1020-10000",
+   "delta_vs_carried": 0.18
+  },
+  "ITB-072": {
+   "package_id": "ITB-072",
+   "phase_codes": [
+    "10-3070-10000"
+   ],
+   "budget_total": 22450.0,
+   "lines": [
+    {
+     "phase_code": "10-3070-10000",
+     "description": "Building Signage",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 22450.0
+    }
+   ],
+   "carried_value": 22450.0,
+   "cover_sheet_phase_code": "10-3070-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-074": {
+   "package_id": "ITB-074",
+   "phase_codes": [
+    "10-2020-10000"
+   ],
+   "budget_total": 38852.0,
+   "lines": [
+    {
+     "phase_code": "10-2020-10000",
+     "description": "Building & Fire Protection Accessories",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 38852.0
+    }
+   ],
+   "carried_value": 38852.0,
+   "cover_sheet_phase_code": "10-2020-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-077": {
+   "package_id": "ITB-077",
+   "phase_codes": [
+    "10-3120-10000"
+   ],
+   "budget_total": 20566.0,
+   "lines": [
+    {
+     "phase_code": "10-3120-10000",
+     "description": "Lockers",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 20566.0
+    }
+   ],
+   "carried_value": 20566.0,
+   "cover_sheet_phase_code": "10-3120-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-078": {
+   "package_id": "ITB-078",
+   "phase_codes": [
+    "10-3050-10000"
+   ],
+   "budget_total": 11597.0,
+   "lines": [
+    {
+     "phase_code": "10-3050-10000",
+     "description": "Flagpole",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 11597.0
+    }
+   ],
+   "carried_value": 11596.67,
+   "cover_sheet_phase_code": "10-3050-10000",
+   "delta_vs_carried": 0.33
+  },
+  "ITB-085": {
+   "package_id": "ITB-085",
+   "phase_codes": [
+    "11-0080-10000"
+   ],
+   "budget_total": 35950.0,
+   "lines": [
+    {
+     "phase_code": "11-0080-10000",
+     "description": "Warming Kitchen Foodservice Equipment",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 35950.0
+    }
+   ],
+   "carried_value": 35950.0,
+   "cover_sheet_phase_code": "11-0080-10000",
+   "delta_vs_carried": 0.0
+  },
+  "ITB-089": {
+   "package_id": "ITB-089",
+   "phase_codes": [
+    "11-0101-10000"
+   ],
+   "budget_total": 99483.0,
+   "lines": [
+    {
+     "phase_code": "11-0101-10000",
+     "description": "Scoreboard",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 99483.0
+    }
+   ],
+   "carried_value": 99483.0,
+   "cover_sheet_phase_code": "11-0101-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-002": {
+   "package_id": "RFP-002",
+   "phase_codes": [
+    "02-1110-10000"
+   ],
+   "budget_total": 741912.0,
+   "lines": [
+    {
+     "phase_code": "02-1110-10000",
+     "description": "Abatement & Building Wrecking",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 741912.0
+    }
+   ],
+   "carried_value": 741912.0,
+   "cover_sheet_phase_code": "02-1110-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-008": {
+   "package_id": "RFP-008",
+   "phase_codes": [
+    "31-2000-10000"
+   ],
+   "budget_total": 1741321.0,
+   "lines": [
+    {
+     "phase_code": "31-2000-10000",
+     "description": "Earthwork, Paving, Wet Utilities & Site Demo",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 1741321.0
+    }
+   ],
+   "carried_value": 1741321.0,
+   "cover_sheet_phase_code": "31-2000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-016": {
+   "package_id": "RFP-016",
+   "phase_codes": [
+    "32-8000-10000"
+   ],
+   "budget_total": 350200.0,
+   "lines": [
+    {
+     "phase_code": "32-8000-10000",
+     "description": "Landscaping & Irrigation",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 350200.0
+    }
+   ],
+   "carried_value": 350200.0,
+   "cover_sheet_phase_code": "32-8000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-021": {
+   "package_id": "RFP-021",
+   "phase_codes": [
+    "32-7620-10000"
+   ],
+   "budget_total": 450741.0,
+   "lines": [
+    {
+     "phase_code": "32-7620-10000",
+     "description": "Running Track Surfacing",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 450741.0
+    }
+   ],
+   "carried_value": 450741.0,
+   "cover_sheet_phase_code": "32-7620-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-022": {
+   "package_id": "RFP-022",
+   "phase_codes": [
+    "32-7650-10000"
+   ],
+   "budget_total": 1139000.0,
+   "lines": [
+    {
+     "phase_code": "32-7650-10000",
+     "description": "Synthetic Turf Sports Field",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 1139000.0
+    }
+   ],
+   "carried_value": 1139000.0,
+   "cover_sheet_phase_code": "32-7650-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-023": {
+   "package_id": "RFP-023",
+   "phase_codes": [
+    "32-7100-10000"
+   ],
+   "budget_total": 240789.0,
+   "lines": [
+    {
+     "phase_code": "32-7100-10000",
+     "description": "Fencing & Gates",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 240789.0
+    }
+   ],
+   "carried_value": 240789.0,
+   "cover_sheet_phase_code": "32-7100-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-030": {
+   "package_id": "RFP-030",
+   "phase_codes": [
+    "03-1000-10000"
+   ],
+   "budget_total": 1278460.0,
+   "lines": [
+    {
+     "phase_code": "03-1000-10000",
+     "description": "Concrete",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 1278460.0
+    }
+   ],
+   "carried_value": 1278459.84,
+   "cover_sheet_phase_code": "03-1000-10000",
+   "delta_vs_carried": 0.16
+  },
+  "RFP-031": {
+   "package_id": "RFP-031",
+   "phase_codes": [
+    "04-1000-10000"
+   ],
+   "budget_total": 189449.0,
+   "lines": [
+    {
+     "phase_code": "04-1000-10000",
+     "description": "Masonry",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 189449.0
+    }
+   ],
+   "carried_value": 189449.0,
+   "cover_sheet_phase_code": "04-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-033": {
+   "package_id": "RFP-033",
+   "phase_codes": [
+    "05-1000-10000"
+   ],
+   "budget_total": 166281.0,
+   "lines": [
+    {
+     "phase_code": "05-1000-10000",
+     "description": "Structural Steel & Ornamental Metals",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 166281.0
+    }
+   ],
+   "carried_value": 166281.0,
+   "cover_sheet_phase_code": "05-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-045": {
+   "package_id": "RFP-045",
+   "phase_codes": [
+    "07-4100-10000"
+   ],
+   "budget_total": 142585.0,
+   "lines": [
+    {
+     "phase_code": "07-4100-10000",
+     "description": "Metal Roofing, Fascia, Soffit Panels",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 142585.0
+    }
+   ],
+   "carried_value": 142585.0,
+   "cover_sheet_phase_code": "07-4100-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-060": {
+   "package_id": "RFP-060",
+   "phase_codes": [
+    "09-2000-10000"
+   ],
+   "budget_total": 266211.0,
+   "lines": [
+    {
+     "phase_code": "09-2000-10000",
+     "description": "Framing, Drywall & Painting",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 266211.0
+    }
+   ],
+   "carried_value": 266211.0,
+   "cover_sheet_phase_code": "09-2000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-094": {
+   "package_id": "RFP-094",
+   "phase_codes": [
+    "12-7340-10000"
+   ],
+   "budget_total": 400879.0,
+   "lines": [
+    {
+     "phase_code": "12-7340-10000",
+     "description": "Bleachers & Press Box (Supply)",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 400879.0
+    }
+   ],
+   "carried_value": 400879.4,
+   "cover_sheet_phase_code": "12-7340-10000",
+   "delta_vs_carried": -0.4
+  },
+  "RFP-098": {
+   "package_id": "RFP-098",
+   "phase_codes": [
+    "22-1000-10000"
+   ],
+   "budget_total": 428546.0,
+   "lines": [
+    {
+     "phase_code": "22-1000-10000",
+     "description": "Plumbing Systems",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 428546.0
+    }
+   ],
+   "carried_value": 428546.0,
+   "cover_sheet_phase_code": "22-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-100": {
+   "package_id": "RFP-100",
+   "phase_codes": [
+    "23-8000-10000"
+   ],
+   "budget_total": 265565.0,
+   "lines": [
+    {
+     "phase_code": "23-8000-10000",
+     "description": "HVAC Systems",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 265565.0
+    }
+   ],
+   "carried_value": 265565.0,
+   "cover_sheet_phase_code": "23-8000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-103": {
+   "package_id": "RFP-103",
+   "phase_codes": [
+    "26-1000-10000"
+   ],
+   "budget_total": 1074541.0,
+   "lines": [
+    {
+     "phase_code": "26-1000-10000",
+     "description": "Electrical & Low Voltage Systems",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 1074541.0
+    }
+   ],
+   "carried_value": 1074541.0,
+   "cover_sheet_phase_code": "26-1000-10000",
+   "delta_vs_carried": 0.0
+  },
+  "RFP-109": {
+   "package_id": "RFP-109",
+   "phase_codes": [
+    "12-7400-10000"
+   ],
+   "budget_total": 27019.0,
+   "lines": [
+    {
+     "phase_code": "12-7400-10000",
+     "description": "Prefabricated Ticket Booth",
+     "cost_type": "S - Subcontractor Costs",
+     "amount": 27019.0
+    }
+   ],
+   "carried_value": 27019.32,
+   "cover_sheet_phase_code": "12-7400-10000",
+   "delta_vs_carried": -0.32
+  }
+ },
+ "lines": [
+  {
+   "budget_code_raw": "00-0010-10000-.O",
+   "phase_code": "00-0010-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Temporary Construction Requirements",
+   "tier1": "00 - General Requirements",
+   "amount": 57630.0,
+   "category": "core_self_perform",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "00-0020-10000-.O",
+   "phase_code": "00-0020-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Equipment",
+   "tier1": "00 - General Requirements",
+   "amount": 58000.0,
+   "category": "core_self_perform",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "00-0021-10000-.O",
+   "phase_code": "00-0021-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Waste Management & Cleaning Requirements",
+   "tier1": "00 - General Requirements",
+   "amount": 83545.0,
+   "category": "core_self_perform",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-0001-10000-.O",
+   "phase_code": "01-0001-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "General Conditions",
+   "tier1": "01 - General Conditions",
+   "amount": 0.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2004-10000-.L",
+   "phase_code": "01-2004-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Manager",
+   "tier1": "01 - General Conditions",
+   "amount": 138174.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2006-10000-.L",
+   "phase_code": "01-2006-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Engineer",
+   "tier1": "01 - General Conditions",
+   "amount": 270600.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2009-10000-.L",
+   "phase_code": "01-2009-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Superintendent",
+   "tier1": "01 - General Conditions",
+   "amount": 276349.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2010-10000-.L",
+   "phase_code": "01-2010-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Assistant Superintendent",
+   "tier1": "01 - General Conditions",
+   "amount": 0.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2013-10000-.L",
+   "phase_code": "01-2013-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Coordination",
+   "tier1": "01 - General Conditions",
+   "amount": 45358.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2014-10000-.L",
+   "phase_code": "01-2014-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Certified Payroll Manager",
+   "tier1": "01 - General Conditions",
+   "amount": 38326.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2015-10000-.L",
+   "phase_code": "01-2015-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Accountant",
+   "tier1": "01 - General Conditions",
+   "amount": 24483.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2016-10000-.L",
+   "phase_code": "01-2016-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Contract Administrator",
+   "tier1": "01 - General Conditions",
+   "amount": 24483.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2017-10000-.L",
+   "phase_code": "01-2017-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Contract Admin Assistant",
+   "tier1": "01 - General Conditions",
+   "amount": 19329.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2020-10000-.L",
+   "phase_code": "01-2020-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "General Superintendent",
+   "tier1": "01 - General Conditions",
+   "amount": 38124.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2021-10000-.L",
+   "phase_code": "01-2021-10000",
+   "cost_type": "L - Direct Labor",
+   "description": "Project Director",
+   "tier1": "01 - General Conditions",
+   "amount": 48708.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2030-10000-.O",
+   "phase_code": "01-2030-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Vehicle Expenses",
+   "tier1": "01 - General Conditions",
+   "amount": 51313.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2160-10000-.O",
+   "phase_code": "01-2160-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Blueprinting, Schedule, As-Builts",
+   "tier1": "01 - General Conditions",
+   "amount": 2521.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2170-10000-.O",
+   "phase_code": "01-2170-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Photographs",
+   "tier1": "01 - General Conditions",
+   "amount": 5819.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2220-10000-.O",
+   "phase_code": "01-2220-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Room & Board",
+   "tier1": "01 - General Conditions",
+   "amount": 69339.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2250-10000-.O",
+   "phase_code": "01-2250-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Moving / Relocation Expense",
+   "tier1": "01 - General Conditions",
+   "amount": 25214.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-2850-10000-.O",
+   "phase_code": "01-2850-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Textura Fee",
+   "tier1": "01 - General Conditions",
+   "amount": 2400.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5015-10000-.O",
+   "phase_code": "01-5015-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Trailer Mobilize/Demob",
+   "tier1": "01 - General Conditions",
+   "amount": 2000.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5020-10000-.O",
+   "phase_code": "01-5020-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Trailer Rent",
+   "tier1": "01 - General Conditions",
+   "amount": 6983.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5021-10000-.O",
+   "phase_code": "01-5021-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Trailer Equipment/Supplies",
+   "tier1": "01 - General Conditions",
+   "amount": 5043.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5022-10000-.O",
+   "phase_code": "01-5022-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Jobsite Copy Machine",
+   "tier1": "01 - General Conditions",
+   "amount": 5043.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5023-10000-.O",
+   "phase_code": "01-5023-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Project Supply",
+   "tier1": "01 - General Conditions",
+   "amount": 5043.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5024-10000-.O",
+   "phase_code": "01-5024-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Trailer Phone/Data",
+   "tier1": "01 - General Conditions",
+   "amount": 6401.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5120-10000-.O",
+   "phase_code": "01-5120-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Project Identification",
+   "tier1": "01 - General Conditions",
+   "amount": 1000.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5160-10000-.O",
+   "phase_code": "01-5160-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Mobile/Cell Service",
+   "tier1": "01 - General Conditions",
+   "amount": 5282.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-5240-10000-.O",
+   "phase_code": "01-5240-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Trailer Drinking Water",
+   "tier1": "01 - General Conditions",
+   "amount": 2017.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-6000-10000-.O",
+   "phase_code": "01-6000-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "LCP Tracker",
+   "tier1": "01 - General Conditions",
+   "amount": 2400.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-6002-10000-.O",
+   "phase_code": "01-6002-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Procore",
+   "tier1": "01 - General Conditions",
+   "amount": 13200.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-6003-10000-.O",
+   "phase_code": "01-6003-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Drone Deploy",
+   "tier1": "01 - General Conditions",
+   "amount": 2400.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-6070-10000-.O",
+   "phase_code": "01-6070-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Safety Equipment",
+   "tier1": "01 - General Conditions",
+   "amount": 5043.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "01-6075-10000-.O",
+   "phase_code": "01-6075-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Safety - Contract Service",
+   "tier1": "01 - General Conditions",
+   "amount": 3491.0,
+   "category": "general_conditions",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "02-1010-10000-.S",
+   "phase_code": "02-1010-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Surveying/Staking",
+   "tier1": "02 - Existing Conditions",
+   "amount": 80768.0,
+   "category": "bid_package",
+   "package_id": "ITB-008"
+  },
+  {
+   "budget_code_raw": "02-1110-10000-.S",
+   "phase_code": "02-1110-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Abatement & Building Wrecking",
+   "tier1": "02 - Existing Conditions",
+   "amount": 741912.0,
+   "category": "bid_package",
+   "package_id": "RFP-002"
+  },
+  {
+   "budget_code_raw": "03-1000-10000-.S",
+   "phase_code": "03-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Concrete",
+   "tier1": "03 - Concrete",
+   "amount": 1278460.0,
+   "category": "bid_package",
+   "package_id": "RFP-030"
+  },
+  {
+   "budget_code_raw": "04-1000-10000-.S",
+   "phase_code": "04-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Masonry",
+   "tier1": "04 - Masonry",
+   "amount": 189449.0,
+   "category": "bid_package",
+   "package_id": "RFP-031"
+  },
+  {
+   "budget_code_raw": "05-1000-10000-.S",
+   "phase_code": "05-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Structural Steel & Ornamental Metals",
+   "tier1": "05 - Metals",
+   "amount": 166281.0,
+   "category": "bid_package",
+   "package_id": "RFP-033"
+  },
+  {
+   "budget_code_raw": "07-1000-10000-.S",
+   "phase_code": "07-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Moisture Protection & Sealants",
+   "tier1": "07 - Thermal and Moisture Protection",
+   "amount": 15500.0,
+   "category": "bid_package",
+   "package_id": "ITB-040"
+  },
+  {
+   "budget_code_raw": "07-4100-10000-.S",
+   "phase_code": "07-4100-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Metal Roofing, Fascia, Soffit Panels",
+   "tier1": "07 - Thermal and Moisture Protection",
+   "amount": 142585.0,
+   "category": "bid_package",
+   "package_id": "RFP-045"
+  },
+  {
+   "budget_code_raw": "08-1000-10000-.S",
+   "phase_code": "08-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Doors, Frames, & Hardware",
+   "tier1": "08 - Openings",
+   "amount": 43186.0,
+   "category": "bid_package",
+   "package_id": "ITB-056"
+  },
+  {
+   "budget_code_raw": "08-3050-10000-.S",
+   "phase_code": "08-3050-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Overhead Coiling Doors",
+   "tier1": "08 - Openings",
+   "amount": 31214.0,
+   "category": "bid_package",
+   "package_id": "ITB-054"
+  },
+  {
+   "budget_code_raw": "09-2000-10000-.S",
+   "phase_code": "09-2000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Framing, Drywall & Painting",
+   "tier1": "09 - Finishes",
+   "amount": 266211.0,
+   "category": "bid_package",
+   "package_id": "RFP-060"
+  },
+  {
+   "budget_code_raw": "09-8100-10000-.S",
+   "phase_code": "09-8100-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Concrete Finishing",
+   "tier1": "09 - Finishes",
+   "amount": 35993.0,
+   "category": "bid_package",
+   "package_id": "ITB-067"
+  },
+  {
+   "budget_code_raw": "10-1020-10000-.S",
+   "phase_code": "10-1020-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Visual Display Boards",
+   "tier1": "10 - Specialties",
+   "amount": 6696.0,
+   "category": "bid_package",
+   "package_id": "ITB-071"
+  },
+  {
+   "budget_code_raw": "10-2020-10000-.S",
+   "phase_code": "10-2020-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Building & Fire Protection Accessories",
+   "tier1": "10 - Specialties",
+   "amount": 38852.0,
+   "category": "bid_package",
+   "package_id": "ITB-074"
+  },
+  {
+   "budget_code_raw": "10-3050-10000-.S",
+   "phase_code": "10-3050-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Flagpole",
+   "tier1": "10 - Specialties",
+   "amount": 11597.0,
+   "category": "bid_package",
+   "package_id": "ITB-078"
+  },
+  {
+   "budget_code_raw": "10-3070-10000-.S",
+   "phase_code": "10-3070-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Building Signage",
+   "tier1": "10 - Specialties",
+   "amount": 22450.0,
+   "category": "bid_package",
+   "package_id": "ITB-072"
+  },
+  {
+   "budget_code_raw": "10-3120-10000-.S",
+   "phase_code": "10-3120-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Lockers",
+   "tier1": "10 - Specialties",
+   "amount": 20566.0,
+   "category": "bid_package",
+   "package_id": "ITB-077"
+  },
+  {
+   "budget_code_raw": "11-0080-10000-.S",
+   "phase_code": "11-0080-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Warming Kitchen Foodservice Equipment",
+   "tier1": "11 - Equipment",
+   "amount": 35950.0,
+   "category": "bid_package",
+   "package_id": "ITB-085"
+  },
+  {
+   "budget_code_raw": "11-0101-10000-.S",
+   "phase_code": "11-0101-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Scoreboard",
+   "tier1": "11 - Equipment",
+   "amount": 99483.0,
+   "category": "bid_package",
+   "package_id": "ITB-089"
+  },
+  {
+   "budget_code_raw": "12-7340-10000-.S",
+   "phase_code": "12-7340-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Bleachers & Press Box (Supply)",
+   "tier1": "12 - Furnishings",
+   "amount": 400879.0,
+   "category": "bid_package",
+   "package_id": "RFP-094"
+  },
+  {
+   "budget_code_raw": "12-7400-10000-.S",
+   "phase_code": "12-7400-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Prefabricated Ticket Booth",
+   "tier1": "12 - Furnishings",
+   "amount": 27019.0,
+   "category": "bid_package",
+   "package_id": "RFP-109"
+  },
+  {
+   "budget_code_raw": "22-1000-10000-.S",
+   "phase_code": "22-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Plumbing Systems",
+   "tier1": "22 - Plumbing",
+   "amount": 428546.0,
+   "category": "bid_package",
+   "package_id": "RFP-098"
+  },
+  {
+   "budget_code_raw": "23-8000-10000-.S",
+   "phase_code": "23-8000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "HVAC Systems",
+   "tier1": "23 - Heating Ventilation and Air Conditioning",
+   "amount": 265565.0,
+   "category": "bid_package",
+   "package_id": "RFP-100"
+  },
+  {
+   "budget_code_raw": "26-1000-10000-.S",
+   "phase_code": "26-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Electrical & Low Voltage Systems",
+   "tier1": "26 - Electrical",
+   "amount": 1074541.0,
+   "category": "bid_package",
+   "package_id": "RFP-103"
+  },
+  {
+   "budget_code_raw": "26-7000-10000-.S",
+   "phase_code": "26-7000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Temporary Power & Lighting",
+   "tier1": "26 - Electrical",
+   "amount": 2550.0,
+   "category": "core_self_perform",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "31-2000-10000-.S",
+   "phase_code": "31-2000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Earthwork, Paving, Wet Utilities & Site Demo",
+   "tier1": "31 - Earthwork",
+   "amount": 1741321.0,
+   "category": "bid_package",
+   "package_id": "RFP-008"
+  },
+  {
+   "budget_code_raw": "32-7100-10000-.S",
+   "phase_code": "32-7100-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Fencing & Gates",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 240789.0,
+   "category": "bid_package",
+   "package_id": "RFP-023"
+  },
+  {
+   "budget_code_raw": "32-7600-10000-.O",
+   "phase_code": "32-7600-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Site Furnishings",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 17221.0,
+   "category": "bid_package",
+   "package_id": "ITB-018"
+  },
+  {
+   "budget_code_raw": "32-7605-10000-.S",
+   "phase_code": "32-7605-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Track & Field Equipment (Supply)",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 156973.0,
+   "category": "bid_package",
+   "package_id": "ITB-019"
+  },
+  {
+   "budget_code_raw": "32-7610-10000-.S",
+   "phase_code": "32-7610-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Track Equipment (Install)",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 109237.0,
+   "category": "bid_package",
+   "package_id": "ITB-019"
+  },
+  {
+   "budget_code_raw": "32-7615-10000-.S",
+   "phase_code": "32-7615-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Field Equipment (Install)",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 40880.0,
+   "category": "bid_package",
+   "package_id": "ITB-019"
+  },
+  {
+   "budget_code_raw": "32-7620-10000-.S",
+   "phase_code": "32-7620-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Running Track Surfacing",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 450741.0,
+   "category": "bid_package",
+   "package_id": "RFP-021"
+  },
+  {
+   "budget_code_raw": "32-7650-10000-.S",
+   "phase_code": "32-7650-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Synthetic Turf Sports Field",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 1139000.0,
+   "category": "bid_package",
+   "package_id": "RFP-022"
+  },
+  {
+   "budget_code_raw": "32-8000-10000-.S",
+   "phase_code": "32-8000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Landscaping & Irrigation",
+   "tier1": "32 - Exterior Improvements",
+   "amount": 350200.0,
+   "category": "bid_package",
+   "package_id": "RFP-016"
+  },
+  {
+   "budget_code_raw": "50-1000-10000-.S",
+   "phase_code": "50-1000-10000",
+   "cost_type": "S - Subcontractor Costs",
+   "description": "Final Clean",
+   "tier1": "50 - Testing and Inspections",
+   "amount": 5226.0,
+   "category": "bid_package",
+   "package_id": "ITB-070"
+  },
+  {
+   "budget_code_raw": "80-2510-10000-.O",
+   "phase_code": "80-2510-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Allowance #1 - Propane Work at Existing ES",
+   "tier1": "80 - Allowance",
+   "amount": 200000.0,
+   "category": "allowance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "85-2100-10000-.O",
+   "phase_code": "85-2100-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Payment and Performance Bond",
+   "tier1": "85 - Bonds and Insurance",
+   "amount": 91506.0,
+   "category": "bonds_and_insurance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "85-2200-10000-.O",
+   "phase_code": "85-2200-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "General Liability",
+   "tier1": "85 - Bonds and Insurance",
+   "amount": 144946.0,
+   "category": "bonds_and_insurance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "85-2250-10000-.O",
+   "phase_code": "85-2250-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Subcontractor Default Insurance",
+   "tier1": "85 - Bonds and Insurance",
+   "amount": 155882.0,
+   "category": "bonds_and_insurance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "85-2300-10000-.O",
+   "phase_code": "85-2300-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Builders Risk Insurance",
+   "tier1": "85 - Bonds and Insurance",
+   "amount": 23086.0,
+   "category": "bonds_and_insurance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "85-2500-10000-.O",
+   "phase_code": "85-2500-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "Warranty",
+   "tier1": "85 - Bonds and Insurance",
+   "amount": 50416.0,
+   "category": "bonds_and_insurance",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "90-1000-10000-.O",
+   "phase_code": "90-1000-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "CMAR Construction Contingency",
+   "tier1": "90 - Contingency",
+   "amount": 315101.0,
+   "category": "contingency",
+   "package_id": null
+  },
+  {
+   "budget_code_raw": "98-1000-10000-.O",
+   "phase_code": "98-1000-10000",
+   "cost_type": "O - Other Direct Costs",
+   "description": "CMAR Fee",
+   "tier1": "98 - Fee",
+   "amount": 600190.0,
+   "category": "fee",
+   "package_id": null
+  }
+ ]
+}

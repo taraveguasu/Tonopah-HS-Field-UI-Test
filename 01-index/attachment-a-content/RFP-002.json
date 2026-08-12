@@ -1,0 +1,286 @@
+{
+  "_package": "RFP-002",
+  "_title": "Abatement & Building Wrecking",
+  "_subcontractor": "Northstar Contracting Group, Inc.",
+  "_contract_amount": 741912,
+  "file_stem": "Northstar Contracting Group",
+  "_sources": [
+    "Scope of Work - 002 Abatement & Building Wrecking narrative (primary trade-boundary authority) - read in full, all three scope sections (Hazardous Material Remediation, Building Wrecking, General Scope Requirements) and both alternates carried",
+    "Project Manual: Section 02 41 00 - Demolition (manual pages 116-119, div-02-existing-conditions.pdf) - the only real spec section this package cites; per PM ruling 08.06.26 (A4) it is shared with RFP-008, split by what each subcontractor demolishes",
+    "Pre-Demolition Asbestos Survey, Environmental Inspection & Control Services (EICS), dated October 3, 2023 (04.03 - Asbestos Survey_EICS 100323.pdf) - full survey read: sample tables for all 6 report groups (Lunch Room/Auto Shop/Elementary School/Main Office/Mid-level Building/Lower-Level Building), the Materials to be Removed summary, and the sample location floor plans in Appendix B",
+    "Asbestos Management Plan for Nye County School District, EICS, dated January 4, 2022 (04.04 - Asbestos Mgmt Plan & Inspection Reports) - cited by title per the Scope of Work narrative's own reference; the file exceeds the 20MB read limit and could not be opened directly in this session",
+    "Sheet AD1-10 Site Demo Plan (BID DOCS 04.20.26) and Sheets AD1.11 through AD1.16 (BID DOCS 04.20.26, ES Demo set) - Demolition Plan - ES, Post-Demolition Plan - ES, Enlarged Demo Plans Buildings 3/4/5/6/7, and the Building 4 Lower Level ALTERNATE plan; read to confirm building numbering, slab-to-remain condition, retaining wall, canopy posts, stem wall CMU fill, and the 24-inch utility cut-and-cap depth",
+    "Sheets C1 (Addendum #1, 05.06.26), C2, L0.00, L2.01, L2.02, S0-00 (BID DOCS 04.20.26) - read and confirmed not applicable to this package; all describe the Tonopah HS Sports Field Replacement site (170 E Ray Tennant Ln), a different location from the abandoned elementary school campus (1220/1385 W. Idaho Circle) this package demolishes",
+    "NorthStar Contracting Group proposal, submitted 05.12.26 (Bid #DB26-094) - the signed Subcontractor Proposal Form within this same submission states Base Bid $718,263.00; the BuildingConnected cover summary reads $718,623, a transcription artifact of the portal header, not a separate price",
+    "NorthStar Contracting Group Homework Response, 05.15.26 (Revision 1) - confirms Base Bid $718,263.00 exactly; adds Alternate 3 (Spray Dust Palliative, $16,000, based on 80,000 SF) and Alternate 4 (Demolish and Disposal Building 4 Lower Level, $21,125) not present in the 05.12.26 submission; breaks the abatement base bid into Buildings to Remain ($37,178) and Buildings to be Demolished ($357,167)",
+    "North Star Scope Review Meeting Agenda R1, 05.29.26, and undated base agenda - scope-review notes: third-party monitoring included, Buildings 1 and 2 occupied during abatement, haul-off of all demo material confirmed, deduct of $37,178 confirmed for abatement",
+    "Other bidders read for scope ambiguity and cross-reference: Earth Resource Group ($337,395, abatement only - confirms Buildings 1 & 2 remain and Building 7 has no identified ACM), GGG Demolition ($1,256,279, combined scope - its exclusion list independently corroborates the UG utility, UST, and patch/repair boundaries), Action Solutions LLC ($304,455, abatement only)",
+    "Alliance proposal ($568,580 base + $125,320 alternate) - the extracted document date (2023-10-03) does not match a plausible bid date and is flagged as an unreliable extraction, not relied on",
+    "Environmental Protection Services proposal ($40,000) - scope described is SWPPP/erosion-control and hydroseeding work, unrelated to abatement or building demolition; flagged as a probable filing error, not relied on",
+    "01-index/budget-phase-codes.json - phase code 02-1110-10000, $741,912 carried value, reconciled to the GMP BackSheet with zero delta",
+    "Exhibit B - Basis of GMP (07.01.26) - read for real exclusions per rule 14a, NOT cited. Its only content specific to this package is the scope assumption limiting abatement to buildings being demolished, and exclusions for abatement/demolition of buildings to remain and for underground utilities outside building footprints - written here as scope boundary and exclusions, never naming the source"
+  ],
+  "_pm_rulings_applied": [
+    "08.06.26 (A4) - Section 02 41 00 goes in both RFP-002 and RFP-008, split by what each demolishes. RFP-002 carries the abandoned elementary school abatement and building wrecking; RFP-008 carries the sports field site demolition.",
+    "08.06.26 (D - GLOBAL RULE) - Section 02 81 00 (Transportation and Disposal of Misc. Hazardous Materials) is absent from the Project Manual and is not cited by number. The obligation is carried in scope verbiage instead.",
+    "rule 14 - Do not restate the specs and drawings. 15 of the narrative's General Scope Requirements and demolition-procedure items were struck as duplicates of Section 02 41 00 Part 3 or the ES demolition plan notes. What survives is the trade boundary and the obligations the documents do not otherwise carry.",
+    "rule 14a - Exhibit B, Basis of GMP is an Owner-side agreement and is out of the DIRECTIVES list and out of every citation. Its scope assumption and its two relevant exclusions (buildings to remain; underground utilities outside building footprints) are written as plain scope statements instead.",
+    "rule 16 - Exclusions start empty. Three are kept, each because a demolition/abatement subcontractor bidding a 7-building campus would ordinarily assume it without a stated boundary.",
+    "rule 17 - Spec section carries number and description only. Directives are zero-padded with no dates or qualifiers. Paragraphs 27 and 28 are always kept.",
+    "D4 - Supply and install / coordinate verbs used per the corpus majority; no 'Provide and install' construction in this trade.",
+    "07.31.26 - RFI responses issued with Addendum #1 are contract documents and bind the Subcontractor; Clarifications #1 and #2 are directives Northstar acknowledged in both proposal submissions."
+  ],
+  "simple": {
+    "8": "Northstar Contracting Group, Inc.",
+    "9": [
+      "5678 La Costa Canyon Court, Suite 105",
+      "Las Vegas, NV 89139"
+    ],
+    "10": "702-220-4848",
+    "11": "Fernando Cerda",
+    "12": "FCCerda@Northstar.com",
+    "14": "741,912.00",
+    "23": "Abatement & Building Wrecking",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Hazardous Material Remediation (Abandoned Elementary School) - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Remove and legally dispose of hazardous building materials at the abandoned elementary school (Idaho Circle), including all trucking and disposal fees.",
+        "Includes transportation and disposal of miscellaneous hazardous materials encountered during this Scope of Work.",
+        "Includes pre-abatement demolition of interior finishes, materials, equipment, and building components necessary to access hazardous materials, including off-haul and disposal to a legal landfill.",
+        "Includes stabilization of lead-based paint surfaces requiring removal.",
+        "Comply with the Pre-Demolition Asbestos Survey (dated October 3, 2023) and the Asbestos Management Plan for Nye County School District (dated January 4, 2022).",
+        "Provide, manage, maintain, and remove all containment, negative air pressurization, and HEPA filtration systems.",
+        "Limited to Buildings 3, 4, 5, 6 and 7; Buildings 1 and 2 remain occupied throughout this Scope of Work."
+      ]
+    },
+    {
+      "header": "Building Wrecking (Abandoned Elementary School) - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Demolish and remove Buildings 3, 4, 5, 6 and 7 at the abandoned elementary school (Idaho Circle) as indicated, including all interior finishes, materials, equipment, and building system components.",
+        "Slabs-on-grade to remain; cut all reinforcing, anchor bolts, conduits, and piping flush with top of slab as indicated.",
+        "Cast-in-place concrete basement retaining wall at Building 4 to remain as indicated.",
+        "Includes removal of all plumbing, mechanical, and electrical equipment disconnected by others.",
+        "Demolish and remove existing wooden shed and floor structure at Building 4.",
+        "Cut and remove existing exterior wood posts at Building 5; remove and salvage existing exterior steel canopy posts, coordinating with Contractor for protection, storage, and re-installation by others.",
+        "Demolish and remove exterior walkway canopies as indicated.",
+        "Includes all sawcutting necessary to complete this Scope of Work.",
+        "Cut and cap water and sewer lines a minimum 24 inches below finish slab as indicated."
+      ]
+    },
+    {
+      "header": "Site Clearing (Abandoned Elementary School Campus) - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Sawcut and remove all concrete paving, steps-on-grade, and equipment pads as indicated.",
+        "Remove trees, including stump grinding, as indicated.",
+        "Demolish and remove landscaping, including shut-off of irrigation, sprinklers, and the main water line as indicated.",
+        "Remove and dispose of existing chain link fencing and gates, handrails, playground equipment, and basketball hoops and posts, including all footings.",
+        "Fill open stem wall CMU cells with dirt as indicated, per 1/AD1.15.",
+        "Provide rough site grading at completion, including backfilling footing holes and excavated trenches with native materials.",
+        "Remove and haul off existing propane tank and associated piping.",
+        "Coordinate with Electrical Subcontractor for safe-off of feeders from the transformer to the demolished buildings; remove, haul, and dispose of feeders outside building footprints.",
+        "Cap abandoned water line as required.",
+        "Provide traffic control plans, flagging, and barricades for offsite activities required for this Scope of Work only; obtain required offsite excavation and traffic control permits.",
+        "Provide dust palliative as indicated at completion of work at this site."
+      ]
+    },
+    {
+      "header": "General Scope Requirements",
+      "items": [
+        "Includes all provisions for confined space work as may be required.",
+        "Provide dust control for all operations per Nye County Air Quality requirements.",
+        "Clean and maintain trucking access routes, including street sweeping, for this Scope of Work only.",
+        "Coordinate with Utility, Plumbing, Mechanical, and Electrical Subcontractors to ensure utilities are capped and made safe prior to demolition within the building envelope."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 02 41 00 - Demolition"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Abatement or demolition of Buildings 1 and 2",
+    "Underground utility demolition and relocation outside building footprints",
+    "Building 4 lower-level stem wall demolition, AD1.16 alternate"
+  ],
+  "phase_code": "02-1110-10000",
+  "_phase_code_note": "Confirmed against the Procore budget (01-index/budget-phase-codes.json): RFP-002 has a single budget line, 02-1110-10000 Abatement & Building Wrecking at $741,912, delta vs carried $0. The cover sheet reads the code from the budget, not from this record.",
+  "_leveling_sheet": "not separately confirmed against THS_BidLeveling_JC_2026-05-13.xlsx (binary workbook, not read this session) - phase code and carried value taken from the reconciled Procore budget instead",
+  "_amount_buildup": [
+    [
+      "Base Bid - NorthStar Contracting Group proposal 05.12.26/05.15.26, Abatement & Building Wrecking (Buildings 3, 4, 5, 6, 7)",
+      718263
+    ],
+    [
+      "Alternate 002.02 - Demolition & Site Clearing at Abandoned Elementary School Campus (RFP scope-doc alternate, carried per the GMP)",
+      23342
+    ],
+    [
+      "Unreconciled variance between the priced lines and the GMP BackSheet / Procore carried value - see open item AMT-01, to be reconciled before issue",
+      307
+    ]
+  ],
+  "_amount_note": "Base ($718,263.00) + Alternate 002.02 ($23,342.00) = $741,605.00, a $307 delta against the $741,912 the Procore budget and GMP BackSheet carry for phase code 02-1110-10000. This record cannot resolve the $307 from the documents on hand - see open PM items. Northstar's Alternate 1 (transite pipe unit rate, $53.23/LF, priced only if encountered) and its own voluntary Alternates 3 (dust palliative, $16,000) and 4 (Building 4 lower-level demolition, $21,125, matching sheet AD1.16) are not reflected in the carried value and are treated in this draft as not accepted.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM - they are CORE-internal and no bid document carries them. P&P bond rate is 0 because Northstar's proposal expressly states the Base Bid excludes bid bond and P&P bond cost (quoted separately at 1.5%, $10,773.95 each) and the carried $741,912 has no room for a bond add per the amount buildup; the exhibit prints No Bond Included.",
+  "_open_pm_items": [
+    {
+      "id": "SPEC-C01",
+      "severity": "resolved",
+      "title": "Section 02 41 00 claimed by more than one scope doc",
+      "detail": "Carried forward from the package record. Resolved by PM ruling 08.06.26 (A4): the section is cited in both RFP-002 and RFP-008, split by what each demolishes. RFP-002's citation here covers only the abandoned elementary school abatement and building wrecking."
+    },
+    {
+      "id": "BID-P01",
+      "severity": "resolved",
+      "title": "NorthStar's price does not actually move between 05.12.26 and 05.15.26",
+      "detail": "The package record flagged $718,623 (05.12.26) moving to $718,263 (05.15.26) as a possible price change. Reading the actual submitted PDF resolves it: the 05.12.26 BuildingConnected cover page reads $718,623, but the signed Subcontractor Proposal Form inside that same submission already states $718,263.00 in both numerals and words. The 05.15.26 Homework Response repeats $718,263.00 exactly. The $718,623 figure is a BuildingConnected portal transcription, not a second price. $718,263.00 is the base bid throughout."
+    },
+    {
+      "id": "GMP-07",
+      "severity": "resolved",
+      "title": "Asbestos survey date matches the staged file",
+      "detail": "Carried forward from the package record. The EICS Pre-Demolition Asbestos Survey is dated October 3, 2023 (report date) with field sampling on September 19, 2023; the staged file '04.03 - Asbestos Survey_EICS 100323.pdf' is consistent. Quantities beyond that survey are excluded by both the narrative and every bidder; the survey's own quantities are the contractual baseline."
+    },
+    {
+      "n": "new-1",
+      "id": "AMT-01",
+      "severity": "medium",
+      "title": "$307 gap between the priced buildup and the GMP-carried amount",
+      "detail": "Base Bid $718,263.00 + Alternate 002.02 $23,342.00 = $741,605.00. The Procore budget and GMP BackSheet both carry $741,912.00 for phase code 02-1110-10000 with zero delta against each other, but $307 more than the buildup this record can trace. No combination of NorthStar's own remaining alternates (Alt 1 transite pipe, Alt 3 dust palliative $16,000, Alt 4 Building 4 lower level $21,125) closes the gap cleanly. The Subcontract Amount in this draft is the carried $741,912.00 per the document authority hierarchy (GMP outranks the proposal); the $307 needs a source before the subcontract issues."
+    },
+    {
+      "n": "new-2",
+      "id": "SPEC-C02",
+      "severity": "medium",
+      "title": "Spec 02 4100 conflicts with the drawings on slab removal",
+      "detail": "Section 02 41 00 para 3.01.I requires 'Remove concrete slabs on grade within site boundaries.' The Scope of Work narrative ('Slabs-on-grade to remain') and every ES demolition sheet (AD1.11 through AD1.16, keynote/note 1: 'EXISTING BUILDING TO BE DEMOLISHED, EXISTING SLABS TO REMAIN IN PLACE') agree the slabs stay. This draft carries the narrative/drawing direction, which is the more specific and more recently confirmed instrument, but the conflict with the generic spec section is unresolved and worth a documented ruling before issue."
+    },
+    {
+      "n": "new-3",
+      "id": "BID-B03",
+      "severity": "low",
+      "title": "Two bidder files on this package do not describe abatement/demolition work",
+      "detail": "Environmental Protection Services' filing under package #002 describes SWPPP/erosion-control and hydroseeding services, not abatement or demolition. Alliance's filing carries an extraction date (2023-10-03) inconsistent with a 05.12.26 bid submission. Neither was relied on for scope grounding; flagged in case either is a misfiled document that belongs to a different package."
+    }
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only - build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Obtain required demolition permits from the Authority Having Jurisdiction.",
+            "source": "Section 02 41 00 para 3.02.A.1"
+          },
+          {
+            "item": "Comply with all applicable AHJ and OSHA requirements for this Scope of Work.",
+            "source": "general Subcontract Agreement terms; standard code compliance"
+          },
+          {
+            "item": "Provide, erect, and maintain temporary barriers and security devices to prevent access to hazardous areas.",
+            "source": "Section 02 41 00 paras 3.02.A.3-4"
+          },
+          {
+            "item": "Protect existing structures to remain from damage; conduct demolition to minimize the development and spread of dust.",
+            "source": "Section 02 41 00 para 3.02.C; Sheet AD1.11 Demolition Notes 4-5"
+          },
+          {
+            "item": "Field verify existing conditions prior to the start of demolition operations; report discrepancies to the Architect.",
+            "source": "Section 02 41 00 para 3.04.A.1-2; Sheet AD1.11 Demolition Note 3"
+          },
+          {
+            "item": "Maintain means of egress separate from construction areas at all times; ensure safe passage around demolition areas.",
+            "source": "Sheet AD1.11 Demolition Notes 8-9"
+          },
+          {
+            "item": "Clean adjacent structures and improvements of dust, dirt, and debris caused by demolition operations.",
+            "source": "Sheet AD1.11 Demolition Note 9"
+          },
+          {
+            "item": "Coordinate work with utility companies; protect existing utilities to remain from damage; do not disrupt utilities without required notice.",
+            "source": "Section 02 41 00 paras 3.03.A-E"
+          },
+          {
+            "item": "Immediately cease work and notify Architect and Owner if hazardous materials are discovered during removal operations.",
+            "source": "Section 02 41 00 para 3.02.D"
+          },
+          {
+            "item": "Remove exposed piping, valves, meters, equipment, supports, and foundations of disconnected and abandoned utilities.",
+            "source": "Section 02 41 00 paras 3.01.M, 3.03.G"
+          },
+          {
+            "item": "Coordinate with Contractor for removal, protection, and storage of items to be returned, re-used, or re-installed.",
+            "source": "Section 02 41 00 paras 1.03.C-D, 3.01.M"
+          },
+          {
+            "item": "Provide all necessary protection of adjacent finishes and surfaces at the perimeter of demolition areas.",
+            "source": "Section 02 41 00 para 3.02.C; general Subcontract Agreement terms"
+          },
+          {
+            "item": "Provide all trash dumpsters required for this Scope of Work.",
+            "source": "Section 02 41 00 para 3.05.A"
+          },
+          {
+            "item": "Haul off and legally dispose of all waste generated by this Scope of Work.",
+            "source": "Section 02 41 00 paras 3.05.A-B"
+          },
+          {
+            "item": "Remove debris, junk, and trash from the site; leave the site in a clean condition ready for subsequent work.",
+            "source": "Section 02 41 00 paras 3.05.A, 3.05.C"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Coordinate with Contractor to ensure demolition areas have been cleared by the Hazardous Materials Remediation Subcontractor prior to the start of work.",
+            "source": "Scope of Work #002 only",
+            "flag": "Moot as drafted - this Subcontractor performs both the abatement and building wrecking scopes under this single package, so there is no separate remediation subcontractor to clear the area."
+          }
+        ]
+      }
+    ]
+  }
+}

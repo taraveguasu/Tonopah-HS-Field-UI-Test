@@ -1,0 +1,126 @@
+{
+  "_package": "ITB-072",
+  "_title": "Building Signage",
+  "_subcontractor": "YESCO",
+  "_contract_amount": 22450,
+  "file_stem": "YESCO",
+  "_sources": [
+    "Scope of Work #072 narrative (primary trade-boundary authority)",
+    "Project Manual: Section 10 1423 Panel Signage (div-10-specialties, manual pages 250-251); Section 07 9200 Joint Sealants",
+    "Sheet G0-11 Typical Signage & Accessibility Requirements (BID DOCS 04.20.26) - the seven sign type details, the signage floor plan and the ADA mounting requirements",
+    "Sheet A5-10 Exterior Elevations (BID DOCS 04.20.26) - keynote 6-01 enclosed bulletin cabinet, 6-04 24-inch high metal signage, 6-10 mascot mural painted by others",
+    "Addendum #1 (05.06.26) - reissued Table of Contents carries 10 1423; revised sheet A10-30 refers to G0-11. G0-11 itself was NOT revised, so the base-bid revision governs",
+    "Exhibit B Basis of GMP (07.01.26) - contract document per PM ruling 08.04.26",
+    "GMP R2 BackSheet row 100 (#072 Building Signage - YESCO $22,450) and leveling tab '72'",
+    "GMP R2 leveling tab '71' row 29 - CORE routed the Menu Display Case to SOW 072",
+    "YESCO proposal 05.12.26 and its descope version; Image360 estimate E-20177; Y C Signs proposal 05.11.26 and descope - all three read for what the documents left ambiguous"
+  ],
+  "_pm_rulings_applied": [
+    "08.07.26 - The dedication plaque and emergency evacuation map were incorrect on the Scope of Work narrative. Removed from the inclusions and named in the exclusions, since the narrative is still on file and names them.",
+    "08.07.26 - The mascot mural is painted by the Owner after completion of the Project. Exclusion reworded from 'by others' to name the Owner and the timing.",
+    "08.07.26 - Type A and Type B panel signs carry the same price, so the missing Type B specification does not affect the Subcontract Amount. Both configurations are included and the determination moves to shop drawing review.",
+    "08.08.26 - Exclusion style closed from the PM's own 40 exhibits (rule 12): exclusions state what is out and do not route the work to another package. Routing clauses removed; scope unchanged. Closing group header written bare, per his practice across 25 exhibits.",
+    "08.08.26 - Rewritten against the voice profile (40 of the PM's own exhibits, two jobs). Register only: no scope, no obligation and no dollar figure changed. Median item 27 -> 13 words (rule 3); four group headers collapsed to one trade group plus a bare General Scope Requirements group, matching his ~1.2 headers per exhibit (rules 11, 13); 'Includes' fragments restored to his range (rule 4); spec-section citations removed from scope items and left in CONSTRUCTION DOCUMENTS where they belong (rule 8).",
+    "08.11.26 - PM markup applied verbatim from 'YESCO Draft Att A - PM markup.docx' (14 comments, 73 changed paragraphs). Exhibit cut from 46 scope items to 10. His text is reproduced as written; see 02-drafts/ITB-072/PM-NOTES.md for the two places it reverses an earlier ruling.",
+    "08.11.26 - Emergency exit maps CONFIRMED IN, on a different basis than the narrative. The narrative's 'emergency evacuation map' was rejected 08.07.26 as unfounded; the Fire Marshal will require exit maps posted in each room showing the exit route. Added as its own Includes item naming the AHJ, since no drawing or specification carries it.",
+    "08.11.26 - 'Supply and install' adopted. The PM uses it and 'Furnish and install' interchangeably, so D4 closes on the corpus majority (10% vs 2%) rather than on the three instances in his markup."
+  ],
+  "simple": {
+    "8": "YESCO - Reno",
+    "9": [
+      "800 B Bennie Lane",
+      "Reno, NV 89512"
+    ],
+    "10": "775-284-8127",
+    "11": "Karen Munson",
+    "12": "kmunson@yesco.com",
+    "14": "22,450.00",
+    "23": "Building Signage",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Building Signage - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install all building signage including all interior and exterior building signage; identification, wayfinding, and code compliant signage; and emergency exit maps as detailed and specified.",
+        "Includes room and door signs, electrical room signs, restroom signs, exit signs, room max occupancy signs, fire department connection sign, and no smoking signs where indicated.",
+        "Includes emergency exit maps posted in each room showing the exit route, as required by the Fire Marshal.",
+        "Coordinate backing requirements and layout with Framing Subcontractor.",
+        "Signage at exterior walls and all exterior locations shall be exterior rated."
+      ]
+    },
+    {
+      "header": "Exterior Lettering - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install 24 inch high exterior mounted, aluminum lettering per Keynote 6-04/A5-10.",
+        "Lettering includes TONOPAH HIGH SCHOOL HOME OF THE MUCKERS.",
+        "Includes all concealed anchors and fasteners as required for a complete installation.",
+        "Includes painted finish color as selected by Architect"
+      ]
+    },
+    {
+      "header": "Menu Display Case - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install exterior mounted Menu Display Case per Keynote 6-01/A5-10.",
+        "Includes all anchors and fasteners as required for a complete installation."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 10 14 23 - Panel Signage",
+    "Section 07 92 00 - Joint Sealants"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Mascot mural and painted school logo graphics"
+  ],
+  "phase_code": "10-3070-10000",
+  "_phase_code_note": "Signage Package, from the GMP's own phase code library. Chosen over the narrower Door Signs (10-3060), Exterior Lettering (10-3090), Plaques (10-3100) and Display Cases (11-0030) codes because the note under B19 allows one phase code per subcontractor and this scope spans all four.",
+  "_leveling_sheet": "tab '72' (Building Signage)",
+  "_amount_buildup": [
+    [
+      "Base Bid - YESCO proposal 05.12.26, building signage (leveling tab '72' row 19)",
+      18200
+    ],
+    [
+      "Add: Menu Display Case - Alternate 072.01, Aarco ODCC 5'-0\" x 3'-0\" enclosed bulletin cabinet (leveling tab '72' row 27)",
+      4250
+    ]
+  ],
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": "2027-04-01",
+    "start_date": "2027-08-17",
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  }
+}

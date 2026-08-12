@@ -1,0 +1,397 @@
+{
+  "_package": "RFP-030",
+  "_title": "Concrete",
+  "_subcontractor": "Sahara Concrete, Inc.",
+  "_contract_amount": 1278459.84,
+  "file_stem": "Sahara Concrete",
+  "_sources": [
+    "Scope of Work #030 Concrete narrative (primary trade-boundary authority) - all lines read; Site Concrete, Cast-in-Place Structural Concrete and General Scope Requirements sections, and the Alternate 030.01 flagpole footing/install alternate",
+    "Project Manual: Section 03 10 00 Concrete Formwork, Section 03 20 00 Concrete Reinforcement, Section 03 30 00 Cast-In-Place Concrete (manual pages 120-144); Section 07 26 00 Vapor Retarders (188-189); Section 32 13 13 Concrete Paving, Section 32 13 73 Concrete Paving Joint Sealants (544-557); Section 32 16 23 Sidewalks (558-559)",
+    "Sheet S0-00 General Notes (BID DOCS 04.20.26) - design criteria, Class D seismic, foundation/soil bearing data, reinforcing steel notes, cast-in-place concrete strength/exposure table, cement Type V in contact with soil, cold/hot weather protection, testing and inspection responsibility (IBC Ch.17)",
+    "Sheet S3-00 Typical Foundation Sections and Schedules (BID DOCS 04.20.26) - corner reinforcing, control/construction/doweled joint details, rebar lap schedule, embedded bolt/headed stud schedule, utility trench at footing, steel column at caisson footing at scoreboard",
+    "Sheet S4-01 Framing Details (BID DOCS 04.20.26) - bearing plates in grouted bond beam, drypack/grout below plate at masonry and steel bearing",
+    "Sheets S1-30 / S1-40 Foundation Plans - Scoreboard / Home Grand Stands (BID DOCS 04.20.26) - scoreboard caisson footing 3' dia x 9'-6\", bleacher continuous and isolated footings, note to coordinate final footing locations and quantities with the Bleacher Manufacturer",
+    "Sheet A1-20 Site Details (ADDENDUM #1 05.06.26) - expansion/control joint details, Site Equipment Matrix (Scoreboard/Bleachers/Press Box/Ticket Booth all CFCI), flag pole base detail, fence post footing detail, 'MOW CURB REMOVED FROM PROJECT' note on the fence detail",
+    "Sheets A1-12 / A1-13 Enlarged Site Plan (BID DOCS 04.20.26) - keynotes for flagpole locations, goal post footing, mow curb, pipe bollards, shot put/discus pads, ticket booth foundation, field light foundations",
+    "Sheet L1.03 Landscape Construction Details (BID DOCS 04.20.26) - detail D (slot trench drain system at D-zone), detail G (concrete curb at inside lane 1), detail F/E (in-line catch basin, concrete embedment)",
+    "Sheet E0-05 Field Lighting Diagrams (BID DOCS 04.20.26) - Musco pole foundation schedule: drilled pier with concrete backfill around a Musco-furnished precast base, not a poured base plate with anchor bolts as the narrative describes",
+    "Sheet G0-00 Cover Sheet (ADDENDUM #1 05.06.26) - deferred submittal list including Goal Post Structural Design",
+    "Sheets G1 / G2 Grading Plans (BID DOCS, Taney Engineering 04.14.26) - legend items 3' Valley Gutter, ACO 3000 Slot Drain, Catch Basin, Mow Curb 12x12, NDOT Headwall 24\" RCP, Sidewalk 4\"",
+    "Basis of Proposal 07.01.26 Rev2 (the GMP's Exhibit B) - read in full for real exclusions and clarifications per rule 14a, NOT cited: 030 CONCRETE clarifications (visitors bleachers pad excluded, bleacher footings per manufacturer design), 008 clarification (RCP flared end replaces the CIP concrete headwall detail), 078 clarification (Furnish and Install one flagpole, delete two of three shown), and the project-wide testing/special-inspection exclusion",
+    "01-index/budget-phase-codes.json - RFP-030 carried value $1,278,459.84 against phase code 03-1000-10000 (Building Concrete)",
+    "GMP 1% Subcontractor Listing (05.27.26) - Sahara Concrete, license 0042163A",
+    "Sahara Concrete base proposal 05.11.26 (BuildingConnected form + backup pricing breakdown, $1,518,456) and Scope Review Meeting Agenda 05.15.26 (current document) - read for inclusions/exclusions and for the conflicts noted below",
+    "Sahara Homework Response 05.xx.26 and Homework Response R2 (undated, after 05.15.26) - price breakout for the ACO slot drain system, field light footings, headwall, and a series of post-bid add/deduct items",
+    "Cheek Construction proposal 05.12.26, Scope Review Meeting Agenda 05.20.26, and Homework Response (descope) 05.22.26 - read for what the documents left ambiguous, not adopted where it conflicts with the contract documents",
+    "The Monument Company proposal 05.12.26, Scope Review Meeting Agenda 05.14.26, and Homework Response 05.15.26 - read for what the documents left ambiguous",
+    "XL Concrete Masonry LLC proposal 05.12.26 (bundled 030/031) - read for what the documents left ambiguous, including its exclusion of light pole bases (citing Musco precast base per E0-05) and top-of-wall nailers",
+    "THS_BidLeveling_JC_2026-05-13.xlsx, tab BP030 - pre-award scope coverage matrix across all four bidders; confirms Monument, not Sahara, was the pre-award front-runner on base price"
+  ],
+  "_pm_rulings_applied": [
+    "07.31.26 - Goal post / athletic equipment footings are RFP-030",
+    "07.31.26 - Concrete curb and slot/trench drains at track perimeter are RFP-030",
+    "08.06.26 (A6) - Sidewalks (32 16 23) are RFP-030",
+    "08.11.26 (rule 14) - Do not restate the specs and drawings. 19 of the narrative's items were struck as duplicates of Section 03 30 00, S0-00 general notes, S3-00/S4-00 details, Division 01 submittal/testing requirements, or the Subcontract's own terms; what survives is the trade boundary and the items the documents fail to carry",
+    "08.11.26 (rule 14, second half) - the light pole base item is rewritten to the drawn condition (E0-05: drilled pier and concrete backfill around a Musco-furnished precast base), because the narrative's anchor-bolt/base-plate language does not match what is actually detailed",
+    "08.11.26 (rule 14a) - Exhibit B / Basis of GMP is not referenced. Its clauses are written as plain inclusions and exclusions instead: the visitors-bleachers pad exclusion, the bleacher-footing basis-of-design, the NDOT headwall alternate (RCP flared end, not CIP concrete), and the one-flagpole count",
+    "08.11.26 (rule 16) - Exclusions start empty. Five are kept: the ones a concrete subcontractor would ordinarily assume are its own if the exhibit were silent",
+    "08.11.26 (rule 17) - Spec sections carry number and description only, numbers spaced in pairs. Directives are zero-padded with no dates or qualifiers",
+    "08.11.26 (D4) - Supply and install, not Furnish and install",
+    "08.05.26 - Aggregate base courses (32 11 23, absent from the manual) are covered by 31 20 00 Earth Moving, primary to RFP-008; RFP-030 references it for the base course under its own flatwork without claiming the section"
+  ],
+  "simple": {
+    "8": "Sahara Concrete, Inc.",
+    "9": [
+      "989 Empire Mesa Way, Suite C",
+      "Henderson, NV 89011"
+    ],
+    "10": "702-798-7101",
+    "11": "Danny Clayton",
+    "12": "dclayton@saharaconcrete.com",
+    "14": "1,278,459.84",
+    "23": "Concrete",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Site Concrete - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and place concrete flatwork, curbs, take-off boards, athletic equipment pads, and turndown edges as indicated, including all layout.",
+        "Supply and install concrete curbs at the Synthetic Turf Sports Field and Running Track, and concrete equipment pads including the transformer pad.",
+        "Supply and install the slot drain / trench drain and concrete curb system along the track perimeter per detail D/L1.03, including excavation, trenching, bedding, backfill, piping, collector pipe, cleanouts, and drainage structures for a complete system. Connection to the site storm drainage system by others.",
+        "Provide cast-in-place footings for the Scoreboard, Press Box, Prefabricated Ticket Booth (slab-on-grade and footings), Bleacher footings/grade beams, and Track & Field Athletic Equipment (goal posts, high jump posts, etc.) as indicated, including excavation, backfill and overexcavation per the Geotechnical Report. Coordinate requirements with each respective equipment Subcontractor.",
+        "Bleacher footings are based on the manufacturer's foundation design, in lieu of the foundation shown on the structural drawings.",
+        "Excavate drilled piers and place concrete backfill around the Musco-furnished precast bases at sports field light poles, per E0-05. Coordinate pole locations and conduit interface with Electrical Subcontractor.",
+        "Install steel embeds, base plates and anchor bolts supplied by others; provide dry pack and non-shrink grout at base plates as indicated.",
+        "Install bollards supplied by others; provide concrete footings, infill, and domed tops.",
+        "Supply and place Type II aggregate base beneath this Scope of Work's flatwork, curbs and pads, on subgrade prepared and compacted by others.",
+        "Includes footing and installation for one flagpole, flagpole supplied by others."
+      ]
+    },
+    {
+      "header": "Cast-in-Place Structural Concrete - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install continuous footings, slab-on-grade, and turned-down edges at the Concessions Building, including all layout.",
+        "Provide concrete housekeeping and equipment pads, including curbs, at the Concessions Building as indicated on the MEP drawings.",
+        "Provide concrete pour backs at floor sinks and restroom slope-to-drain locations.",
+        "Provide stepped footings at utility entrances; assume a 3-foot step.",
+        "Excavate, backfill and compact building wall and isolated footings with approved fill material.",
+        "Furnish and install Type II and vapor/moisture barrier at slabs-on-grade per the Geotechnical Report, installed after other trades complete underground rough-in.",
+        "Supply and install damproofing / waterproofing at footings and foundations.",
+        "Demonstrate joint and finish conditions on a 15'x15' mockup slab on-site; coordinate location and requirements with the onsite Superintendent."
+      ]
+    },
+    {
+      "header": "General Scope Requirements",
+      "items": [
+        "Provide layout from Contractor-furnished hubs, including gridline back-checking and batter boards for use by other trades.",
+        "Coordinate with Wet Utilities, Plumbing, HVAC, and Electrical & Low Voltage Subcontractors for fixtures, conduits, and sleeves in slab-on-grade.",
+        "Coordinate masonry rebar laps with Masonry Subcontractor; rebar lap to start at Finish Floor unless directed otherwise.",
+        "Supply, install and maintain rebar safety caps until Masonry Subcontractor assumes responsibility.",
+        "Supply and place all formwork, blocking and shoring for this Scope of Work.",
+        "Supply and install all reinforcing steel, including rebar, welded wire fabric, dowels and accessories, for this Scope of Work's footings and slabs.",
+        "Haul off dirt spoils and clean and remove debris generated by this Scope of Work; provide containment for concrete truck washout.",
+        "Provide dust control, street cleaning, barricades and flagging per Nye County Air Quality and Contractor requirements."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 03 10 00 - Concrete Formwork",
+    "Section 03 20 00 - Concrete Reinforcement",
+    "Section 03 30 00 - Cast-In-Place Concrete",
+    "Section 07 26 00 - Vapor Retarders",
+    "Section 32 13 13 - Concrete Paving",
+    "Section 32 13 73 - Concrete Paving Joint Sealants",
+    "Section 32 16 23 - Sidewalks"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "NDOT headwall (RCP flared end alternate)",
+    "Concrete pad under existing visitors bleachers",
+    "CMU and CMU reinforcing",
+    "Fence, gate and site sign post footings",
+    "Cost of independent testing and special inspection services"
+  ],
+  "phase_code": "03-1000-10000",
+  "_phase_code_note": "Building Concrete. Confirmed against the Procore budget (01-index/budget-phase-codes.json): RFP-030 has a single budget line, 03-1000-10000 Concrete at $1,278,460, carried value $1,278,459.84, delta $0.16. The cover sheet reads the code from the budget, not from this record.",
+  "_leveling_sheet": "tab 'BP030' (Concrete) in THS_BidLeveling_JC_2026-05-13.xlsx",
+  "_amount_buildup": [
+    [
+      "Sahara Concrete base proposal 05.11.26 - Bleacher foundations incl. structural excavation and reinforcing",
+      132450
+    ],
+    [
+      "Sahara Concrete base proposal 05.11.26 - Press Box incl. structural excavation, Type II, vapor barrier, reinforcing",
+      27365
+    ],
+    [
+      "Sahara Concrete base proposal 05.11.26 - Concessions Building incl. structural excavation, Type II, vapor barrier, reinforcing",
+      172307
+    ],
+    [
+      "Sahara Concrete base proposal 05.11.26 - Site Concrete",
+      1186334
+    ],
+    [
+      "Negotiated reduction to reach the GMP BackSheet carried value - not documented in the Basis of Proposal (07.01.26); see open item RFP030-01, to be reconciled before issue",
+      -239996.16
+    ]
+  ],
+  "_amount_note": "The four lines above sum to Sahara's submitted base proposal, $1,518,456.00 -- NOT the carried Subcontract Amount, $1,278,459.84 (delta $239,996.16, about 15.8%). The gap is not reconciled in any document read. Sahara's own undated Homework Response R2 prices a series of post-bid adds and deducts against this same base -- the largest a ($303,159.00) deduct for 'Breakout Drain Straights' -- that could account for most of it, but the negotiated Basis of Proposal (07.01.26), which is the governing document, does not mention any reduction to the ACO/slot-drain scope under its '030 CONCRETE' heading. See _open_pm_items.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM -- they are CORE-internal and no bid document carries them. P&P bond rate is 0 because Sahara quoted 1.50% separately (both on the base and on Alternate 030.01) and it is not in the carried $1,278,459.84; the exhibit prints No Bond Included.",
+  "_open_pm_items": [
+    {
+      "n": 1,
+      "id": "RFP030-01",
+      "severity": "high",
+      "title": "Subcontract Amount is $239,996.16 below Sahara's submitted base proposal, and the reduction is not documented",
+      "detail": "Sahara's 05.11.26 base proposal is $1,518,456; the GMP BackSheet / Procore budget carries $1,278,459.84. Sahara's own undated Homework Response R2 prices a long list of post-bid adds and deducts against the same base -- most significantly a ($303,159.00) deduct for 'Breakout Drain Straights' -- that could explain most of the gap, but the negotiated Basis of Proposal (07.01.26), which governs, does not mention any reduction to the ACO/slot-drain system under its own '030 CONCRETE' heading. The exhibit carries the full slot-drain system (straights and radius) per the Scope of Work narrative, consistent with the governing document. Confirm which R2 items were actually accepted into the GMP before issuing the subcontract, and if the 'straights' portion of the drain system was in fact removed, confirm which package now carries it -- RFP-008's own leveling tab separately prices 'Perforated SD along turf straight sides' as an add."
+    },
+    {
+      "n": 2,
+      "id": "RFP030-02",
+      "severity": "medium",
+      "title": "NDOT headwall priced by Sahara but superseded by an Owner Accepted Alternate",
+      "detail": "Sahara's base backup carries a $5,500 line for a cast-in-place 'NDOT Headwall,' consistent with the base-bid civil drawings (G1/G2). The negotiated Basis of Proposal, under its '008' heading, states the field storm drain discharge is now an RCP flared end in lieu of the cast-in-place concrete headwall detail (Owner Accepted Alternate) -- precast pipe hardware, not concrete. The exhibit excludes the headwall. Confirm the $5,500 is credited back as buyout savings and confirm which package (if any) now carries the RCP flared end."
+    },
+    {
+      "n": 3,
+      "id": "RFP030-03",
+      "severity": "medium",
+      "title": "Flagpole count and trade boundary with ITB-078 unresolved",
+      "detail": "Sahara's base backup separately lists 'Flag Pole Bases 3 ea' inside its $1,186,334 site concrete total, and separately priced Alternate 030.01 (Flagpole Footing and Installation) at $16,500. The negotiated Basis of Proposal, under its '078 FLAGPOLES' heading, states the base scope is 'Furnish and Install (1) Flagpole (Owner Accepted Alternate, delete two of three flagpoles shown)' -- assigned to the Flagpoles package (ITB-078), not Concrete. It is unclear whether ITB-078 now furnishes and installs the pole complete, including its footing, or whether this Scope of Work still sets the footing for one pole per its own Alternate 030.01 language ('provide flagpole foundation, install flagpole [provided by others]'). The exhibit carries one flagpole footing and installation, consistent with the reduced count; confirm the trade boundary with ITB-078 and correct Sahara's base price for the reduced count before issuing."
+    },
+    {
+      "n": 4,
+      "id": "RFP030-04",
+      "severity": "medium",
+      "title": "Mow curb status is contradictory across the documents on hand",
+      "detail": "Addendum #1's revision of A1-20 prints 'MOW CURB REMOVED FROM PROJECT' directly on the site details sheet. The civil grading plans (G1/G2, dated 04.14.26 and not reissued with the addendum) still carry 'Mow Curb 12x12' in their legend; the pre-award leveling tab (BP030) lists mow curbs as an included base-bid item for all four bidders; Cheek's scope-review agenda assumed 'handset for mow curb'; and Sahara's own Homework Response R2 separately prices 'Add Mow Curb in lieu of trench drain +$36,850' as a post-bid option. The exhibit does not name mow curb separately -- any remaining requirement is carried inside the general site-curb item. Confirm whether mow curb is in or out of the base scope and whether Sahara's price needs adjustment either way."
+    },
+    {
+      "n": 5,
+      "id": "RFP030-05",
+      "severity": "low",
+      "title": "Visitors bleachers concrete pad -- confirm Sahara's price reflects the exclusion",
+      "detail": "Sahara's 05.15.26 Scope Review Meeting Agenda (its current document) states 'Assume concrete at the visitors' bleachers.' The negotiated Basis of Proposal (07.01.26), under its own '030 CONCRETE' heading, excludes the concrete pad under the existing visitors bleachers by name. The exhibit follows the later, governing document and excludes it. Sahara's Homework Response R2 separately prices 'Deduct Slab at Visitors Bleachers (concrete existing) ($20,510.00),' consistent with the exclusion, but it is not confirmed as accepted into the carried price. Confirm before issue."
+    },
+    {
+      "n": 6,
+      "id": "RFP030-06",
+      "severity": "medium",
+      "title": "Awarded price is not the low bid",
+      "detail": "Carried forward from the package record. Of four bidders (Cheek $1,294,656, The Monument Company $1,113,208, Sahara $1,518,456, XL Concrete Masonry $1,605,417), Sahara's proposal was not the lowest; the pre-award leveling workbook (BP030, 05.13.26) names The Monument Company the front-runner on base price. The GMP BackSheet nonetheless carries Sahara at (a reduced) $1,278,459.84. Confirm the basis of award."
+    },
+    {
+      "n": 7,
+      "id": "RFP030-07",
+      "severity": "medium",
+      "title": "Sahara's proposal excludes items the Scope of Work narrative requires -- not adopted",
+      "detail": "Three conflicts between Sahara's own exclusion list and the contract documents, none silently adopted: (1) Sahara excludes 'Multiple mobilizations,' while the narrative requires multiple mobilizations per the Preliminary Construction Schedule and Logistics Plan (carried in the exhibit's mobilization field). (2) Sahara excludes 'Water proofing,' while the narrative requires damproofing/waterproofing at the Concessions Building footings and foundations (kept in the exhibit). (3) Sahara excludes 'Over excavation,' while the narrative requires footing excavation including overexcavation per the Geotechnical Report (kept in the exhibit). Reconcile Sahara's price against all three before issuing."
+    },
+    {
+      "n": 8,
+      "id": "RFP030-08",
+      "severity": "low",
+      "title": "Caliche / hard rock removal at footing excavations is unresolved",
+      "detail": "Sahara's proposal excludes 'Caliche or hard rock removal.' Cheek's (non-awarded) scope-review agenda assumed 'Includes hard dig.' Neither the Scope of Work narrative nor the Geotechnical Report excerpt read resolves which package absorbs a hard-dig condition specifically at footing excavations, distinct from RFP-008's mass-grading hard dig (separately flagged on that package, see TAB's +$70,000 D-10 dozer add). Left unresolved -- not written into the exhibit either way."
+    },
+    {
+      "n": 9,
+      "id": "BID-B02",
+      "severity": "low",
+      "title": "XL Concrete Masonry bid RFP-030 and RFP-031 as one bundled scope -- moot",
+      "detail": "Carried forward from the package record. XL's proposal bundles pricing and scope language across both packages. Moot: RFP-030 is carried with Sahara Concrete and RFP-031 with Henderson Masonry, so nothing needs splitting."
+    }
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only -- build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Provide keyed joints, saw cutting, control joints and expansion joints as indicated and required.",
+            "source": "Sheet S3-00 typical control and construction joint details; S0-00 general note 6"
+          },
+          {
+            "item": "Provide expansion joint filler and sealants; place and strip white cap at all expansion joints.",
+            "source": "Section 32 13 73 Concrete Paving Joint Sealants; Sheet A1-20 detail 1 (expansion joint)"
+          },
+          {
+            "item": "Provide control joint layout shop drawings for architectural approval.",
+            "source": "Division 01 submittal requirements (this is a submittal procedure, not a scope obligation)"
+          },
+          {
+            "item": "Dowel exterior sidewalks to the building slab at entrances and doorways, whether or not detailed.",
+            "source": "Sheet S3-00 doweled joint detail"
+          },
+          {
+            "item": "Provide 5/8\" diameter x 18\" long slick dowels at 18\" on center minimum at all cold joints, whether shown or not.",
+            "source": "Sheet S3-00 doweled joint detail (3/4\"x16\" smooth dowel at 18\" o.c.)"
+          },
+          {
+            "item": "Provide concrete sections and finishes for all site concrete as indicated and specified.",
+            "source": "Section 32 13 13 Concrete Paving; Sheet S3-00 sections"
+          },
+          {
+            "item": "Coordinate threshold requirements per contract documents.",
+            "source": "Sheet A11-10 door and frame schedule and threshold details generally"
+          },
+          {
+            "item": "Vapor barrier shall be placed directly below the concrete slab-on-grade; tape all joints and penetrations.",
+            "source": "Section 07 26 00 Vapor Retarders; Sheet S0-00 general note 29"
+          },
+          {
+            "item": "Provide keyed joints, saw cuts, control joints and expansion joints, including compressible filler at CMU walls.",
+            "source": "Sheet S4-00 control joint detail; Sheet S0-00 masonry notes"
+          },
+          {
+            "item": "Comply with the Geotechnical Report and Contract Documents for excavation, backfill and seismic requirements; most stringent requirement shall prevail.",
+            "source": "Sheet S0-00 general notes; the Geotechnical Report"
+          },
+          {
+            "item": "The Project has a Class D Seismic Design Category, Seismic Importance Factor 1.0.",
+            "source": "Sheet S0-00 Design Criteria"
+          },
+          {
+            "item": "Use Type V concrete for all concrete in contact with soil.",
+            "source": "Sheet S0-00 cast-in-place concrete note 2"
+          },
+          {
+            "item": "Provide all pumping, concrete materials, additives, aggregates, wet curing and curing compounds as specified.",
+            "source": "Sheet S0-00 general notes 19-20; ACI 305/306"
+          },
+          {
+            "item": "Provide all rebar sizes, grades and lap splices as indicated and required.",
+            "source": "Sheet S0-00 reinforcing steel notes; Sheet S3-00 rebar lap schedule"
+          },
+          {
+            "item": "Supply, drill and install epoxied smooth dowels if shown.",
+            "source": "Sheet S3-00 dowel details"
+          },
+          {
+            "item": "Provide Cold and Hot Weather Protection for all concrete placement and finish, per ACI 306.1-90.",
+            "source": "Sheet S0-00 general note 19"
+          },
+          {
+            "item": "Provide all tests and certifications required for complete and operational systems.",
+            "source": "Section 01 40 00"
+          },
+          {
+            "item": "Adhere to FF/FL flatness and levelness requirements, including testing, as specified.",
+            "source": "Section 03 30 00"
+          },
+          {
+            "item": "Include multiple mobilizations as may be required per the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS (carried in the exhibit's mobilization field, not as a scope item)"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Maintain batter boards until after slab-on-grade is complete.",
+            "source": "Scope of Work #030 only",
+            "flag": "Procedural detail folded into the general layout obligation kept in the exhibit."
+          },
+          {
+            "item": "Coordinate this scope of work, including layout, with other trade Subcontractors to eliminate conflicts.",
+            "source": "Scope of Work #030 only",
+            "flag": "Generic boilerplate; superseded by the named-trade coordination items kept in the exhibit (rule 7)."
+          },
+          {
+            "item": "Coordinate block outs and sleeves in concrete work with other trade subcontractors.",
+            "source": "Scope of Work #030 only",
+            "flag": "Superseded by the named version in the exhibit (Wet Utilities, Plumbing, HVAC, Electrical & Low Voltage)."
+          },
+          {
+            "item": "Coordinate with Masonry, Steel, Mechanical, Plumbing, and Electrical & Low Voltage Subcontractors for layout requirements.",
+            "source": "Scope of Work #030 only",
+            "flag": "Folded into the named coordination items kept in the exhibit."
+          },
+          {
+            "item": "Provide a qualified representative onsite for all tests and inspections as required.",
+            "source": "Scope of Work #030 only",
+            "flag": "Sahara's proposal excludes 'Testing and inspections fees.' The contested testing-cost boundary is carried instead as an exclusion in the exhibit (cost of the agency, not the cooperation)."
+          },
+          {
+            "item": "Subcontractor responsible for scheduling testing and walking with inspectors to get systems signed off for final approval.",
+            "source": "Scope of Work #030 only",
+            "flag": "Same testing-cost conflict as above."
+          },
+          {
+            "item": "Provide all concrete sealers and cures required at time of placement and finish, compatible with floor finish adhesives.",
+            "source": "Scope of Work #030 only",
+            "flag": "Possible overlap with ITB-067 Concrete Finishing (Sealed Concrete alternate). Needs a boundary decision between the two packages before this is restated anywhere."
+          },
+          {
+            "item": "Clean and maintain trucking access routes for all equipment, including street sweeping as required.",
+            "source": "Scope of Work #030 only",
+            "flag": "Folded into the dust control / street cleaning item kept in the exhibit."
+          },
+          {
+            "item": "Supply Type II, prepare sub-base, and place and compact Type II for the site concrete scope of work.",
+            "source": "Scope of Work #030 only",
+            "flag": "Kept in the exhibit, not struck -- listed here only because the spec-citation rationale on 32 13 13 (package record) reads as though RFP-008 carries all Type II under concrete paving. Sahara's own base backup and XL's proposal both price the finish 6\" aggregate base under their own site concrete items, which is what the exhibit item now says: this Scope of Work supplies and places its own finish course on subgrade prepared and compacted by others (RFP-008)."
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No document assigns these; they are here only so the list is complete."
+        ],
+        "items": [
+          {
+            "item": "Provide all miscellaneous materials required for a complete scope, including tie wire, chairs, dobies and template ties.",
+            "source": "trade means and methods"
+          },
+          {
+            "item": "Provide chamfers as required.",
+            "source": "trade means and methods"
+          }
+        ]
+      }
+    ]
+  }
+}

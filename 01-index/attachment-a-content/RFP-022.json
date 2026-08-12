@@ -1,0 +1,251 @@
+{
+  "_package": "RFP-022",
+  "_title": "Synthetic Turf Sports Field",
+  "_subcontractor": "CG&B Enterprises, Inc.",
+  "_contract_amount": 1139000,
+  "file_stem": "CG&B Enterprises",
+  "_sources": [
+    "Scope of Work #022 Synthetic Turf Sports Field narrative (primary trade-boundary authority) - read in full",
+    "Project Manual: Section 32 18 13 Synthetic Turf (div-32-exterior-improvements.pdf) - Parts 1-3 read in full",
+    "Project Manual: Section 32 18 23.33 Running Track Surfacing - read to confirm the turf/track trade boundary (RFP-021 is the track package; RFP-022 excludes it)",
+    "Project Manual: Section 32 91 13 Track & Field Event Inorganic Material Mix (shot put/discus mix, long/triple jump pit sand) - read to confirm RS-105/RS-106 are not RFP-022 scope",
+    "Scope of Work #019 Track & Field Athletic Equipment narrative - read to confirm athletic equipment, shot put/discus mix and pit sand are claimed there, not by #022 (flags a live conflict with the spec-catalog's RFP-016 assignment of 32 91 13, carried below)",
+    "Sheet L1.00 Landscape Construction Legend and Notes (BID DOCS 04.20.26) - synthetic turf legend items RS-101/RS-102/RS-103, synthetic turf notes 1-8, drainage notes, track notes",
+    "Sheet L1.01 / L1.02 Landscape Construction Plan (BID DOCS 04.20.26) - turf field extents and legend callouts, sheet notes routing fencing/paving/scoreboard/flagpoles/ticket booth to Architectural sheets",
+    "Sheet L1.03 Landscape Construction Details (BID DOCS 04.20.26) - detail D 'Synthetic Turf' section (header board, aggregate base, leveling sand, compacted subgrade, geotextile fabric, concrete curb) and Note 6",
+    "Sheet A1-12 / A1-13 Enlarged Site Plan (BID DOCS 04.20.26) - keynotes 2-13/2-29 routing new turf and new synthetic track to Landscape",
+    "GMP R2 BackSheet (row for #022 Synthetic Turf Sports Field - CG&B Enterprises, Inc. $1,139,000)",
+    "Exhibit B - Basis of GMP (07.01.26), scope_assumptions only, read per PM ruling 08.11.26 (rule 14a) - not cited",
+    "CG&B Enterprises, Inc. Subcontractor Proposal (Bid) Form and cover letter, submitted 05.12.26 (current, unsuperseded proposal) - base bid, standard exclusions and specific exclusions all read",
+    "CG&B Scope Review Meeting Agenda 05.20.26, CG&B Homework Response 05.29.26, CG&B Homework Response (VE ALT) 05.29.26 - superseded, read for content",
+    "CG&B Homework Response (VE ALT 2), an email chain 06.01.26 - current document per the supersession chain; turf color/logo VE pricing only, no scope change",
+    "AstroTurf Corporation proposal 05.12.26 - read in full; the same document also prices a Rekortan BS running-track system, see open PM items",
+    "BrightView / GTI 1, Inc. proposal 05.12.26 (marked LATE - DO NOT USE) - read for diagnostic value only",
+    "Green Living Services proposal 05.12.26 - read",
+    "The Monument Company homework response 05.15.26 and superseded Scope Review Meeting Agenda 05.14.26 - read; describes a bundled site/turf/track package with Sprinturf and Track Doctor as 2nd-tier subs",
+    "Sprinturf, LLC Scope Review Meeting Agenda 05.15.26 and superseded documents (including the combined '016, 022' descope questionnaire) - read",
+    "Tand Inc. homework response 05.20.26 and superseded documents - read; bundled #016/#022 proposal",
+    "01-index/budget-phase-codes.json - RFP-022 phase code 32-7650-10000, $1,139,000, delta vs. carried $0.00",
+    "CLAUDE.md PM rulings log - 07.31.26 (concrete curb and slot/trench drains at track perimeter are RFP-030), 08.04.26 (GMP turf/infill/pad basis of design and lettering), 08.11.26 (rules 14, 14a, 16, 17, D4)",
+    ".claude/skills/attachment-a-generator/references/voice-profile.md - read in full"
+  ],
+  "_pm_rulings_applied": [
+    "07.31.26 - Concrete curb and slot/trench drains at track perimeter are RFP-030, not RFP-022. Excluded here.",
+    "08.04.26 - Exhibit B Basis of GMP establishes turf basis of design: Hellas Matrix Helix 46 oz., Elia Renufill/Realfill infill, Soteria 20mm pad, standard lettering. Written into the scope items as a decision, not cited to Exhibit B (rule 14a).",
+    "08.11.26 (rule 14) - Do not restate the specification. The field groomer, extra materials, generic testing/certification and receiving obligations are all stated verbatim in Section 32 18 13 and are struck to the review appendix.",
+    "08.11.26 (rule 14, second half) - Percolation testing and HIC/G-Max testing are kept: the first is required by the narrative and excluded by the awarded sub (a live conflict, flagged); the second fixes who bears retest mobilization cost, which the spec does not address.",
+    "08.11.26 (rule 14a) - Exhibit B is not referenced; only the decisions it carries are written into the scope.",
+    "08.11.26 (rule 16) - Exclusions start empty. The five kept are boundary questions a turf subcontractor would reasonably wonder about, each grounded in a specific document or bidder conflict.",
+    "08.11.26 (rule 17) - Spec section carries number and description only. Directives are zero-padded with no dates.",
+    "08.11.26 (D4) - Supply and install, not Furnish and install."
+  ],
+  "simple": {
+    "8": "CG&B Enterprises, Inc.",
+    "9": [
+      "2250 Corporate Circle, Suite 320",
+      "Henderson, NV 89074"
+    ],
+    "10": "702-565-6564",
+    "11": "Craig Edwards",
+    "12": "c.edwards@cgandbinc.com",
+    "14": "1,139,000.00",
+    "23": "Synthetic Turf Sports Field",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Synthetic Turf Sports Field - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install a complete NFHS-compliant synthetic turf system, including base, geotextile, shock pad, header boards, turf, and infill.",
+        "Basis of design is Hellas Matrix Helix 46 oz. turf, Elia Renufill/Realfill infill, and Soteria 20mm shock pad.",
+        "Includes fine grading of the aggregate base to manufacturer tolerance for turf installation.",
+        "Supply and install approximately 1,134 linear feet of nailer board on concrete curb supplied by others.",
+        "Includes turf colors as indicated (RS-101, RS-102, RS-103).",
+        "Includes football and soccer game striping, lettering, and center field logo, as indicated.",
+        "Perform percolation testing prior to installation.",
+        "Provide HIC and G-Max testing upon completion, including additional mobilizations as required.",
+        "Coordinate with Landscaping, Running Track Surfacing, Concrete, and Wet Utilities Subcontractors as required.",
+        "Provide dust control per Nye County Air Quality requirements for this Scope of Work.",
+        "Clean and maintain trucking access routes, including street sweeping, for this Scope of Work only.",
+        "Legally dispose of all soil spoils and debris generated by this Scope of Work; no stockpiling permitted."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 32 18 13 - Synthetic Turf"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Subgrade preparation",
+    "Concrete curb and track perimeter drainage",
+    "Running track surfacing",
+    "Athletic field equipment and event surfacing",
+    "Field drainage system inside turf perimeter"
+  ],
+  "phase_code": "32-7650-10000",
+  "_phase_code_note": "Synthetic Turf Sports Field. Confirmed against 01-index/budget-phase-codes.json: single budget line 32-7650-10000 at $1,139,000, delta vs. carried $0.00.",
+  "_leveling_sheet": "GMP R2 bid-leveling workbook, tab for #022 Synthetic Turf Sports Field - tab number inferred by naming pattern from RFP-031 (tab '31') and ITB-072 (tab '72') but not independently opened; the BackSheet total is the confirmed source for the carried amount.",
+  "_amount_buildup": [
+    [
+      "Base Bid - CG&B Enterprises, Inc. proposal 05.12.26, synthetic turf system supply and installation, lump sum",
+      1139000
+    ]
+  ],
+  "_amount_note": "CG&B's Base Proposal Total is $1,139,000.00, matching the GMP BackSheet carried value exactly. CG&B's own Alternate Bid 022.02 (field drainage system inside the turf perimeter, excludes ACO trench drain and the south-end SDMH/RCP outfall) priced at $126,000 was NOT carried into the GMP and is not in this Subcontract Amount.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Procurement and start dates left unset so the cover sheet prints CONFIRM - the schedule findings note RFP-022 has only a 20-day product-data submittal (ID 39) in the 04.21.26 schedule and no procurement activity after it. P&P bond rate is 0 because CG&B's Base Proposal Value explicitly excludes bond cost (quoted separately at .0075 / $9,560); the exhibit prints No Bond Included.",
+  "_open_pm_items": [
+    {
+      "id": "BID-L01",
+      "severity": "high",
+      "title": "Sprinturf, LLC bid this package but appears on no tab row for it",
+      "detail": "Carried forward from the package index. Sprinturf's price is tabulated under RFP-016 at a combined $1,022,155 for Landscaping, Irrigation and Synthetic Turf; RFP-022's own tab row omits Sprinturf entirely."
+    },
+    {
+      "id": "BID-B01",
+      "severity": "medium",
+      "title": "Tand Inc. bid RFP-016 and RFP-022 as one bundled scope",
+      "detail": "Carried forward from the package index. Tand's document describes both packages; neither price nor scope splits cleanly without a descope."
+    },
+    {
+      "id": "022-01",
+      "severity": "high",
+      "title": "Percolation testing: narrative requires it, awarded sub excludes it",
+      "detail": "Scope of Work #022 states 'Perform all required percolation tests prior to installation.' CG&B's 05.12.26 proposal, under SPECIFIC EXCLUSIONS (not the generic boilerplate list), states '4) Percolation testing is not included.' This is a deliberate, specific exclusion, not boilerplate, and it directly contradicts the narrative. The exhibit carries the narrative's obligation per the document authority hierarchy; confirm scope and price before buyout."
+    },
+    {
+      "id": "022-02",
+      "severity": "high",
+      "title": "Mobilizations: CG&B prices one, the narrative and Attachment A both require multiple",
+      "detail": "CG&B's proposal states 'One mobilization/demobilization is included in pricing. Anything past that will be charged at $6,500 per mobilization.' The Scope of Work narrative requires 'multiple mobilizations, import/export, and haul/disposal activities as may be required per the Preliminary Construction Schedule and Logistics Plan,' and the Attachment A's own PROJECT SPECIFIC PROVISIONS (paragraph 94) is drafted 'multiple mobilizations' by standing house format. Given the turf field's sequencing behind paving, track curb and concrete work, more than one mobilization is a real possibility. Confirm before buyout; this is unpriced cost exposure at $6,500 per occurrence."
+    },
+    {
+      "id": "022-03",
+      "severity": "medium",
+      "title": "Geotextile fabric under the turf field: not itemized in CG&B's price breakdown",
+      "detail": "The narrative lists 'geotextile underlayment' as a required component of the complete turf system, and L1.03 detail D calls for geotextile fabric over the subgrade and through trenches. CG&B's itemized base-scope pricing (4\" base rock, 1,134 linear feet of nailer board, Soteria pad, Matrix Helix turf) does not list geotextile fabric as a line item. Separately, TAB's (RFP-008) 05.22.26 re-priced homework response carries a deduct of $150,000 for 'Delete Type II and geofabric from turf field,' which reads as removing that scope from the earthwork package on the assumption the turf package carries it. Confirm the $1,139,000 actually includes geotextile fabric under the full turf footprint before this becomes an uncarried gap between the two packages."
+    },
+    {
+      "id": "022-04",
+      "severity": "medium",
+      "title": "AstroTurf's 'not lowest bidder' comparison appears to price track surfacing, not turf",
+      "detail": "The package record flags CG&B's $1,139,000 award as not the lowest bid, citing AstroTurf at $609,151. AstroTurf's proposal document filed under this package is titled 'Track Surfacing' and prices approximately 7,335 SY of Rekortan BS track system (the same product named in Section 32 18 23.33's manufacturer list for RFP-021), including an ADD ALTERNATE for 'Turnkey Track Construction and Surfacing' at $1,851,285. A separate section of the same document also describes a 73,800 SF AstroTurf Rhino 46oz turf field with its own drainage and sports-equipment add-ons, but no standalone turf-only total is captured. The $609,151 figure being compared to CG&B's turf award is very likely a track-surfacing price, not a turf price - recommend verifying against whatever price AstroTurf submitted (if any) on the RFP-021 Running Track Surfacing bidder list before treating CG&B as high bidder."
+    },
+    {
+      "id": "022-05",
+      "severity": "low",
+      "title": "Nailer board: one non-awarded bidder places it in the Concrete package",
+      "detail": "Sprinturf's 05.15.26 scope-review agenda states 'Concrete package should have the nailer board.' The narrative and CG&B's own base bid both place the 1,134 linear foot perimeter nailer board inside this Scope of Work, and this exhibit follows that. Worth a scope-qa check that RFP-030 (Concrete) does not also carry a nailer-board line item - the same double-claim pattern already flagged between RFP-031 and RFP-033 for masonry wall embeds."
+    },
+    {
+      "id": "022-06",
+      "severity": "low",
+      "title": "Alternates 022.01 and 022.02 not carried",
+      "detail": "Alternate 022.01 (ADD - the narrative's own heading reads 'Track & Field Athletic Equipment' but the body text prices Scoreboards per Scope of Work #019, which appears to be a drafting error in the narrative itself - Scoreboards are Scope of Work #089) and Alternate 022.02 (ADD - Storm Drainage System per Civil drawings, which CG&B priced as a $126,000 field-drainage alternate excluding the ACO trench drain and south SDMH/RCP outfall) are both absent from the $1,139,000 carried in the GMP. Neither alternate is reflected in this exhibit's Subcontract Amount."
+    }
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only - build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Supply a turf groomer to the Owner, with towing mechanism and instructions, as specified.",
+            "source": "Section 32 18 13 para 2.3"
+          },
+          {
+            "item": "Provide extra turf, pad and infill materials to the Owner upon completion.",
+            "source": "Section 32 18 13 para 1.11"
+          },
+          {
+            "item": "Provide all tests and certifications required for a complete and operational system.",
+            "source": "Section 32 18 13 para 1.4.C; general Division 01 requirements"
+          },
+          {
+            "item": "Provide a qualified manufacturer's representative onsite for all tests and inspections.",
+            "source": "Section 32 18 13 paras 1.5.C, 1.5.D"
+          },
+          {
+            "item": "Provide certifications from manufacturers and governing authorities as required.",
+            "source": "Section 32 18 13 paras 1.4.H, 1.8"
+          },
+          {
+            "item": "Receive, offload and store all products under cover, elevated above grade.",
+            "source": "Section 32 18 13 para 1.7"
+          },
+          {
+            "item": "Include multiple mobilizations as may be required per the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS paragraph 94",
+            "flag": "Conflict - CG&B's proposal prices only one mobilization and charges $6,500 for each additional. See open PM item 022-02."
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Subcontractor is responsible for scheduling testing and walking with inspectors to obtain sign-off of all systems for final approval.",
+            "source": "Scope of Work #022 only"
+          },
+          {
+            "item": "Provide an on-site representative at the time of delivery to confirm condition and receipt of all products and equipment.",
+            "source": "Scope of Work #022 only"
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No item of this kind surfaced for this package."
+        ],
+        "items": []
+      }
+    ]
+  }
+}

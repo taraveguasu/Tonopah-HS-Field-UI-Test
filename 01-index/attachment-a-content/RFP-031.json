@@ -1,0 +1,332 @@
+{
+  "_package": "RFP-031",
+  "_title": "Masonry",
+  "_subcontractor": "Henderson Masonry, LLC",
+  "_contract_amount": 189449,
+  "file_stem": "Henderson Masonry",
+  "_sources": [
+    "Scope of Work #031 Masonry narrative (primary trade-boundary authority) - all 39 scope lines read and carried",
+    "Project Manual: Section 04 0503 Masonry Mortaring and Grouting (manual pages 145-147); Section 04 2016 Reinforced Unit Masonry (manual pages 148-152); Section 01 4000 Quality Requirements para 1.04.A (Owner employs and pays the independent testing agency)",
+    "Sheet S0-00 General Notes (BID DOCS 04.20.26) - CMU material standards, f'm 2,000 psi, individual units 2,800 psi, grout 2,000 psi, mortar Type M in contact with soil, reinforcing minimums, 5'-4\" grout lifts, lintel and special inspection notes",
+    "Sheet S2-10 Foundation and Roof Framing Plan - Concessions (BID DOCS 04.20.26) - MW1 wall schedule, MJ1/MJ2/MJ3 jamb schedule, ML1 lintels, CF2.0 continuous footing, 'SPECIAL INSPECTION REQUIRED'",
+    "Sheets S3-00 / S3-01 Typical Foundation Sections (BID DOCS 04.20.26) - masonry stem wall at footing, solid grout below finish floor and below grade, dowel to match and lap vertical reinforcing",
+    "Sheet S4-00 Typical Masonry Sections (BID DOCS 04.20.26) - rebar lap schedule, control joint detail with 30'-0\" maximum spacing, bond beam, double vertical reinforcing, masonry lintel, corner and intersection details",
+    "Sheet S4-01 Framing Details (BID DOCS 04.20.26) - bearing plates in continuous grouted bond beam, anchors, drypack or grout below plate, joist bearing at masonry wall",
+    "Sheet A2-10 Floor Plan and RCP (ADDENDUM #1 05.06.26) - masonry wall layout at the concessions building",
+    "Sheet A4-10 Roof Plan and Building Sections (BID DOCS 04.20.26) - keynote 6-02, the furred assembly applied to the interior face of the CMU wall by other packages",
+    "Sheet A7-10 Enlarged Details (BID DOCS 04.20.26) - overhead coiling door attached directly to the face of the CMU wall, 8\" CMU bond beam at the concession opening, continuous nailer and pressure treated plywood at the low wall",
+    "Sheets A9-10 / A9-20 / A10-30 (A10-30 at ADDENDUM #1 05.06.26) - accent paint at exposed CMU walls",
+    "Sheet A10-10 Room Finish Schedule (BID DOCS 04.20.26) - the finish legend carries no Division 04 entry; all CMU is painted, PT-1 interior and EPT-2 exterior",
+    "Sheet A11-10 Door and Frame Schedule (BID DOCS 04.20.26) - hollow metal frames set in masonry, and the single overhead coiling door at 102B",
+    "Scope of Work #030 Concrete - 'Supply and install all concrete Reinforcing steel ... including footings for CMU walls' and 'Rebar lap to start at Finish Floor'; supplies and maintains rebar safety caps until this Subcontractor assumes responsibility",
+    "Scope of Work #033 Structural Steel - 'supply only, F.O.B. jobsite, all structural steel embeds, masonry wall embeds, and anchor bolts', coordinated with the Masonry and Concrete Subcontractors",
+    "GMP R2 BackSheet row 56 (#031 Masonry - Henderson Masonry $189,449) and leveling tab '31'",
+    "Henderson Masonry proposal 05.08.26 (proposal #26-65), Scope Review Meeting Agenda 05.21.26, and ALT block pricing 06.01.26",
+    "John Jackson Masonry 05.12.26, Kemper Masonry 05.12.26, XL Concrete Masonry 05.12.26, Monument Construction and Marnell Masonry - all read for what the documents left ambiguous",
+    "Exhibit B Basis of GMP (07.01.26) - read for real exclusions per rule 14a, NOT cited. Its only masonry content is the testing and special-inspection exclusion (written here as its own clause) and a clarification that normal shrinkage cracking of fully grouted CMU walls is expected - an Owner-facing acceptance term, not subcontract scope."
+  ],
+  "_pm_rulings_applied": [
+    "08.11.26 (rule 14) - Do not restate the specs and drawings. 42 of the original 55 scope items were struck as duplicates of Section 04 0503, Section 04 2016, the S0-00 general notes, Division 01, or the Subcontract's own terms. What survives is the trade boundary and the one obligation the documents fail to carry.",
+    "08.11.26 (rule 14, second half) - Integral water repellent is kept precisely because it is NOT in the manual: Section 04 2016 cross-references 07 19 00 Water Repellents twice and that section does not exist. The Scope of Work narrative is the only place the obligation is written down.",
+    "08.11.26 (rule 14a) - Exhibit B, Basis of GMP is an Owner-side agreement and is out of the DIRECTIVES list. Nothing in it is cited. Its testing and special-inspection exclusion is written as its own clause instead.",
+    "08.11.26 (rule 16) - Exclusions start empty. 13 of the original 18 were struck. The five kept are the ones a masonry subcontractor would ordinarily assume are his.",
+    "08.11.26 (rule 17) - Spec sections carry number and description only, numbers spaced in pairs. Directives are zero-padded with no dates or qualifiers. Paragraphs 27 and 28 are always kept.",
+    "08.11.26 (D4) - Supply and install, not Furnish and install.",
+    "08.06.26 (D - GLOBAL RULE) - 07 19 00 is absent from the Project Manual and is not cited.",
+    "07.31.26 - The entire demolition scope is RFP-008."
+  ],
+  "simple": {
+    "8": "Henderson Masonry, LLC",
+    "9": [
+      "400 Mark Leany Drive",
+      "Henderson, NV 89011"
+    ],
+    "10": "702-567-1536",
+    "11": "Mike McComb",
+    "12": "mmccomb@hendersonmasonry.com",
+    "14": "189,449.00",
+    "23": "Masonry",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Building Masonry - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install all masonry and masonry accessories at the concessions building as indicated.",
+        "Includes stem walls, walls, pilasters, columns, bond beams, masonry lintels, and control joints.",
+        "Includes integral water repellent in all block, mortar and grout exposed above grade.",
+        "Supply and install all CMU reinforcing required for this Scope of Work.",
+        "Coordinate masonry reinforcing laps and dowel layout with Concrete Subcontractor.",
+        "Receive, unload and inventory all steel embeds supplied by others.",
+        "Includes layout, installation and grouting of all embeds, bearing plates, anchor bolts and sleeves supplied by others.",
+        "Includes drypack under bearing plates and solid grouting of beam pockets after structural steel erection.",
+        "Layout, install, brace and grout all hollow metal door frames supplied by others.",
+        "Coordinate frame delivery with Doors, Frames & Hardware Subcontractor for setting during masonry construction.",
+        "Coordinate penetrations, sleeves and chases in masonry with Plumbing, HVAC and Electrical & Low Voltage Subcontractors.",
+        "Coordinate surface applied features and smooth face wall returns at entrances, including cameras, speakers, wall pack lights and hose bibs.",
+        "Clean and remove debris from top of footings as required to place masonry units."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 04 05 03 - Masonry Mortaring and Grouting",
+    "Section 04 20 16 - Reinforced Unit Masonry"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Concrete footings and foundation dowels",
+    "Caulking, sealants and backer rod at masonry",
+    "Surface applied waterproofing, sealers and anti-graffiti coatings",
+    "Cost of independent testing and special inspection services",
+    "Top of wall nailers and pressure treated plywood"
+  ],
+  "phase_code": "04-1000-10000",
+  "_phase_code_note": "Structural Masonry. Confirmed against the Procore budget (01-index/budget-phase-codes.json): RFP-031 has a single budget line, 04-1000-10000 Masonry at $189,449, delta vs carried $0. The cover sheet reads the code from the budget, not from this record.",
+  "_leveling_sheet": "tab '31' (Masonry)",
+  "_amount_buildup": [
+    [
+      "Base Bid - Henderson Masonry proposal 05.08.26, Restroom Concession Building CMU (leveling tab '31' row 19)",
+      189449
+    ]
+  ],
+  "_amount_note": "Leveling tab '31' carries BASE PRICE TOTAL, BASE PRICE & ACCEPTED ALTERNATES TOTAL and BASE PRICE & ALL ALTERNATES TOTAL all at $189,449. The one descope alternate on that tab - 'Precision CMU ILO Standard CMU, +$4,516' - is marked with an asterisk and is NOT carried. Project Alternate #9, 'Precision CMU ILO Painted CMU', is Not Accepted. See PM-NOTES.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM -- they are CORE-internal and no bid document carries them. P&P bond rate is 0 because Henderson quoted 1.50% separately and it is not in the carried $189,449; the exhibit prints No Bond Included.",
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only -- build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Provide CMU conforming to ASTM C90, Grade N, medium weight, Type II/V cement, Type I moisture controlled.",
+            "source": "Section 04 20 16 para 2.02.A; S0-00 CMU note 3"
+          },
+          {
+            "item": "Individual units shall attain 2,800 psi compressive strength and the masonry assembly shall attain an f'm of 2,000 psi.",
+            "source": "S0-00 CMU note 2; Section 04 20 16 para 2.02.A",
+            "flag": "Conflict: the spec says 2000 psi minimum for units, S0-00 says 2800 psi. Stricter reading governs."
+          },
+          {
+            "item": "Provide fully grouted CMU walls and stem walls.",
+            "source": "S0-00 CMU note 8, grout cells solid in all walls; S3-01 details 1 through 4"
+          },
+          {
+            "item": "Supply and place all mortar and grout, including test samples, pigment and admixture as specified.",
+            "source": "Section 04 05 03 paras 2.03 through 2.06"
+          },
+          {
+            "item": "Place masonry control joints at 30'-0\" maximum spacing, and not within 4'-0\" of any wall opening.",
+            "source": "S4-00 detail 5 note 1; Section 04 20 16 paras 3.10.F and 3.10.G",
+            "flag": "Conflict: the spec allows 40 ft, S4-00 requires 30'-0\". Of the items on this page this is the one I would put back."
+          },
+          {
+            "item": "Tool all exposed mortar joints to match the existing masonry at the site.",
+            "source": "Section 04 20 16 para 3.03.E"
+          },
+          {
+            "item": "Includes 50 of each size, color and type of unit, delivered to the Owner as extra materials.",
+            "source": "Section 04 20 16 para 1.12.B",
+            "flag": "No bidder mentioned attic stock, so nobody has priced delivering it."
+          },
+          {
+            "item": "Furnish and install all non-shrink grout at all embeds set into masonry construction.",
+            "source": "S0-00 steel note 13, non-shrink non-metallic 10,000 psi",
+            "flag": "The grouting obligation itself survives in the scope above; only the product description was struck."
+          },
+          {
+            "item": "Verify all mounting heights against the Architectural and MEP drawings.",
+            "source": "Section 04 20 16 para 3.01; the drawings themselves"
+          },
+          {
+            "item": "Furnish and install all wall bracing between CMU wall construction and structural steel erection.",
+            "source": "Section 04 20 16 para 3.02.B"
+          },
+          {
+            "item": "Provide temporary shoring and bracing at all masonry construction and wall openings to resist lateral deflection.",
+            "source": "Section 04 20 16 para 3.02.B; S0-00 masonry note 4"
+          },
+          {
+            "item": "Remove all shoring and bracing after wall mortar has reached design strength.",
+            "source": "Section 04 20 16 para 3.02.B; S0-00 masonry note 4"
+          },
+          {
+            "item": "Provide cold and hot weather protection for all masonry work as specified.",
+            "source": "Section 04 20 16 para 1.10; Section 04 05 03 para 1.07"
+          },
+          {
+            "item": "Provide approved, dated and detailed reinforcing steel shop drawings showing sequencing and all areas of work prior to start.",
+            "source": "Section 04 20 16 para 1.04.B; Section 01 33 00"
+          },
+          {
+            "item": "Provide design mixes, product data and manufacturer's certificates for all masonry units, mortar, grout and reinforcement.",
+            "source": "Section 04 05 03 para 1.04; Section 04 20 16 para 1.04"
+          },
+          {
+            "item": "Submit 4 samples of block units illustrating color, texture and the extremes of color range.",
+            "source": "Section 04 20 16 para 1.04.D"
+          },
+          {
+            "item": "Construct an 8' x 8' masonry mock-up including mortar, accessories and door framing elements, where directed.",
+            "source": "Section 04 20 16 para 1.08"
+          },
+          {
+            "item": "Remove the mock-up at completion of masonry work.",
+            "source": "Section 04 20 16 para 1.08.D"
+          },
+          {
+            "item": "Provide all tests and certifications required for complete and operational systems.",
+            "source": "Section 01 40 00"
+          },
+          {
+            "item": "Clean, point up and repair all masonry work as required for application of final finishes by others.",
+            "source": "Section 04 20 16 para 3.14"
+          },
+          {
+            "item": "Clean and remove from site all debris and unsatisfactory materials generated from this Scope of Work.",
+            "source": "Section 01 74 00"
+          },
+          {
+            "item": "Comply with the requirements of the Geotechnical Report and the Contract Documents; the most stringent requirement shall prevail.",
+            "source": "the Geotechnical Report and the Contract Documents generally"
+          },
+          {
+            "item": "Provide a competent foreman who shall participate in the daily huddle and weekly workplan meetings.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS"
+          },
+          {
+            "item": "Include multiple mobilizations as may be required per the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Provide layout for formwork and rough bucks at all wall openings in masonry construction.",
+            "source": "Scope of Work #031 only",
+            "flag": "Henderson's proposal marks Window/Door Bucks EXCLUDED. Contested."
+          },
+          {
+            "item": "If schedule allows, provide preconstruction prism testing as a separate grout pour.",
+            "source": "Scope of Work #031 only",
+            "flag": "Henderson's proposal marks Testing EXCLUDED. Contested."
+          },
+          {
+            "item": "Provide a qualified representative onsite for all tests, special inspections and inspections as required.",
+            "source": "Scope of Work #031 only",
+            "flag": "Henderson's proposal marks Testing EXCLUDED. Contested."
+          },
+          {
+            "item": "Schedule all testing and walk with inspectors to obtain sign-off of all systems for final approval.",
+            "source": "Scope of Work #031 only",
+            "flag": "Henderson's proposal marks Testing EXCLUDED. Contested."
+          },
+          {
+            "item": "Provide dust control, street cleaning, barricades and flagging per Nye County Air Quality and Contractor requirements.",
+            "source": "Scope of Work #031 only",
+            "flag": "Henderson's proposal marks Barricades EXCLUDED. Contested."
+          },
+          {
+            "item": "Supply and maintain rebar safety caps for this Scope of Work.",
+            "source": "Scope of Work #031 and #030 only",
+            "flag": "A handoff: #030 maintains caps until this Subcontractor assumes responsibility. Neither party's exhibit says when."
+          },
+          {
+            "item": "Coordinate delivery and layout of all masonry wall embeds with the Structural Steel Subcontractor.",
+            "source": "Scope of Work #033 only, which is another package's narrative",
+            "flag": "RFP-033 double-claims the CMU bearing plates. This line is what would settle it from this side."
+          },
+          {
+            "item": "Submit masonry control joint layout and elevation shop drawings for approval.",
+            "source": "Scope of Work #031; Section 04 20 16 para 3.10.E requires Engineer approval but not the submittal",
+            "flag": "This submittal is where the 30 ft / 40 ft spacing conflict surfaces."
+          },
+          {
+            "item": "Provide containment for mortar and grout wash-out at the location provided on site.",
+            "source": "Scope of Work #031 only"
+          },
+          {
+            "item": "Utilize a wet saw for all CMU cutting and grinding to minimize dust.",
+            "source": "Scope of Work #031 only; Nye County Air Quality requirements"
+          },
+          {
+            "item": "Coordinate mock-up size and requirements with Contractor's onsite Superintendent.",
+            "source": "Scope of Work #031 only"
+          },
+          {
+            "item": "Cooperate in the layout of masonry work from building corners and finish floor elevations, including embeds, control joints, footing rebar and all openings.",
+            "source": "Scope of Work #031 only"
+          },
+          {
+            "item": "Provide layout from gridlines and benchmarks provided and approved by Contractor.",
+            "source": "Scope of Work #031 only"
+          },
+          {
+            "item": "Provide all hoisting for masonry materials and rebar systems.",
+            "source": "Scope of Work #031 only"
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No document assigns this one; it is here only so the list is complete."
+        ],
+        "items": [
+          {
+            "item": "Provide all scaffolding required for this Scope of Work.",
+            "source": "John Jackson, Kemper and XL each priced it as their own"
+          }
+        ],
+        "source_label": "basis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "_package": "ITB-089",
+  "_title": "Scoreboards",
+  "_subcontractor": "YESCO",
+  "_contract_amount": 99483,
+  "file_stem": "YESCO",
+  "_sources": [
+    "Scope of Work #089 Scoreboards narrative (primary trade-boundary authority) - all lines read",
+    "Scope of Work #030 Concrete narrative - 'Provide cast-in-place footings for site items indicated in drawings... Scoreboard footings. Coordinate with Scoreboard Subcontractor for requirements' -- identical construction used for Pressbox, Ticket Booth, Bleacher, and Athletic Equipment footings, all assigned to Concrete",
+    "Scope of Work #103 Electrical & Low Voltage Systems narrative - 'Coordinate with Scoreboard Subcontractor for transformer mounting requirements'; 'Includes power and data to Scoreboard' under the site conduit/wiring scope",
+    "Project Manual: Section 11 6843 Football/Track Scoreboard (div-11-equipment.pdf, manual pages 266-269) - product, console, warranty and installation requirements; Part 2 Product basis (Daktronics FB-2022) is superseded, see Clarification #01 RFI #5",
+    "Sheet G0-00 Cover Sheet (ADDENDUM #1 05.06.26) - Deferred Submittals list names Scoreboard alongside Pressbox, Bleachers, and Goal Post Structural Design",
+    "Sheet A1-13 Enlarged Site Plan (BID DOCS 04.20.26) - keynote 2-08 Scoreboard, see Site Equipment Matrix on A1-20; keynote 2-28 new mounted transformer, see Electrical",
+    "Sheet A1-20 Site Details (ADDENDUM #1 05.06.26) - Site Equipment Matrix: Scoreboard, Daktronics FB-2021, qty 1, coordinate final size with structural scoreboard framing, CFCI",
+    "Sheet S0-00 General Notes (BID DOCS 04.20.26) - structural steel note 9 (steel exposed to weather shall be hot-dip galvanized after fabrication); Deferred Submittals list on this sheet names only stairs/ladders/handrails and pre-engineered bleachers/press box, not the scoreboard - narrower than G0-00",
+    "Sheet S1-30 Foundation Plan - Scoreboard (BID DOCS 04.20.26) - W12x65/W12x40 steel members shown for reference, 'SCOREBOARD AND ATTACHMENT BY OTHERS, MAXIMUM WEIGHT = 1880#', dimensions to verify with Architect and scoreboard manufacturer",
+    "Sheet AD1-10 Site Demo Plan (BID DOCS 04.20.26) - keynote 1-09, existing scoreboard to be removed, see Electrical for removal specifications",
+    "Clarification No. 1 (05.06.26), RFI #5 - the bid spec calls out the discontinued Daktronics FB-2022; response confirms Basis of Design is FB-2021, consistent with the Site Equipment Matrix and all three itemized bidder proposals",
+    "Clarification No. 2 (05.07.26) - prevailing wage and SB 82 provisions, standing directive",
+    "Exhibit B Basis of GMP (07.01.26) - read for real clauses per rule 14a, NOT cited. Scope-specific assumption for #089: 'Includes wireless controller.' Possibly relevant exclusion: 'Wired communication connection to scoreboard.'",
+    "GMP R2 (070126.pdf and .xlsm) - line 89 Scoreboard $99,483",
+    "Procore Project Budget, phase code 11-0101-10000 Scoreboard $99,483, delta vs carried $0.00 (01-index/budget-phase-codes.json)",
+    "YESCO combined proposal 05.12.26 (#072/#078/#089) and email correspondence 05.19.26-05.21.26 (wireless controller confirmed no add cost; battery pack added at no change in price; footings priced as a separate 'Add alternate', not base scope; Menu Display Case add, unrelated to this package)",
+    "Image360 descope 05.08.26 (combined #072/#089) - itemized: steel structure $30,235.70, field scoreboard w/ steel structure $48,950.00 (Daktronics FB-2021), permit $1,675.00, project management $2,500.00, install $30,000.00 -- no separate footing line broken out",
+    "Y C Signs proposal 05.11.26 (combined #072/#089) - itemized: FB-2021 $86,400.00, support posts $6,300.00, engineering/permitting $4,000.00, footings $9,200.00, installation $6,100.00",
+    "Monument Construction Subcontractor Proposal (Bid) Form, undated content, $75,334.14 for Scope 089 Scoreboards - no itemized scope breakdown on file"
+  ],
+  "_pm_rulings_applied": [
+    "08.11.26 (coordinator correction) - Scoreboard FOUNDATION CONSTRUCTION (excavation and concrete) is RFP-030's pour, not this package's. Scope of Work #030 explicitly lists 'Scoreboard footings. Coordinate with Scoreboard Subcontractor for requirements' in the identical construction it uses for Pressbox, Ticket Booth, Bleacher, and Athletic Equipment footings -- all assigned to Concrete, consistent with PM ruling 07.31.26 ('Goal post / athletic equipment footings are RFP-030'). This package retains FOUNDATION DESIGN (the deferred submittal / delegated engineering) and coordinates the embed and anchor bolt requirements with Concrete Subcontractor; it does not excavate or place the concrete. An earlier draft of this record read Scope of Work #089's own footings language and YESCO's exact-dollar 'Add alternate' price match as controlling and put footing construction in this package's scope -- withdrawn. See open PM item; the carried $99,483 still appears to include YESCO's priced footing alternate and that needs reconciliation against RFP-030's exhibit.",
+    "08.11.26 (rule 14) - Do not restate the specs and drawings. Product description, generic completeness language, final adjustment/startup/training, mobilizations, and the foreman/huddle clause struck as duplicates of Section 11 6843 or this Attachment A's own PROJECT SPECIFIC PROVISIONS. See review_appendix.",
+    "08.11.26 (rule 14, other half) - Structural steel finish is kept in the exhibit, not struck, even though S0-00's General Notes already state it: the awarded sub's own carried price assumes prime-and-paint, not the hot-dip galvanized finish S0-00 requires for steel exposed to weather. Kept and flagged, matching the ITB-072 precedent of keeping a requirement the documents already state because the commercial gap it protects against is real.",
+    "08.11.26 (rule 14a) - Exhibit B, Basis of GMP is an Owner-side agreement and is out of the DIRECTIVES list. Its wireless-controller assumption and wired-connection exclusion are written as scope items instead of citing the document.",
+    "08.11.26 (rule 14a) - Clarification No. 1 IS cited directly (RFI #5) because it is an instrument issued to all bidders, not an Owner-side agreement; it is the instrument that establishes the FB-2021 Basis of Design over the spec's discontinued FB-2022.",
+    "08.11.26 (rule 16) - Exclusions start empty. Four kept: the two boundary items a scoreboard sub could otherwise assume are theirs (the transformer/enclosure behind the board, and a wired communication pathway that Exhibit B confirms is not required), removal of the existing scoreboard (demolition package), and foundation excavation/concrete (Concrete package).",
+    "08.11.26 (rule 17) - Spec sections carry number and description only, numbers spaced in pairs. Directives are zero-padded with no dates or qualifiers.",
+    "08.11.26 (rule 18) - One product, one trade group; no closing General Scope Requirements group, since nothing generic survives rule 14 to put in it.",
+    "08.11.26 (D4) - Supply and install, not Furnish and install.",
+    "07.31.26 - The entire demolition scope is RFP-008; existing scoreboard removal (AD1-10 keynote 1-09) is excluded here on that basis.",
+    "07.31.26 - Goal post / athletic equipment footings are RFP-030 -- the same pattern applied here to the scoreboard footing."
+  ],
+  "simple": {
+    "8": "YESCO - Reno",
+    "9": [
+      "800 B Bennie Lane",
+      "Reno, NV 89512"
+    ],
+    "10": "775-284-8127",
+    "11": "Karen Munson",
+    "12": "kmunson@yesco.com",
+    "14": "99,483.00",
+    "23": "Scoreboard",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Scoreboard - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install (1) Daktronics model FB-2021 single-sided football/track scoreboard, complete with all steel support structure, per Clarification #01, RFI #5.",
+        "Includes wireless scoring console controller with battery power option.",
+        "Provide all design and engineering for a complete, turnkey installation of the scoreboard structure and framing, including foundation design.",
+        "Structural foundation and framing design shown in the Bid Documents is for reference only.",
+        "Includes all deferred submittals, engineering, and permits required for the scoreboard structure.",
+        "Structural steel support components exposed to weather shall be hot-dip galvanized per the structural General Notes.",
+        "Employ a licensed electrician for all electrical work associated with the scoreboard equipment.",
+        "Complete final electrical connections and commissioning of the scoreboard.",
+        "Coordinate with Electrical Subcontractor to bring power within 10 feet of the scoreboard for final connections.",
+        "Coordinate with Electrical Subcontractor for load requirements of the transformer and enclosure mounted behind the scoreboard, per sheet note 3/E1-10.",
+        "Coordinate with Concrete Subcontractor for scoreboard foundation design, embed, and anchor bolt requirements.",
+        "Coordinate with Contractor for the location of underground piping affecting the scoreboard foundation.",
+        "Remove and legally dispose of all dirt spoils generated by this Scope of Work."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 11 68 43 - Football/Track Scoreboard"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Transformer and enclosure behind scoreboard",
+    "Wired communication pathway to scoreboard",
+    "Removal of existing scoreboard",
+    "Scoreboard foundation excavation and concrete"
+  ],
+  "phase_code": "11-0101-10000",
+  "_phase_code_note": "Scoreboard, from the GMP's own phase code library. Confirmed against the Procore budget (01-index/budget-phase-codes.json): single budget line, 11-0101-10000 Scoreboard at $99,483, delta vs carried $0. The cover sheet reads the code from the budget, not from this record.",
+  "_leveling_sheet": "GMP R2 BackSheet row 89 (Scoreboard); no dedicated leveling tab located in THS_BidLeveling workbook for this package",
+  "_amount_buildup": [
+    [
+      "Base Bid - YESCO proposal 05.12.26, Scoreboards complete scope of work per plans and specifications",
+      67030
+    ],
+    [
+      "Mobilization - YESCO proposal 05.12.26",
+      3103
+    ],
+    [
+      "Add Alternate - YESCO proposal 05.12.26, footings (excavation, backfill, compacted subbase, concrete, reinforcing, sleeves, anchors, layout, clean-up), including concrete pumper truck and auger -- carried in the GMP total; NOT drafted as this package's scope, see open PM item",
+      29350
+    ]
+  ],
+  "_amount_note": "67,030 + 3,103 + 29,350 = 99,483, an exact match to the GMP BackSheet line 89 and the Procore budget line 11-0101-10000, confirming YESCO as the carried sub at this total. The $29,350 line is YESCO's own priced footing alternate, and it is fully embedded in the carried amount even though the documented trade boundary (Scope of Work #030, consistent with the 07.31.26 athletic-equipment-footing ruling) assigns scoreboard foundation construction to the Concrete package. The Subcontract Amount is left at the BackSheet-carried $99,483 because that is the authority for value; the scope drafted above does not include the $29,350 of foundation work the amount appears to price. This mismatch is flagged, not resolved, in _open_pm_items.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM -- no schedule activity for this package was found (see CLAUDE.md schedule findings: sports-field-adjacent scope has thin procurement activity). P&P bond rate is 0 pending confirmation; no bond line was found broken out in YESCO's Scoreboards pricing.",
+  "_open_pm_items": [
+    "HIGHEST PRIORITY -- foundation scope/amount mismatch. Scope of Work #030 Concrete explicitly assigns 'Scoreboard footings' to the Concrete package, coordinating with the Scoreboard Subcontractor -- the identical pattern it uses for Pressbox, Ticket Booth, Bleacher, and Athletic Equipment footings, and consistent with the 07.31.26 ruling that athletic-equipment footings are RFP-030. This exhibit is drafted on that basis: ITB-089 designs the foundation (deferred submittal) and coordinates embeds/anchor bolts with the Concrete Subcontractor, but does not excavate or place concrete. However, the carried Subcontract Amount ($99,483) reconciles EXACTLY to YESCO's base scope ($67,030) + mobilization ($3,103) + YESCO's own priced 'Add alternate' for footing excavation and concrete ($29,350) -- meaning the carried price appears to already include foundation construction cost this exhibit excludes. Before issuing either subcontract: confirm whether (a) the alternate was genuinely accepted, YESCO does construct the foundation after all, and RFP-030's exhibit must exclude the scoreboard footing and deduct accordingly, or (b) the $29,350 does not belong in this package's carried value and should be removed, lowering the Subcontract Amount to $70,133. Do not issue both subcontracts with the scoreboard foundation priced twice.",
+    "The package record still shows awarded_sub.status = 'not-yet-awarded'. It predates the GMP. The GMP R2 BackSheet (line 89) and the Procore budget (phase code 11-0101-10000) both carry YESCO at $99,483, matching YESCO's own itemized scoreboard-only pricing exactly. Same stale-record pattern already flagged and corrected on ITB-072, RFP-094, and RFP-109 -- the mapping should be updated. Corrected here per coordinator direction 08.11.26.",
+    "YESCO also holds ITB-072 Building Signage and ITB-078 Flagpoles; the release-priority log flags that all three may be papered as one agreement. That is an open PM decision this exhibit does not assume -- drafted as its own standalone Attachment A per the standing one-exhibit-per-package practice.",
+    "Structural steel finish conflict: S0-00 General Note 9 requires all steel exposed to weather to be hot-dip galvanized after fabrication. YESCO's carried proposal states only 'Prime and paint structural steel.' The exhibit states the documented (galvanized) requirement and flags the gap rather than silently adopting the lower-cost finish the sub priced -- needs a PM decision on whether galvanizing is required or whether prime-and-paint is acceptable, in which case the carried price already matches scope.",
+    "Product basis conflict resolved in the exhibit, noted for visibility: Section 11 6843 Part 2 names Daktronics FB-2022 (a discontinued model per Clarification No. 1 RFI #5). The exhibit follows the RFI response's FB-2021 Basis of Design, consistent with the Site Equipment Matrix on A1-20 and all three itemized bidder proposals (YESCO, Image360, Y C Signs all priced FB-2021).",
+    "Electrical feed boundary: Scope of Work #103 states Electrical includes 'power and data to Scoreboard' as part of its site conduit/wiring scope, while YESCO's own proposal excludes 'Site Electrical & Low Voltage Systems' and states power need only be 'brought within 10 feet' for YESCO to make final connections. The exhibit follows YESCO's own stated boundary (10 feet, final connection by this Subcontractor) since it is the more specific, sourced figure; sheet note 3/E1-10 (cited by Scope of Work #089 itself) was not independently opened because E1-10 is not among this package's assigned sheets. Worth a spot check against E1-10 before issue.",
+    "Data quality: the package record's Monument Construction 'Scope Review Meeting Agenda' and 'Homework Response' documents (linked under this package's bidders array) actually contain RFP-016/022 (irrigation/turf) content -- 'Sprinturf as 2nd tier sub,' 'Includes geo-fabric, base, filter, and turf,' etc. -- not Scoreboards content. Likely a misindexed document from the doc-indexer pass. Monument's separate, non-itemized Scoreboards Bid Form ($75,334.14) was used instead; it carries no scope breakdown."
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only -- build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Provide scoring console, electric operators, and operating hardware as specified and required.",
+            "source": "Section 11 6843 para 2.04 Scoring Console"
+          },
+          {
+            "item": "Provide all anchors, fasteners, and sealants required for a complete installation.",
+            "source": "Section 11 6843 Part 3 Installation; the turnkey clause already binding this Attachment A"
+          },
+          {
+            "item": "Provide final adjustments, start up, and training as specified.",
+            "source": "Section 11 6843 para 3.03 Installation - Control Center"
+          },
+          {
+            "item": "Include multiple mobilizations as may be required per the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS (Mobilizations)"
+          },
+          {
+            "item": "Provide a competent foreman who shall participate in the daily huddle and weekly workplan meetings.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "This is the one worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking it removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Materials and installation shall comply with applicable ADA requirements.",
+            "source": "Scope of Work #089 only",
+            "flag": "No accessible route, control, or reach range is indicated for the scoreboard anywhere in the Contract Documents. May be boilerplate carried over from another package's narrative rather than a real obligation for this equipment type."
+          },
+          {
+            "item": "Supply and install all footings, including excavation, backfill, compacted subbase, concrete, reinforcing, sleeves, anchors, and coring as required.",
+            "source": "Scope of Work #089 only",
+            "flag": "Struck to the exclusions list, not restated here as a duplicate -- Scope of Work #030 assigns this construction to the Concrete Subcontractor. Listed here because it is the clearest single line showing the two narratives conflict, and because YESCO's own priced 'Add alternate' for this exact scope is embedded in the carried Subcontract Amount. See the HIGHEST PRIORITY open PM item."
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No document assigns this one; it is here only so the list is complete."
+        ],
+        "items": [
+          {
+            "item": "Provide all rigging, cranes, and lifting equipment required to erect the scoreboard structure.",
+            "source": "Image360 and YESCO proposals each price a separate crane pick for this Scope of Work"
+          }
+        ]
+      }
+    ]
+  }
+}

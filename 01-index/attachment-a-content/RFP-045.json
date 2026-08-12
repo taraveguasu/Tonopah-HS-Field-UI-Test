@@ -1,0 +1,270 @@
+{
+  "_package": "RFP-045",
+  "_title": "Metal Roofing, Fascia & Soffit Panels",
+  "_subcontractor": "Foursquare Roofs & Walls, Inc.",
+  "_contract_amount": 142585,
+  "file_stem": "Foursquare Roofs & Walls",
+  "_sources": [
+    "Scope of Work - 045 Metal Roofing, Fascia & Soffit Panels narrative (primary trade-boundary authority) - read in full",
+    "Project Manual: Section 07 25 00 Weather Barriers; Section 07 61 00 Sheet Metal Roofing; Section 07 62 00 Sheet Metal Flashing and Trim; Section 07 92 00 Joint Sealants (div-07-thermal-moisture.pdf, manual pages 186-195) - all four read in full",
+    "Sheet A4-10 Roof Plan and Building Sections (BID DOCS 04.20.26) - keynote 6-06 standing seam roof assembly incl. self-adhered membrane, 6-03 downspout with splash block, 6-08 gutter, keynote C mechanical/electrical roof penetrations to meet roofing manufacturer's recommendations",
+    "Sheet A5-10 Exterior Elevations (BID DOCS 04.20.26) - keynote 6-03 downspout, RF-1 metal panel finish legend; keynotes 6-01 bulletin cabinet and 6-04 exterior lettering read and confirmed NOT part of this package",
+    "Sheet A4-20 Roof Details (BID DOCS 04.20.26) - Berridge Tee-Panel, Cee-Lock, Fascia Panel and Wall Panel detail callouts; 'SOLID SHEATHING (BY OTHERS)' notes at eave, gable and penetration details",
+    "Sheet A7-10 Wall Sections (BID DOCS 04.20.26) - detail 3, stainless steel work table/pass-through counter and overhead coiling door at the Concessions building opening",
+    "Sheet S0-00 General Notes (BID DOCS 04.20.26) - read in full; no metal roofing content; confirms 0 HR construction project-wide",
+    "Sheet C1 Cover (ADDENDUM #1 05.06.26) - read; civil cover sheet, no metal roofing content",
+    "Clarification No. 1 (05.06.26) - RFI #23 (metal roofing specification takes precedence over the plan's Berridge callout) and RFI #25 (eave sheathing = 5/8\" Dens Glass, no wood)",
+    "GMP R2 (07.01.26), line 45 - Metal Roofing, Fascia & Soffit Panels, $142,585",
+    "PM rulings log 08.06.26 (B1) - GMP governs over Clarification No. 1 RFI #23; RFP-045 is the Berridge Cee-Lock system",
+    "THS_BidLeveling_JC_2026-05-13.xlsx, tab BP045 - sole responsive-at-leveling bidder Canyon State Enterprises $49,700 (not awarded); Foursquare noted 'LATE - non-responsive' at the leveling stage",
+    "Procore Project Budget / 01-index/budget-phase-codes.json - phase code 07-4100-10000, $142,585, delta vs. GMP carried value $0",
+    "GMP/1% Subcontractor Listing.pdf (05.27.26) - 'Foursquare Roof and Walls', license 0077998 / 0077999",
+    "Foursquare proposal 05.05.26 ('LATE - not submitted to BC', no signed Bid Form) - $135,698 standing seam metal roofing system; $6,887 stainless steel pass-thru counter at detail 3/A7.10",
+    "Foursquare Scope Review Meeting Agenda 05.19.26 - Berridge z-lock assumption, skylight and metal sheathing exclusions, one downspout assumption, soffit venting exclusion",
+    "Foursquare Homework Response 05.19.26 (email, letters & bulletin board pricing) - read and confirmed this pricing is NOT part of RFP-045's carried $142,585",
+    "Canyon State Enterprises proposal 05.12.26 (not awarded) - read for what the documents left ambiguous; general/boilerplate exclusions ignored per the document authority hierarchy"
+  ],
+  "_pm_rulings_applied": [
+    "07.31.26 - Self-adhered membrane under the metal roof is RFP-045; ITB-040 is below-grade waterproofing only.",
+    "08.06.26 (D - GLOBAL RULE) - 07 41 13 Metal Roof Panels and 07 71 23 Manufactured Gutters and Downspouts are absent from the Project Manual. Not cited by number; the obligations are carried in the scope verbiage by title.",
+    "08.06.26 (D) - RFP-045 owns the gutters and downspouts.",
+    "08.06.26 (B1) - GMP governs over Clarification No. 1 RFI #23; RFP-045 is the Berridge Cee-Lock system. Applied to the Metal Roofing group. Still flagged below because Clarification No. 1 itself, a document every bidder received, states the opposite.",
+    "08.11.26 (rule 14) - Do not restate the specs and drawings. Product construction, fabrication and standard SMACNA execution detail already carried by Sections 07 6100, 07 6200 and 07 2500 moved to the review appendix; only the trade boundary and the items the documents fail to carry stay in the exhibit.",
+    "08.11.26 (rule 14a) - Exhibit B / GMP not referenced. The Berridge Cee-Lock determination is written as a plain inclusion, grounded in A4-20's own detail callouts and Foursquare's own scope-review assumption, not cited to Exhibit B.",
+    "08.11.26 (rule 16) - Exclusions start empty. Three kept: the overhead coiling door and exterior signage/lettering (a different package's scope that the same bidder happened to price), and skylights (Foursquare's own scope-review exclusion, at a roof feature this trade would otherwise be expected to flash).",
+    "08.11.26 (rule 18) - Three products, three trade groups: Metal Roofing, Metal Fascia & Soffit Panels, and the Concessions Pass-Through Counter (carried in the same Subcontract Amount per the GMP and Foursquare's own two-line proposal).",
+    "08.11.26 (D4) - Supply and install, not Furnish and install.",
+    "08.06.26 - There are no fire-rated assemblies on this project (confirmed again on S0-00); no firestopping obligation applies to this package."
+  ],
+  "simple": {
+    "8": "Foursquare Roofs & Walls, Inc.",
+    "9": [
+      "4250 Production Court",
+      "Las Vegas, NV 89115"
+    ],
+    "10": "(702) 651-1955",
+    "11": "LaMar Noorda",
+    "12": "Gerrit@foursquarenv.com",
+    "14": "142,585.00",
+    "23": "Metal Roofing, Fascia & Soffit Panels",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Metal Roofing - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Includes Berridge Cee-Lock standing seam metal roof panel system as indicated on the drawings.",
+        "Supply and install high-temp underlayment and self-adhered membrane beneath the roof panel system per keynote 6-06/A4-10.",
+        "Supply and install all gutters and downspouts, complete with splash blocks, as indicated.",
+        "Accept the roof deck furnished by others as ready to receive the roofing system.",
+        "Supply and install all furring, backing, straps, nailers and accessories necessary to support the roofing, fascia and soffit systems.",
+        "Coordinate with Framing Subcontractor for eave sheathing (5/8\" Dens Glass per Clarification #01 RFI #25) to receive the roofing system."
+      ]
+    },
+    {
+      "header": "Metal Fascia & Soffit Panels - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install prefinished metal fascia and soffit panels as indicated, complete with trim, closures and attachment system.",
+        "Coordinate edge condition and flashing attachment between the fascia, soffit and roofing systems to maintain manufacturer warranties.",
+        "Provide protection of adjacent roofing surfaces during fascia and soffit panel installation."
+      ]
+    },
+    {
+      "header": "Concessions Pass-Through Counter - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Fabricate and install stainless steel pass-through counter with window header and jambs at the Concessions building per detail 3/A7-10.",
+        "Coordinate the rough opening with Framing Subcontractor and the overhead coiling door with Special Doors Subcontractor."
+      ]
+    },
+    {
+      "header": "General Scope Requirements",
+      "items": [
+        "Provide all tests and certifications required for complete and operational systems.",
+        "Provide a Manufacturer's Representative for multiple site visits during construction as required to maintain system warranties.",
+        "Perform water testing on completed roofing, fascia and soffit systems, and repair deficiencies as required.",
+        "Provide temporary roof closures and water stops at the end of each work day to prevent water intrusion."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 07 25 00 - Weather Barriers",
+    "Section 07 61 00 - Sheet Metal Roofing",
+    "Section 07 62 00 - Sheet Metal Flashing and Trim",
+    "Section 07 92 00 - Joint Sealants"
+  ],
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Overhead coiling door and operator",
+    "Exterior building lettering and signage",
+    "Skylights"
+  ],
+  "phase_code": "07-4100-10000",
+  "_phase_code_note": "Metal Roofing, Fascia & Soffit Panels, from the GMP's own phase code library. Confirmed against the Procore budget: RFP-045 has a single line, 07-4100-10000, at $142,585, delta vs. carried value $0. The cover sheet reads the code from the budget, not this record.",
+  "_leveling_sheet": "tab 'BP045' (Metal Roofing, Fascia & Soffit Panels) - Foursquare was not yet on the leveling tab when it was built 05.13.26; only Canyon State Enterprises ($49,700, not awarded) appears there",
+  "_amount_buildup": [
+    [
+      "Base Bid - Foursquare Roofs & Walls proposal 05.05.26, standing seam metal roofing system including underlayment, fascia, gutters, downspout, trim and flashing",
+      135698
+    ],
+    [
+      "Add - Foursquare Roofs & Walls proposal 05.05.26, fabricate and install stainless steel pass-thru counter with window header and jambs (detail 3/A7-10)",
+      6887
+    ]
+  ],
+  "_amount_note": "GMP R2 line 45 and the Procore budget phase code 07-4100-10000 both carry $142,585 - the exact sum of Foursquare's two 05.05.26 proposal line items. The awarded_sub record in 01-index/packages/RFP-045.json states only the $135,698 roofing figure; the pass-through counter is the second half of the carried Subcontract Amount and is drafted here as its own scope group.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM - they are CORE-internal and no bid document carries them. P&P bond rate left at 0 as a placeholder only; no bond rate is on file for Foursquare (no signed Bid Form) and it must be confirmed before issuing - see _open_pm_items.",
+  "_open_pm_items": [
+    "GMP-01, carried from the package record, now RESOLVED by PM ruling 08.06.26 (B1): the GMP governs over Clarification No. 1 RFI #23, and the roof panel system is Berridge Cee-Lock - consistent with A4-20's own roof details (which show Berridge Tee-Panel, Cee-Lock, fascia and wall panel details even in the base bid) and with Foursquare's own scope-review assumption of a 'berrage z lock standing seam roof.' Still flagged because Clarification No. 1 - a document issued to every bidder - states in writing that 'Metal roofing specifications take precedence' over the drawn Berridge callout, the opposite conclusion. No further action needed to draft this exhibit, but the conflict between two contract documents should stay on record in case it resurfaces at shop drawing review.",
+    "Contract amount: the awarded_sub record in 01-index/packages/RFP-045.json states Foursquare's price as $135,698 (roofing only). The GMP R2 line 45 and the Procore budget phase code 07-4100-10000 both carry $142,585, the exact sum of Foursquare's two 05.05.26 proposal lines (roofing $135,698 + stainless steel pass-through counter $6,887). This exhibit is drafted to the carried $142,585 and carries the pass-through counter as its own scope group; the package record should be corrected to match.",
+    "Sole bidder, late and unsigned: Foursquare is the only bidder CORE carried an award on. Their only proposal on file is flagged 'LATE - not submitted to BuildingConnected' and carries no signed Subcontractor Proposal (Bid) Form. This is a 1% list package under NRS 338.16995 - confirm a properly submitted proposal or Bid Form exists before relying on this record.",
+    "Stale pricing: Foursquare's 05.05.26 proposal states a 30-day validity, which expired 06.04.26. No subcontract has issued as of this index date (08.11.26). Confirm current pricing before issuing.",
+    "Entity name: Foursquare's own proposal letterhead reads 'Foursquare Roofs & Walls Inc.'; the GMP's 1% Subcontractor Listing (05.27.26) reads 'Foursquare Roof and Walls'. Confirm the correct legal entity name before issuing the subcontract.",
+    "Contact info: no email is on file for LaMar Noorda, who signed the base proposal and is named on the scope-review agenda as Foursquare's Project Manager. The only Foursquare email captured in the project record belongs to Gerrit Noorda (Gerrit@foursquarenv.com), used here as the best available contact. Confirm the correct contact before issuing.",
+    "Bond rate: no bond rate is on file for Foursquare. The only other bidder, Canyon State, is recorded at 0% on the leveling tab, which the leveling notes themselves flag as a likely BuildingConnected parse artifact rather than a true bond-free quote. Confirm Foursquare's actual bond rate before issuing.",
+    "Cross-package pricing flag: Foursquare's 05.19.26 homework response also priced exterior building letters ($6,780 flat metal or $12,892 channel letters) and the outdoor bulletin cabinet ($1,480) at keynotes 6-04 and 6-01/A5-10 - the same figures already open on ITB-072 Building Signage (carried to YESCO). Neither figure is inside the $142,585 carried for RFP-045, confirmed by the amount reconciliation above, so this exhibit excludes that work without routing it. Flagged so the same dollar figures are not read into two packages.",
+    "FM Global: the Scope of Work narrative requires 'compliance with requirements of FM Global,' but no other document on this package references an FM Global rating for any material or assembly. Confirm whether FM Global compliance actually applies before relying on it; kept in the review appendix rather than the exhibit pending that confirmation."
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only - build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Fabricate and install all counter flashing, cleats, reglets, starter strips, deck sheathing and cover board for the standing seam roof system.",
+            "source": "Section 07 61 00 paras 1.01, 2.03, 3.01-3.03"
+          },
+          {
+            "item": "Comply with SMACNA Architectural Sheet Metal Manual requirements and standard details for all sheet metal roofing and flashing work.",
+            "source": "Section 07 61 00 para 1.04.A; Section 07 62 00 para 1.05.A"
+          },
+          {
+            "item": "Provide product data, color samples, and shop drawings indicating material profile, jointing pattern and fastening methods.",
+            "source": "Section 07 61 00 para 1.03; Section 07 62 00 para 1.04.B"
+          },
+          {
+            "item": "Provide manufacturer warranty in accordance with Section 01 7800 Closeout Submittals.",
+            "source": "Section 07 61 00 para 1.05"
+          },
+          {
+            "item": "Fabricate gutters and downspouts to SMACNA rectangular profile with brackets, splash pads and downspout extenders.",
+            "source": "Section 07 62 00 para 2.03"
+          },
+          {
+            "item": "Install continuous water-resistive barrier lapped to shed water, with head and jamb flashing at all openings and penetrations.",
+            "source": "Section 07 25 00 Part 3"
+          },
+          {
+            "item": "Seal all joints within sheet metal fabrications and at penetrations watertight.",
+            "source": "Section 07 61 00 para 3.03.D-E; Section 07 62 00 para 3.03.E; Section 07 92 00"
+          },
+          {
+            "item": "Back paint concealed metal surfaces and surfaces in contact with dissimilar metals.",
+            "source": "Section 07 61 00 para 3.02.B; Section 07 62 00 para 3.02.B"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Provide a qualified representative onsite for all tests and inspections, and schedule testing and walk with inspectors to obtain final sign-off.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Comply with the requirements of the Geotechnical Report and Contract Documents for seismic requirements; the most stringent requirement shall prevail.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "All materials to comply with flame spread ratings as required, with manufacturer's certifications.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Provide protection along the access path to the roof work area during construction.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Subcontractor is responsible for all receiving, offloading and hoisting of materials for this Scope of Work.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Comply with warranty requirements including coordination and compliance with FM Global.",
+            "source": "Scope of Work #045 only",
+            "flag": "No other document on this package references an FM Global rating. Confirm before restating."
+          },
+          {
+            "item": "Comply with all AHJ and regulatory requirements, including FAA regulations applicable to crane activities in controlled zones.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Provide a system mock-up of joint and edge conditions as directed by Contractor, constructed and maintained outside the building envelope.",
+            "source": "Scope of Work #045 only"
+          },
+          {
+            "item": "Include multiple mobilizations as required per the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "Scope of Work #045 only",
+            "flag": "Already captured in field 94 of this Attachment A"
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No document assigns this one; it is here only so the list is complete."
+        ],
+        "items": [
+          {
+            "item": "Provide all scaffolding, lifts and equipment required for this Scope of Work.",
+            "source": "Canyon State Enterprises proposal, General Conditions block ('Scaffolding to be used only by Canyon State Employees'), priced as its own means and methods"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "_package": "ITB-008",
+  "_title": "Surveying, Layout & Staking",
+  "_subcontractor": "Prewitt Land Surveying",
+  "_contract_amount": 80767.5,
+  "file_stem": "Prewitt Land Surveying",
+  "_sources": [
+    "Scope of Work - 007 Surveying & Staking narrative (primary trade-boundary authority) -- all lines read and carried",
+    "Sheet C1 Cover (ADDENDUM #1 05.06.26) -- NDOT Survey Control Monument 1252106, basis of bearing, benchmark elevation 6204.14 NAVD88",
+    "Sheets C2 / C3 General Notes (BID DOCS 04.20.26) -- Civil general, grading, and precautions notes; note 4 under Precautions & Responsibilities (protection and resetting of survey monuments is the Contractor's financial responsibility)",
+    "Sheet A1-10 Site Plan (BID DOCS 04.20.26)",
+    "Sheet A1-12 Enlarged Site Plan (BID DOCS 04.20.26) -- flagpole heights and keynotes, ticket booth keynote 2-30, goal post/shot put/discus/turf/track keynotes",
+    "Sheet A1-20 Site Details (ADDENDUM #1 05.06.26) -- Site Equipment Matrix (Scoreboard, Bleachers, Press Box, Trash Receptacle, and Ticket Booth all CFCI), gate schedule, flagpole base detail, fence details",
+    "Sheet G0-00 Cover Sheet (ADDENDUM #1 05.06.26) -- deferred submittals (Press Box, Bleachers, Scoreboard, Goal Post Structural Design), sports field improvements list, Index of Drawings",
+    "Sheet AD1-10 Site Demo Plan (BID DOCS 04.20.26) -- existing press box, bleachers, scoreboard, flagpole, field lights, and fence removals; demolition limits",
+    "Sheets G1 / G2 Grading Plan (BID DOCS 04.20.26) -- benchmark and control monument callouts repeated on each grading sheet, limits of grading/improvement, ACO slot drains",
+    "Sheets UT1 / UT2 Utility Plan 1 & 2 (BID DOCS 04.20.26) -- domestic water, sanitary sewer, and storm drain routing, sizes, and points of connection",
+    "Sheet S0-00 General Notes (BID DOCS Vol 2, 04.20.26) -- deferred submittals (bleachers and press box); no surveying-specific content",
+    "Sheet E1-10 Electrical Site Plan (BID DOCS 04.20.26) -- ticket booth, scoreboard, and press box transformers, disconnects, and pull box locations requiring staking coordination",
+    "Sheet L2.01 Irrigation Plan, Legend and Notes (BID DOCS 04.20.26) -- irrigation mainline, quick coupler, and gate valve locations and point of connection",
+    "Prewitt Land Surveying (PLS) proposal letter and Exhibit A - Exceptions to Scope of Services, dated 05.11.26 (3 pages) -- priced task breakdown ($73,425 total across 8 tasks: calculations/field control, rough grade staking, pad blue tops/certification, utility staking, final staking, building corner/grid line staking, redhead/bluetop staking, fence and gate staking) and 14 numbered exceptions; signed Thomas L. Prewitt, P.L.S., W.R.S., Owner, with an INCLUDES addendum (Field Light Poles, Ticket Booth pad) added by Janet Prewitt 05/20/2026",
+    "Rosevear (RSC) proposal 05.12.26 -- restates the Scope of Work narrative nearly verbatim, item for item, including the Survey and Layout & Staking headings; read for diagnostic comparison only, not adopted",
+    "01-index/budget-phase-codes.json -- ITB-008 phase code 02-1010-10000, budget line $80,768.00",
+    "01-index/buyout-log.json and 04-output/Subcontract Release Priority.md -- ITB-008 carried sub Prewitt Land Surveying, $80,768 (rounded), release tier 2 (#4), release by 2026-10-13",
+    "GMP R2 (NCSD THS Field - GMP R2 - 070126.pdf), page 1 -- line #7 'Horizontal Survey & Staking' $80,768, SITE WORK (ROUGH) section",
+    "01-index/document-text/SUBCONTRACTOR FILES/0 - ATTACHMENT A - Scope of Work/002_ Attach A_ Subcontract DS Template_05-09-25.docx.txt -- confirms paragraph 94 (mobilizations sentence, 'two (2) mobilizations') and the submittal hard-copy sentence behind paragraph 98 ('Contractor may also request up to six (6) physical hard copies of all submittals') are real template clauses, not artifacts"
+  ],
+  "_pm_rulings_applied": [
+    "Coordinator correction 08.11.26 -- 01-index/packages/ITB-008.json's bare {\"status\": \"not-yet-awarded\"} predates the negotiated GMP (built 07.10.26) and is stale, the same pattern documented in CLAUDE.md for RFP-094, RFP-109 and ITB-072. The GMP R2 BackSheet (rows 16-146) is the authority for carried sub and value, not the package record. BackSheet / GMP PDF line #7 carries this package as Prewitt Land Surveying, $80,768; the buyout log's precise carried value is $80,767.50. Reconciled here as awarded.",
+    "Reconciled against the awarded sub's actual proposal per the standard awarded-package procedure. Prewitt's Exhibit A item 11 excludes 'As-Built Survey and Drawing Requirements' by name, which contradicts the Scope of Work narrative's Survey items f, g and h. Per the document authority hierarchy a proposal never narrows the subcontract -- the full narrative obligation is kept in the exhibit and the contradiction is flagged, not adopted.",
+    "Two items added from Prewitt's own priced scope, which is now the reconciliation basis: 'high jump' added alongside pole vault/discus/shot put/long jump/soccer goals (Prewitt's Final Staking task lists it; the Scope of Work narrative's athletic-equipment list omits it, and CLAUDE.md's RFP-022 drafting notes independently confirm high jump/pole vault equipment appears on sheet L1.07); and a new item for track text, staggering stripes, event striping and turf logo layout (Prewitt's Final Staking task prices this explicitly; the narrative's 'stake site amenities' item only implies it).",
+    "One exclusion added from Prewitt's Exhibit A item 8 (offsite power service trunk and main lines 'as typically prepared by Nevada Power') -- a narrow, industry-standard carve-out that does not contradict the narrative's onsite ductbank/vault/pedestal/transformer staking and is the kind of boundary a surveying sub would not ordinarily assume is his (rule 16).",
+    "No CSI spec section exists for this trade (open_pm_items SPEC-N01, confirmed here) -- the Scope of Work narrative and Division 00/01 general requirements are the only written authority for this package, so the narrative's content is carried into the exhibit directly rather than cited.",
+    "Rule 14 applied narrowly: the drawings' general Civil notes are addressed to 'the Contractor' generally, not to a staking subcontractor by name, so they do not duplicate this package's obligations the way a technical spec section would on other packages. Only the mobilizations line was struck as a duplicate of this Attachment A's own PROJECT SPECIFIC PROVISIONS (paragraph 94) -- see review_appendix.",
+    "Rule 14a -- no Exhibit B (Basis of GMP) scope assumption or exclusion addresses this package (open_pm_items GMP-04, confirmed here). Nothing to fold in and nothing cited.",
+    "Rule 16 -- exclusions start empty. Two kept, both above.",
+    "Rule 17 -- directives zero-padded with no dates or qualifiers; paragraphs 27 and 28 kept.",
+    "D4 -- Supply and install / Furnish and install, not Provide and install; not applicable to this package's items (no supply-and-install product scope), noted for completeness.",
+    "Paragraphs 94 and 98 confirmed as real template fields, not extraction artifacts, against the template text itself (see _sources) -- kept as in the approved RFP-031 and ITB-072 records."
+  ],
+  "simple": {
+    "8": "Prewitt Land Surveying",
+    "9": [
+      "803 Pebble Beach Drive",
+      "Boulder City, NV 89005"
+    ],
+    "10": "702-649-8790",
+    "11": "Thomas L. Prewitt, PLS",
+    "12": "TBD",
+    "14": "80,767.50",
+    "23": "Surveying, Layout & Staking",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ],
+    "98": [
+      "Contractor may",
+      " also",
+      " request up to",
+      " ",
+      "six (6) physical hard copies of all submittals.",
+      ""
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Survey - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Perform all calculations and prepare the staking plan for all layout work from the Civil Engineer's CAD background files.",
+        "Verify horizontal and vertical control points and provide all control survey work for the entire Project, including 3 GPS control points.",
+        "Provide and maintain all onsite control points and benchmarks.",
+        "Verify existing tie-in grades match the grading plans, and verify offsite elevations against the Civil Engineer's CAD file.",
+        "Notify Contractor of any offsite elevation discrepancies within two weeks of Notice to Proceed.",
+        "Provide record as-built survey documentation for all new site wet and dry utilities.",
+        "Provide a Project Monument Survey at completion of the Project, as required by the Owner."
+      ]
+    },
+    {
+      "header": "Layout & Staking - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Stake Contractor's staging and parking area corners.",
+        "Stake demolition limits and rough grade for all site improvements.",
+        "Stake all utility work, including domestic water, irrigation mains and RPPAs, sanitary sewer, and storm sewer systems.",
+        "Includes drainage staking for the synthetic turf field, running track, and sand pit systems.",
+        "Includes electrical and low voltage ductbanks, vaults, pedestals, transformers, and site lighting, including sports field lighting; coordinate locations with Electrical & Low Voltage Subcontractor.",
+        "Coordinate utility staking with Earthwork, Paving, Wet Utilities & Site Demo Subcontractor prior to trenching and installation.",
+        "Stake natural gas piping from the meter location and all other known or located underground utilities.",
+        "Stake rough grade for building pads at corners and on a 40' minimum grid, including redheads and blue tops.",
+        "Provide sawcut limits for all curbs, gutters, and paving to be removed.",
+        "Provide Certified Building Pad documentation and Finished Floor monument and elevation certification.",
+        "Stake all building grid lines, transferring vertical grid lines to top of footing and slab on grade.",
+        "Provide redheads and bluetops for the asphalt running track at 50' intervals, and stake finish grades at the same interval.",
+        "Provide final staking for curb and gutter, sidewalks, and flatwork.",
+        "Stake rough grade for the entire site at 100' intervals, including grade breaks, angle points, and curb transitions.",
+        "Stake all site concrete, including curbs, gutters, sidewalks, and equipment and utility pads.",
+        "Stake site amenities, including the running track, synthetic turf field, bleachers, press box, ticket booth, scoreboard poles, and chain link fencing.",
+        "Includes staking for track text, lane staggering stripes, track and field event striping, and synthetic turf field logo layout.",
+        "Stake athletic equipment, including goal posts, pole vault, high jump, discus and shot put rings and toeboards, discus cage, long jump board, and soccer goals.",
+        "Stake sports field lighting and flagpoles.",
+        "Include as-built survey monuments as record of survey."
+      ]
+    },
+    {
+      "header": "General Scope Requirements",
+      "items": [
+        "Provide an hourly rate breakdown with the Proposal.",
+        "Coordinate staking sequence with Contractor's Preliminary Construction Schedule and Phased Logistics Plan."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [],
+  "_spec_sections_note": "No CSI section exists for surveying in the Project Manual and the Scope of Work narrative cites none (open_pm_items SPEC-N01). Division 00 and Division 01 bind every subcontract and are not listed per package.",
+  "directives": [
+    "Addendum #01",
+    "Clarification #01",
+    "Clarification #02"
+  ],
+  "exclusions": [
+    "Pre-design topographic and existing conditions survey",
+    "Offsite power service trunk and main lines"
+  ],
+  "phase_code": "02-1010-10000",
+  "_phase_code_note": "Surveying/Staking, from 01-index/budget-phase-codes.json. Single budget line, $80,768.00.",
+  "_leveling_sheet": null,
+  "_leveling_sheet_note": "The THS_BidLeveling workbook only tabs the 1% (RFP) packages; ITB-008 was never leveled there. GMP R2 line #7 and the buyout log are the only carried-value sources for this package.",
+  "_amount_buildup": [
+    [
+      "Base Bid - Prewitt Land Surveying proposal, horizontal survey, layout and staking, priced tasks total",
+      73425.0
+    ],
+    [
+      "Unreconciled variance to the GMP BackSheet line #7 / Procore 02-1010-10000 carried value - exactly 10.0% of the proposal total, no descope or homework document on file explaining it; see open items, to be reconciled before issue",
+      7342.5
+    ]
+  ],
+  "_amount_note": "Subcontract Amount set to $80,767.50 per the buyout log's precise carried value, matching the RFP-031/ITB-072 convention of using the more precise of the two GMP-derived figures. UNRECONCILED: Prewitt's own 05.11.26 proposal totals $73,425.00 across its 8 priced tasks -- $7,342.50 (about 10%) below the carried value, and no descope, homework response, or leveling tab exists on file for this package to explain the difference (unlike the 1% packages, ITB-008 has no scope-review agenda or homework folder in SUBCONTRACTOR FILES). Flag for the PM to reconcile before the exhibit issues -- it may be a CORE-side contingency/markup on a non-1% package, a bond or tax addition, or a priced change not on file.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Kieth LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Procurement/start dates left unconfirmed (CORE-internal, no bid document carries them). Bond rate 0 / No Bond Included -- Prewitt's proposal does not quote a P&P bond separately or otherwise.",
+  "_open_pm_items": [
+    "Carried forward from 01-index/packages/ITB-008.json #26 (GMP-04): several ITB packages, including this one, are unaddressed by the Basis of GMP -- no scope assumption or exclusion covers Surveying. Confirmed here; nothing in Exhibit B to cite or reconcile.",
+    "Carried forward from 01-index/packages/ITB-008.json #31 (SPEC-N01): ITB-008 holds no CSI spec section of its own. Confirmed against the split spec manual -- requirements come from the Scope of Work narrative and Division 01 alone. Flag for the PM to confirm that is acceptable before issuing, since it means this exhibit IS the specification for this trade rather than a summary of one.",
+    "01-index/packages/ITB-008.json still reads awarded_sub.status = 'not-yet-awarded' (record generated 07.10.26, predates the negotiated GMP). This exhibit is drafted against Prewitt Land Surveying per the GMP R2 BackSheet / buyout log instead. The package record itself needs updating so the next session does not re-draft this as unawarded.",
+    "UNRECONCILED PRICE: Prewitt's 05.11.26 proposal totals $73,425.00; the carried/Subcontract Amount is $80,767.50, a $7,342.50 (~10%) gap with no descope, homework response, or leveling tab on file to explain it. Resolve before issue -- see _amount_note.",
+    "Prewitt's Exhibit A item 11 excludes 'As-Built Survey and Drawing Requirements' by name, contradicting the Scope of Work narrative's Survey items f, g, and h (offsite elevation verification, record as-built utility survey, Project Monument Survey). FLAGGED, not adopted -- the exhibit carries the full narrative obligation.",
+    "Prewitt's Exhibit A item 6 excludes 'staking for landscaping, hardscape and irrigation,' which contradicts the narrative's own Utility Staking item c.ii, 'Irrigation water mains and RPPA.' FLAGGED, not adopted -- irrigation main/RPPA staking stays in the exhibit's utility-staking item.",
+    "Prewitt's Exhibit A item 3 states the survey proposal 'does not reflect staking for the Landscape, Structural, Architectural or Mechanical portion of plans,' which is inconsistent with Prewitt's own priced Final Staking and Building Corner/Grid Line Staking tasks -- both of which explicitly price bleacher ADAs, sport features, scoreboards, flagpole, goal posts, press box (Landscape/Architectural items) and building corner/grid staking (Architectural/Structural). Read as boilerplate inconsistent with their own pricing, not adopted as a scope carve-out.",
+    "The Scope of Work narrative's Survey item h reads 'provide Project Monument Survey, as required for City of Las Vegas' -- this project is in Nye County/Tonopah, not the City of Las Vegas, and appears to be leftover boilerplate from a different project template. Rosevear's own proposal silently corrects this to 'as required for NCSD.' The exhibit is drafted 'as required by the Owner' to avoid carrying the wrong jurisdiction forward, but the underlying narrative should be corrected at its source.",
+    "Prewitt's commercial terms (Exhibit A items 12-14: entire site assumed available when scheduled with additional mobilizations to be discussed; two-business-day minimum notice to schedule field crews; re-staking after vandalism/damage billed as additional work with a two-hour minimum, per their Prevailing Wage Fee Schedule) are common surveying trade practice but appear nowhere in the Contract Documents. Worth a PM decision on whether re-staking after damage to Contractor-protected stakes is base scope or a priced T&M add -- not adopted here.",
+    "No email address appears anywhere in Prewitt's proposal (letter or Exhibit A). simple.12 left TBD. The signatory is Thomas L. Prewitt, P.L.S., W.R.S., Owner, but a later addendum on the same document ('Field Light Poles', 'Ticket Booth pad') is initialed by Janet Prewitt, 05/20/2026 -- confirm which individual should be the Attachment A contact before issue.",
+    "Rosevear's proposal restates the Scope of Work narrative almost verbatim; it was read for diagnostic comparison only and is not the reconciliation basis now that Prewitt is confirmed as the awarded sub."
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings (or this Attachment A's own fixed provisions) already carry. This lists what was stripped so the PM can put any of it back. Draft only -- build with --final to suppress it.",
+    "intro": [
+      "This package has no CSI spec section, so almost nothing here duplicates a technical specification the way it would on a package with one. The single item below duplicates this Attachment A's own PROJECT SPECIFIC PROVISIONS rather than the Project Manual or Drawings."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in this Attachment A's own Project Specific Provisions",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Include multiple mobilizations as may be required per the Preliminary Construction Schedule and Phased Logistics Plan.",
+            "source": "Scope of Work #007 narrative, General Scope Requirements; already carried by this Attachment A, PROJECT SPECIFIC PROVISIONS paragraph 94 (Mobilizations), which prints 'multiple mobilizations'"
+          }
+        ]
+      }
+    ]
+  }
+}

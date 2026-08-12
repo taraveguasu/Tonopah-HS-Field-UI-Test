@@ -1,0 +1,249 @@
+{
+  "_package": "RFP-033",
+  "_title": "Structural Steel & Ornamental Metals",
+  "_subcontractor": "Corona Steel, Inc.",
+  "_contract_amount": 166281,
+  "file_stem": "Corona Steel",
+  "_sources": [
+    "Scope of Work #033 Structural Steel & Ornamental Metals narrative (primary trade-boundary authority) - all lines read across its five groups: Structural Steel, Steel Bar Joists, Steel Decking, Ornamental & Fabricated Metals, General Scope Requirements, plus Alternate 033.01",
+    "Project Manual Section 05 12 23 Structural Steel (manual pages 153-159); Section 05 21 00 Steel Joists (160-165); Section 05 31 00 Steel Deck (166-171); Section 05 50 00 Metal Fabrications (176-179)",
+    "Project Manual Section 05 40 00 Cold-Formed Steel Framing - read for the trade boundary only (Related Work to 05 12 23); not this package's scope, no citation carried",
+    "Sheet S0-00 General Notes (BID DOCS 04.20.26) - deferred submittals list, steel material standards, welding/bolting standards, protection of adjacent surfaces (note 5), seismic design category D",
+    "Sheet S0-01 General Notes (BID DOCS 04.20.26) - steel deck shot-pin basis of design and attachment schedule, post-installed anchor basis of design",
+    "Sheet S2-10 Foundation and Roof Framing Plan - Concessions (BID DOCS 04.20.26) - 16K (366/251) steel bar joists at 6'-0\" max, 1 1/2\" x 20 gauge B-deck roof decking, masonry wall/jamb/lintel schedule at the steel/masonry interface",
+    "Sheet S4-01 Framing Details (BID DOCS 04.20.26) - shear plate connection schedule at the scoreboard, steel beam at steel column at scoreboard, steel deck and joist bearing at masonry wall details, bearing plate details in grouted bond beam",
+    "Sheet A1-20 Site Details (ADDENDUM #1 05.06.26) - Site Equipment Matrix: Scoreboard is CFCI, 'coordinate final size with structural scoreboard framing'",
+    "Sheet A9-20 Enlarged Plans - Concessions (BID DOCS 04.20.26) - reviewed for countertop/casework extent at the concessions building",
+    "Sheet A10-30 Interior Elevations (ADDENDUM #1 05.06.26) - refers casework and countertop standards to A12-10 (not in this package's sheet set)",
+    "Sheet AD1.15 Enlarged Demo Plan BLDG 3 & 7 (BID DOCS 04.20.26) - details 4 and 4A, salvaged 3\" pipe column relocated to new steel knife plate connection at existing channel, abandoned Elementary School campus",
+    "Sheet G0-00 Cover Sheet (ADDENDUM #1 05.06.26) - deferred submittals list: Pressbox, Bleachers, Scoreboard, Goal Post Structural Design",
+    "GMP R2 Attachment C - Enumeration of Documents (07.01.26) - confirms Sections 05 12 23, 05 21 00, 05 31 00, 05 50 00 are all published in the Project Manual with no addendum revision to any S-series sheet",
+    "01-index/budget-phase-codes.json - Procore budget line 05-1000-10000 Structural Steel & Ornamental Metals, $166,281, delta vs carried $0.00",
+    "Corona Steel proposal 05.12.26 (BuildingConnected header $145,468; Subcontractor Proposal Form; cover letter scope/exclusions/clarifications; Standard General Exclusions 1-49)",
+    "Corona Steel Scope Review Meeting Agenda 05.19.26 - inclusions (joist/deck support/angles/decking at concessions, scoreboard, scoreboard columns), exclusions (concrete, separate scoreboard mob), homework requests",
+    "Corona Steel Homework Response 05.20.26 - pricing for new 3\" canopy post columns ($7,832), vent/8\"+ opening bracing for 5 openings ($2,237), remob for scoreboard coordination and canopy ($8,784); unresolved joist-load question referred to the EOR",
+    "Corona Steel Homework Response (Bollards) 06.01.26 - 4 EA Schedule 40 pipe bollards, painted, F.O.B., $1,960",
+    "Adams & Smith proposal 05.11.26 ($282,164) - read in full for its 25 scope-specific exclusions; not awarded, but its exclusions confirm industry-standard steel/masonry/concrete boundary (no installation of embeds or anchor bolts, no CMU/masonry ties, no AESS unless shown)"
+  ],
+  "_pm_rulings_applied": [
+    "08.09.26 (from RFP-031 drafting) - CMU wall beam bearing plates are supply-only under this package; installation, layout from control points, and grouting belong to the Masonry Subcontractor under RFP-031. This exhibit does not claim installation, resolving the apparent conflict inside the narrative's own Structural Steel group (line 1 says 'supply and install ... CMU wall beam bearing plates,' line 3 says 'supply only ... masonry wall embeds').",
+    "08.06.26 (D - GLOBAL RULE) - Section 05 31 12 'Steel Roof Decking,' cited by the narrative, is absent from the Project Manual. The published Section 05 31 00 Steel Deck is cited in its place, and the narrative's own title 'Steel Decking' is carried as the group header.",
+    "08.11.26 (rule 14) - Do not restate the specs and drawings. Of roughly 30 discrete lines across the narrative's five groups, 10 survive as scope items; 14 are already stated in Section 05 12 23, Section 05 21 00, Section 05 31 00, the S0-00/S0-01 general notes, or this Attachment A's own PROJECT SPECIFIC PROVISIONS, and are carried in review appendix Group A instead.",
+    "08.11.26 (rule 14, decision group) - Narrative-only obligations that Corona's own proposal explicitly contests in writing (erection layout, hoisting/shoring, third-party inspection cost) are drafted, verified, and moved to review appendix Group B rather than silently dropped to match Corona's exclusions or silently asserted over Corona's written objection.",
+    "08.11.26 (rule 14a) - Exhibit B, Basis of GMP, is not referenced. Its scoreboard structural-load assumption (366TL/251LL) and canopy-post assumption are reflected through the drawn scope (S2-10 joist marks read 16K (366/251); AD1.15 details 4/4A) rather than cited to Exhibit B.",
+    "08.11.26 (rule 16) - Exclusions start empty. Of the items a steel erector could plausibly claim were excluded, only 'Field and finish painting' passes the test of what this trade would ordinarily assume is included but is not.",
+    "08.11.26 (D4) - Supply and install, not Furnish and install.",
+    "Carried-sub authority (per CLAUDE.md, corrected 08.07.26) - Contract amount is the GMP-carried value, not the bare base proposal. Corona's base proposal was $145,468; the Procore budget line 05-1000-10000 carries $166,281 with $0.00 delta. The $20,813 difference reconciles exactly, dollar for dollar, to four negotiated homework adds (canopy posts $7,832 + bollards $1,960 + opening bracing $2,237 + remobilization $8,784 = $20,813)."
+  ],
+  "simple": {
+    "8": "Corona Steel, Inc.",
+    "9": [
+      "3015 106th Street South",
+      "Lakewood, WA 98499-6701"
+    ],
+    "10": "503-956-8401",
+    "11": "Ronda Warren",
+    "12": "rondas@coronasteel.com",
+    "14": "166,281.00",
+    "23": "Structural Steel & Ornamental Metals",
+    "94": [
+      "multiple ",
+      "mobilizations"
+    ]
+  },
+  "standard_clauses": {
+    "26": false,
+    "27": true,
+    "28": true,
+    "100": true
+  },
+  "scope_groups": [
+    {
+      "header": "Structural Steel - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install all structural steel framing, base plates, connection plates, and edge angles as indicated.",
+        "Supply only, F.O.B. jobsite, all structural steel embeds, CMU wall bearing plates, and anchor bolts assembled to templates.",
+        "Coordinate delivery and layout of embeds and anchor bolts with the Masonry and Concrete Subcontractors.",
+        "Supply and install structural support framing, including columns, for the scoreboard.",
+        "Coordinate final scoreboard framing size with the scoreboard supplier per the Site Equipment Matrix on sheet A1-20.",
+        "Includes canopy column supply and installation at the abandoned Elementary School campus per Alternate 033.01."
+      ]
+    },
+    {
+      "header": "Steel Bar Joists - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install all steel bar joists, including bridging and accessories, as indicated."
+      ]
+    },
+    {
+      "header": "Steel Decking - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply and install all steel roof decking at the concessions building as indicated, including closures and reinforcement at openings.",
+        "Includes reinforcement of vent and mechanical roof deck openings as required for a complete installation."
+      ]
+    },
+    {
+      "header": "Ornamental & Fabricated Metals - Provide all materials, labor, equipment, and supervision for a complete Scope of Work per plans and specifications. This Scope of Work shall include, but not be limited to:",
+      "items": [
+        "Supply only, F.O.B. jobsite, all steel pipe bollards as indicated.",
+        "Supply only, F.O.B. jobsite, all steel countertop supports. Coordinate with Finish Carpentry Subcontractor."
+      ]
+    }
+  ],
+  "scope_options": [],
+  "spec_sections": [
+    "Section 05 12 23 - Structural Steel",
+    "Section 05 21 00 - Steel Joists",
+    "Section 05 31 00 - Steel Deck",
+    "Section 05 50 00 - Metal Fabrications"
+  ],
+  "directives": [
+    "Addendum #01"
+  ],
+  "exclusions": [
+    "Field and finish painting"
+  ],
+  "phase_code": "05-1000-10000",
+  "_phase_code_note": "Structural Steel & Ornamental Metals. Confirmed against the Procore budget (01-index/budget-phase-codes.json): RFP-033 has a single budget line, 05-1000-10000, $166,281, delta vs carried $0.00. The cover sheet reads the code from the budget, not from this record.",
+  "_leveling_sheet": "tab '33' (Structural Steel & Ornamental Metals) - not opened directly; reconciled instead from the budget line and Corona's own dated correspondence, which sum to the carried value exactly",
+  "_amount_buildup": [
+    ["Base Bid - Corona Steel proposal 05.12.26 (structural framing, roof decking, erection)", 145468],
+    ["Homework 05.20.26 - Add new 3\" post columns for the existing canopy alternate", 7832],
+    ["Homework 06.01.26 - Add 4 EA steel pipe bollards, painted, F.O.B.", 1960],
+    ["Homework 05.20.26 - Add vent and 8\"+ opening bracing, 5 openings", 2237],
+    ["Homework 05.20.26 - Add remobilization for scoreboard coordination and canopy work", 8784]
+  ],
+  "_amount_note": "The five lines above sum to $166,281.00, matching the Procore budget line 05-1000-10000 to the dollar. Corona's original Alternate 033.01 price ($53,519, to install existing/demolished HSS posts) is NOT part of this sum and is not carried; the carried canopy figure is the much smaller $7,832 homework add for new post columns instead. See _open_pm_items - this is a real scope/price discrepancy, not a rounding item.",
+  "cover_sheet": {
+    "project_name": "NCSD - Tonopah HS Sports Field Replacement",
+    "procurement_date": null,
+    "start_date": null,
+    "approvers": {
+      "B7": "Avery Hacker",
+      "E7": "Jon Cox",
+      "B8": "Derek Rosse",
+      "E8": "Keith LaRue",
+      "B9": null,
+      "E9": "Jairo Gomez-Facio"
+    },
+    "pp_bond_rate": 0
+  },
+  "_cover_sheet_note": "Material procurement and start dates left unset so the cover sheet prints CONFIRM -- they are CORE-internal and no bid document carries them. P&P bond rate is 0 because Corona quoted 2.50% separately (proposal Bond Information block) and it is not in the carried $166,281; the exhibit prints No Bond Included.",
+  "_open_pm_items": [
+    "Countertop supports (Ornamental & Fabricated Metals group) are required by the Scope of Work narrative but do not appear in any of Corona's four priced homework adds that reconcile the $145,468 base to the carried $166,281. Corona's base proposal also broadly excludes 'Miscellaneous and Ornamental Metals' (Standard General Exclusion #4, cover letter item 3.f). This exhibit carries the requirement per the narrative; confirm it is actually priced before the subcontract is issued.",
+    "Joist reinforcement for FCU, duct, and piping loads at the concessions roof is unresolved. Corona's 06.01.26-thread correspondence (05.19.26 scope review agenda) states no load beyond the 366TL/251LL shown on S2-10 was called out, and the Engineer of Record has not confirmed whether MEP equipment loads are covered by the 43.7 PSF snow / 17.3 PSF dead load already used to size the joists. No price has been added for this item, and it is not asserted as an inclusion in this exhibit for that reason.",
+    "Alternate 033.01 (canopy at the abandoned Elementary School campus) was originally proposed at $53,519 to reinstall salvaged HSS posts with new steel channels, plates, and anchor bolts per AD1.15 details 4 and 4A. The carried buildup instead reflects a $7,832 homework add priced for 'new 3\" post columns.' Confirm whether the alternate is now executed as new-post supply rather than salvage reinstallation, and whether the $7,832 figure includes installation labor or is supply only.",
+    "Corona's base proposal (05.12.26) explicitly excludes three obligations this exhibit carries from the Scope of Work narrative: steel erection layout (Standard General Exclusion #2), hoisting/shoring/lift-plan (Standard General Exclusion #3), and third-party inspection costs (Standard General Exclusion #8). None of the later homework responses address these. Resolve before issue -- see review_appendix Group A item 7 and Group B items 1-2.",
+    "Corona's 05.19.26 scope-review agenda states 'Assume CORE to provide forklift' for offloading -- not addressed anywhere in the Scope of Work narrative, which places all offloading and hoisting equipment with the Subcontractor. Confirm who furnishes it.",
+    "No AESS (Architecturally Exposed Structural Steel) was identified on any sheet reviewed (S0-00 through S4-01, A1-20, A9-20, A10-30), though Section 05 12 23 para 1.01.A.6 includes it in the section's scope and both Corona and Adams & Smith reserved the right to exclude it unless specifically shown. Confirm whether any structural steel on this project is designated AESS."
+  ],
+  "review_appendix": {
+    "_purpose": "PM request 08.11.26. Rule 14 strips every obligation the specs and drawings already carry. This lists what was stripped so the PM can put any of it back. Draft only -- build with --final to suppress it.",
+    "intro": [
+      "Rule 14 keeps out of this exhibit anything the Contract Documents already state, so the Subcontract carries one copy of each obligation rather than two that can drift.",
+      "Every line below was drafted, verified and then removed on that basis. All of them still bind the Subcontractor through the document named beneath them. Tick any that should be restated in the Scope of Work above."
+    ],
+    "groups": [
+      {
+        "header": "A.  Already stated in the Project Manual or on the Drawings",
+        "note": [
+          "Restating these creates a second, weaker copy of the same obligation."
+        ],
+        "items": [
+          {
+            "item": "Fabricate and erect structural steel in accordance with AISC specifications, including all bolted and welded connections.",
+            "source": "Section 05 12 23 Parts 2 and 3"
+          },
+          {
+            "item": "Provide welder certifications for all welders employed on structural steel and joist fabrication prior to the start of work.",
+            "source": "Section 05 12 23 paras 1.04.A.4 and 1.05.A.5; Section 05 21 00 para 1.5.C.2"
+          },
+          {
+            "item": "Submit shop drawings and a setting plan for all embedded items for Engineer approval prior to fabrication.",
+            "source": "Section 05 12 23 para 1.05.A.3"
+          },
+          {
+            "item": "Shop prime and galvanize structural steel and miscellaneous metals as indicated.",
+            "source": "Section 05 12 23 para 2.02.D; Section 05 5000 para 2.04"
+          },
+          {
+            "item": "Provide field welding per AISC standards, including grinding, priming, and removal of paint adjacent to field welds.",
+            "source": "Section 05 12 23 para 3.03"
+          },
+          {
+            "item": "Clean and field prime all field welds, including welds at roof decking, after completing installation.",
+            "source": "Section 05 12 23 para 3.04"
+          },
+          {
+            "item": "Provide all temporary bracing, guying, and shoring necessary to prevent movement or damage during erection, including a lift plan for approval.",
+            "source": "Section 05 12 23 para 3.02.B; S0-00 General Note 1",
+            "flag": "Corona's Standard General Exclusion #3 excludes 'Shoring or temporary support for steel members, metal deck, metal edge form etc.' Contested."
+          },
+          {
+            "item": "Attach exposed roof deck to supports with shot pins unless otherwise indicated.",
+            "source": "S0-01 note 3; Section 05 31 00 para 3.3"
+          },
+          {
+            "item": "Provide bridging, bracing anchors, and accessories for steel bar joists per SJI specifications.",
+            "source": "Section 05 21 00 para 2.4"
+          },
+          {
+            "item": "Provide protection and repair of adjacent surfaces damaged as a result of this Scope of Work.",
+            "source": "S0-00 General Note 5"
+          },
+          {
+            "item": "Comply with the Geotechnical Report and Contract Documents for seismic design requirements; the most stringent requirement shall prevail.",
+            "source": "S0-00 General Notes; the Geotechnical Report"
+          },
+          {
+            "item": "Subcontractor is responsible for all shipping, receiving, offloading, and hoisting of materials furnished under this Scope of Work.",
+            "source": "Section 05 12 23 para 1.06"
+          },
+          {
+            "item": "Include multiple mobilizations as may be required by the Preliminary Construction Schedule and Logistics Plan.",
+            "source": "this Attachment A, PROJECT SPECIFIC PROVISIONS"
+          },
+          {
+            "item": "Provide a qualified representative onsite for all tests and inspections, and schedule testing to obtain final sign-off.",
+            "source": "Section 01 40 00; S0-00 Testing, Inspections and Observations"
+          }
+        ]
+      },
+      {
+        "header": "B.  Stated ONLY in a Scope of Work narrative",
+        "note": [
+          "These are the ones worth a decision. If the Scope of Work narrative is not an exhibit to the executed Subcontract, striking these removes the obligation outright rather than relocating it."
+        ],
+        "items": [
+          {
+            "item": "Provide layout for structural steel erection; Contractor provides surveyed building corners, finish floor elevation, and intermediate grid lines only.",
+            "source": "Scope of Work #033 only",
+            "flag": "Corona's Standard General Exclusion #2 excludes 'Layout, location points, elevation marks, grid lines and all field dimensioning.' Contested."
+          },
+          {
+            "item": "Pay for all offsite or plant third-party inspections required for structural steel and joist fabrication.",
+            "source": "Scope of Work #033 only",
+            "flag": "Corona's Standard General Exclusion #8 excludes 'Third Party Testing and Inspection... costs.' Contested."
+          },
+          {
+            "item": "Provide added joist support for FCU, duct, and piping loads at the concessions roof, as required.",
+            "source": "Scope of Work #033 only, raised again at Corona's 05.19.26 homework request",
+            "flag": "Unresolved. Corona's response states no additional load beyond 366TL/251LL was called out and the EOR has not confirmed whether FCU/duct/piping loads are covered in that design. No price has been added; not reflected in the $166,281 carried amount."
+          }
+        ]
+      },
+      {
+        "header": "C.  Stated in no document at all",
+        "note": [
+          "Trade means and methods. No document assigns this one; it is here only so the list is complete."
+        ],
+        "items": [
+          {
+            "item": "Provide all cranes, forklifts, and rigging equipment necessary for structural steel and joist erection.",
+            "source": "Adams & Smith and Corona Steel each price their own erection equipment in their proposals"
+          }
+        ]
+      }
+    ]
+  }
+}
