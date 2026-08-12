@@ -1,0 +1,872 @@
+<title>Attachment A Build Console</title>
+<style>
+/* ── CORE Construction design tokens ────────────────────────────────────────
+   Brand Guidelines rev. Oct 2023, same token names the buy-out console uses.
+   CORE Green #008348 is the light-ground accent; CORE Bright Green #00AD68 is
+   mandated for dark grounds. Neutrals come from the brand's own Concrete /
+   Cement / Asphalt family, which carries a slight cool-green bias.
+   ------------------------------------------------------------------------ */
+:root{
+  --core-green:#008348; --core-bright-green:#00AD68; --core-deep-green:#004E2B;
+  --core-asphalt:#282828; --core-cement:#BDBEC0; --core-concrete:#F2F3F3;
+
+  --bg:#F2F3F3;
+  --surface:#FFFFFF;
+  --surface-2:#F8F9F9;
+  --surface-3:#ECEEED;
+  --ink:#101211;
+  --ink-2:#3A3F3D;
+  --ink-3:#6E7472;
+  --line:#DCDEDD;
+  --line-strong:#BDBEC0;
+  --accent:#008348;
+  --accent-2:#004E2B;
+  --accent-wash:#E6F2EC;
+  --warn:#8A6100;
+  --warn-wash:#FBF1DC;
+  --danger:#B3261E;
+  --bar:#000000;
+  --bar-ink:#FFFFFF;
+  --bar-sub:#BDBEC0;
+  --bar-edge:#00AD68;
+  --code-bg:#15181A;
+  --code-ink:#DCE3E0;
+  --focus:#00AD68;
+
+  --font-display:Interstate,Archivo,'Arial Narrow',Arial,Helvetica,sans-serif;
+  --font-body:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,'Cascadia Mono',Consolas,'Liberation Mono',monospace;
+
+  --r:4px;
+  --shadow:0 1px 2px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#101312;
+    --surface:#181C1A;
+    --surface-2:#1F2422;
+    --surface-3:#262C29;
+    --ink:#ECEFEE;
+    --ink-2:#C0C6C3;
+    --ink-3:#8A918E;
+    --line:#2B302E;
+    --line-strong:#3C4340;
+    --accent:#00AD68;
+    --accent-2:#7FD9AE;
+    --accent-wash:#122A20;
+    --warn:#D8A544;
+    --warn-wash:#2C2415;
+    --danger:#E88075;
+    --bar:#000000;
+    --bar-ink:#FFFFFF;
+    --bar-sub:#9AA19E;
+    --bar-edge:#00AD68;
+    --code-bg:#0B0D0C;
+    --code-ink:#D5DCD9;
+    --shadow:0 1px 2px rgba(0,0,0,.5),0 6px 20px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101312;
+  --surface:#181C1A;
+  --surface-2:#1F2422;
+  --surface-3:#262C29;
+  --ink:#ECEFEE;
+  --ink-2:#C0C6C3;
+  --ink-3:#8A918E;
+  --line:#2B302E;
+  --line-strong:#3C4340;
+  --accent:#00AD68;
+  --accent-2:#7FD9AE;
+  --accent-wash:#122A20;
+  --warn:#D8A544;
+  --warn-wash:#2C2415;
+  --danger:#E88075;
+  --bar:#000000;
+  --bar-ink:#FFFFFF;
+  --bar-sub:#9AA19E;
+  --bar-edge:#00AD68;
+  --code-bg:#0B0D0C;
+  --code-ink:#D5DCD9;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 6px 20px rgba(0,0,0,.35);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:14px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+:where(button,input,textarea,select){font-family:inherit;font-size:inherit;color:inherit}
+:where(a){color:var(--accent);text-decoration:none}
+:where(a):hover{text-decoration:underline}
+:where(a,button,input,textarea,[tabindex]):focus-visible{
+  outline:2px solid var(--focus);outline-offset:2px;border-radius:2px;
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+
+.eyebrow{
+  font-family:var(--font-display);font-weight:700;font-size:10.5px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);
+}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.num{font-variant-numeric:tabular-nums}
+
+/* ── top bar ───────────────────────────────────────────────────────────── */
+.bar{
+  background:var(--bar);color:var(--bar-ink);
+  border-bottom:2px solid var(--bar-edge);
+  padding:13px 22px;
+  display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:baseline;gap:12px;min-width:0}
+.brand .mark{
+  font-family:var(--font-display);font-weight:900;font-size:15px;
+  letter-spacing:.24em;color:var(--bar-edge);
+}
+.brand h1{
+  font-family:var(--font-display);font-weight:900;font-size:15px;
+  letter-spacing:.11em;text-transform:uppercase;margin:0;
+}
+.job{display:flex;flex-direction:column;gap:1px;font-size:11.5px;color:var(--bar-sub);line-height:1.35}
+.job b{color:var(--bar-ink);font-weight:600}
+.bar .grow{flex:1 1 auto}
+.stamp{
+  border:1px solid #333;border-left:3px solid var(--bar-edge);
+  padding:6px 12px;font-size:11px;color:var(--bar-sub);line-height:1.4;
+}
+.stamp b{display:block;color:var(--bar-ink);font-family:var(--font-mono);font-size:12px}
+
+/* ── kpi strip ─────────────────────────────────────────────────────────── */
+.kpis{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+  gap:1px;background:var(--line);border-bottom:1px solid var(--line);
+}
+.kpi{background:var(--surface);padding:13px 18px;display:flex;flex-direction:column;gap:3px}
+.kpi .k{font-family:var(--font-display);font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.kpi .v{font-family:var(--font-display);font-weight:900;font-size:25px;line-height:1.05;font-variant-numeric:tabular-nums}
+.kpi .s{font-size:11.5px;color:var(--ink-3);line-height:1.35}
+.kpi .v.ok{color:var(--accent)}
+.kpi .v.warn{color:var(--warn)}
+.kpi .meter{height:3px;background:var(--surface-3);margin-top:5px}
+.kpi .meter>i{display:block;height:3px;background:var(--accent)}
+
+/* ── two-pane layout ───────────────────────────────────────────────────── */
+.cols{
+  display:grid;grid-template-columns:minmax(340px,420px) minmax(0,1fr);
+  align-items:stretch;gap:1px;background:var(--line);
+  min-height:calc(100vh - 160px);
+}
+@media (max-width:1000px){
+  .cols{grid-template-columns:minmax(0,1fr)}
+}
+.pane{background:var(--bg);min-width:0}
+
+/* ── package list ──────────────────────────────────────────────────────── */
+.filters{
+  background:var(--surface);border-bottom:1px solid var(--line);
+  padding:12px 16px;display:flex;flex-direction:column;gap:10px;
+  position:sticky;top:0;z-index:5;
+}
+.filters .srch{
+  width:100%;padding:8px 11px;border:1px solid var(--line-strong);
+  border-radius:var(--r);background:var(--surface-2);
+}
+.filters .srch::placeholder{color:var(--ink-3)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chips .lbl{font-family:var(--font-display);font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-right:2px}
+.chip{
+  padding:4px 10px;font-size:11.5px;font-weight:600;cursor:pointer;
+  border:1px solid var(--line-strong);background:var(--surface);
+  color:var(--ink-2);border-radius:var(--r);
+}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+
+.list{padding:14px 16px 40px;display:flex;flex-direction:column;gap:16px}
+.tier{display:flex;flex-direction:column;gap:0}
+.tier-h{
+  display:flex;align-items:baseline;gap:9px;padding:7px 11px;
+  background:var(--surface-3);border:1px solid var(--line);border-bottom:0;
+}
+.tier-h .t{font-family:var(--font-display);font-weight:900;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.tier-h .m{font-size:11px;color:var(--ink-3);margin-left:auto;font-variant-numeric:tabular-nums}
+.row{
+  display:grid;grid-template-columns:4px 74px minmax(0,1fr) auto;
+  gap:0 10px;align-items:center;width:100%;text-align:left;
+  background:var(--surface);border:1px solid var(--line);border-top:0;
+  padding:0;cursor:pointer;font:inherit;color:inherit;
+}
+.row:hover{background:var(--surface-2)}
+.row[aria-current="true"]{background:var(--accent-wash);border-color:var(--accent)}
+.row .rail{align-self:stretch;background:var(--line-strong)}
+.row.is-drafted .rail{background:var(--accent)}
+.row.is-now .rail{background:var(--warn)}
+.row.is-removed .rail{background:var(--line)}
+.row .id{font-family:var(--font-mono);font-weight:700;font-size:12px;padding:9px 0}
+.row .mid{display:block;padding:9px 0;min-width:0}
+/* Trade titles run long ("Site Demolition, Salvage, Earthwork, Asphalt Paving,
+   Wet Utilities, & Site Signage & Striping"). Two lines, then clamp -- one
+   ellipsed line loses the half of the title that distinguishes the package. */
+.row .ti{
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  line-clamp:2;overflow:hidden;font-size:12.5px;line-height:1.3;overflow-wrap:anywhere;
+}
+.row .sub{
+  display:block;font-size:11px;color:var(--ink-3);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.row .rt{padding:9px 11px 9px 0;text-align:right}
+.row .amt{font-family:var(--font-mono);font-size:11.5px;font-weight:700}
+.row.is-removed .id,.row.is-removed .ti{opacity:.55}
+.tag{
+  display:inline-block;font-family:var(--font-display);font-weight:700;
+  font-size:9px;letter-spacing:.08em;text-transform:uppercase;
+  padding:2px 5px;border-radius:2px;
+}
+.tag.done{background:var(--accent-wash);color:var(--accent-2)}
+.tag.todo{background:var(--surface-3);color:var(--ink-3)}
+.tag.flag{background:var(--warn-wash);color:var(--warn)}
+.empty{padding:34px 16px;text-align:center;color:var(--ink-3);font-size:13px}
+
+/* ── build pane ────────────────────────────────────────────────────────── */
+.build{padding:0 0 60px}
+.dh{
+  background:var(--surface);border-bottom:1px solid var(--line);
+  padding:18px 26px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;
+}
+.dh .pid{font-family:var(--font-mono);font-weight:700;font-size:16px;color:var(--accent)}
+.dh h2{font-family:var(--font-display);font-weight:900;font-size:24px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.dh .src{font-size:11.5px;color:var(--ink-3);width:100%}
+
+/* Cell borders rather than a gap over a coloured ground: an auto-fit grid
+   rarely fills its last row, and a gap-as-rule leaves that remainder painted
+   in the border colour, which reads as a broken cell. */
+.facts{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:0;background:var(--surface);border-bottom:1px solid var(--line);margin:0;
+}
+.fact{padding:10px 16px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
+.fact dt{font-family:var(--font-display);font-weight:700;font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3)}
+.fact dd{margin:2px 0 0;font-size:13px;font-weight:600;line-height:1.35}
+.fact dd.mono{font-weight:700;font-size:12.5px}
+
+.step{padding:22px 26px;border-bottom:1px solid var(--line)}
+.step:last-child{border-bottom:0}
+.step-h{display:flex;align-items:baseline;gap:10px;margin:0 0 4px}
+.step-h .n{
+  font-family:var(--font-mono);font-size:11px;font-weight:700;color:var(--surface);
+  background:var(--ink);border-radius:2px;padding:1px 6px;flex:none;
+}
+.step-h h3{font-family:var(--font-display);font-weight:900;font-size:14px;letter-spacing:.07em;text-transform:uppercase;margin:0}
+.step-note{font-size:12.5px;color:var(--ink-3);margin:0 0 14px;max-width:70ch;line-height:1.5}
+
+.checks{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}
+.check{
+  display:grid;grid-template-columns:auto minmax(0,1fr);gap:9px;align-items:start;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:9px 12px;cursor:pointer;
+}
+.check:hover{border-color:var(--line-strong)}
+.check input{margin:2px 0 0;accent-color:var(--accent);width:15px;height:15px;flex:none}
+.check .cl{font-size:12.5px;line-height:1.45}
+.check .cd{font-size:11.5px;color:var(--ink-3);line-height:1.4;margin-top:2px}
+.check.sev-high{border-left:3px solid var(--danger)}
+.check.sev-medium{border-left:3px solid var(--warn)}
+.check.sev-low{border-left:3px solid var(--line-strong)}
+
+.factors{
+  background:var(--warn-wash);border:1px solid var(--line);border-left:3px solid var(--warn);
+  border-radius:var(--r);padding:10px 14px;margin-bottom:16px;
+}
+.factors .eyebrow{color:var(--warn);margin-bottom:4px;display:block}
+.factors ul{margin:0;padding-left:17px;font-size:12.5px;line-height:1.55}
+.factors li+li{margin-top:3px}
+
+textarea.notes{
+  width:100%;min-height:104px;resize:vertical;padding:11px 13px;
+  border:1px solid var(--line-strong);border-radius:var(--r);
+  background:var(--surface);line-height:1.5;font-size:13px;
+}
+textarea.notes::placeholder{color:var(--ink-3)}
+
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.optgrp{display:flex;flex-direction:column;gap:7px}
+.optgrp>.eyebrow{margin-bottom:1px}
+.radio,.cbx{
+  display:flex;gap:9px;align-items:flex-start;cursor:pointer;
+  font-size:12.5px;line-height:1.4;
+}
+.radio input,.cbx input{margin:1px 0 0;accent-color:var(--accent);width:15px;height:15px;flex:none}
+.radio .cd,.cbx .cd{color:var(--ink-3);font-size:11.5px;display:block;margin-top:1px}
+
+pre.req{
+  margin:0 0 14px;padding:16px 18px;background:var(--code-bg);color:var(--code-ink);
+  border-radius:var(--r);overflow-x:auto;font-family:var(--font-mono);
+  font-size:12px;line-height:1.6;white-space:pre;tab-size:2;
+}
+.actions{display:flex;gap:9px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:7px;padding:9px 15px;
+  font-family:var(--font-display);font-weight:700;font-size:12px;
+  letter-spacing:.06em;text-transform:uppercase;
+  border:1px solid var(--line-strong);border-radius:var(--r);
+  background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none;
+}
+.btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{background:var(--accent-2);border-color:var(--accent-2);color:#fff}
+:root[data-theme="dark"] .btn.primary,
+:root[data-theme="dark"] .btn.primary:hover{color:#06120C}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .btn.primary,
+  :root:not([data-theme="light"]) .btn.primary:hover{color:#06120C}
+}
+.btn[disabled],.btn[aria-disabled="true"]{opacity:.45;cursor:not-allowed;pointer-events:none}
+
+/* ── download tray ─────────────────────────────────────────────────────── */
+.files{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-bottom:14px}
+.file{
+  display:flex;flex-direction:column;gap:3px;padding:13px 15px;
+  background:var(--surface);border:1px solid var(--line);
+  border-top:3px solid var(--accent);border-radius:var(--r);
+  text-decoration:none;color:inherit;
+}
+.file:hover{border-color:var(--accent);box-shadow:var(--shadow);text-decoration:none}
+.file .ext{font-family:var(--font-display);font-weight:900;font-size:10px;letter-spacing:.12em;color:var(--accent)}
+.file .fn{font-size:13px;font-weight:600;line-height:1.35;word-break:break-word}
+.file .fm{font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.notbuilt{
+  background:var(--surface);border:1px dashed var(--line-strong);border-radius:var(--r);
+  padding:20px 18px;font-size:13px;color:var(--ink-3);line-height:1.55;max-width:70ch;
+}
+.notbuilt b{color:var(--ink);font-weight:600}
+
+.placeholder{
+  padding:70px 30px;text-align:center;color:var(--ink-3);
+  display:flex;flex-direction:column;gap:8px;align-items:center;
+}
+.placeholder .big{font-family:var(--font-display);font-weight:900;font-size:19px;color:var(--ink-2);letter-spacing:.02em}
+.placeholder p{margin:0;max-width:46ch;font-size:13px;line-height:1.55}
+
+.toast{
+  position:fixed;left:50%;bottom:26px;transform:translateX(-50%);
+  background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:var(--r);
+  font-family:var(--font-display);font-weight:700;font-size:12px;letter-spacing:.06em;
+  text-transform:uppercase;box-shadow:var(--shadow);z-index:60;
+  opacity:0;pointer-events:none;transition:opacity .18s ease;
+}
+.toast.on{opacity:1}
+
+footer.foot{
+  padding:16px 26px 30px;font-size:11.5px;color:var(--ink-3);line-height:1.6;
+  border-top:1px solid var(--line);background:var(--surface);
+}
+footer.foot code{font-family:var(--font-mono);font-size:11px;background:var(--surface-3);padding:1px 5px;border-radius:2px}
+</style>
+
+<div class="bar">
+  <div class="brand">
+    <span class="mark">CORE</span>
+    <h1>Attachment&nbsp;A Build Console</h1>
+  </div>
+  <div class="job">
+    <span><b>NCSD — Tonopah THS Sports Complex</b></span>
+    <span>Job 26-01-019 · CMAR/GMP · Nye County School District</span>
+  </div>
+  <div class="grow"></div>
+  <div class="stamp">
+    <b id="stampVal">—</b>
+    <span>GMP R2 BackSheet carried value</span>
+  </div>
+</div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="cols">
+  <aside class="pane">
+    <div class="filters">
+      <input type="search" class="srch" id="srch" placeholder="Search package, title or subcontractor…" aria-label="Search packages">
+      <div class="chips" role="group" aria-label="Filter by release tier">
+        <span class="lbl">Tier</span>
+        <button class="chip" data-tier="all" aria-pressed="true">All</button>
+        <button class="chip" data-tier="1" aria-pressed="false">1 · Now</button>
+        <button class="chip" data-tier="2" aria-pressed="false">2 · 60d</button>
+        <button class="chip" data-tier="3" aria-pressed="false">3 · 90d</button>
+        <button class="chip" data-tier="4" aria-pressed="false">4 · Sched</button>
+      </div>
+      <div class="chips" role="group" aria-label="Filter by draft status">
+        <span class="lbl">Status</span>
+        <button class="chip" data-status="all" aria-pressed="true">All</button>
+        <button class="chip" data-status="drafted" aria-pressed="false">Drafted</button>
+        <button class="chip" data-status="todo" aria-pressed="false">Not started</button>
+      </div>
+    </div>
+    <div class="list" id="list"></div>
+  </aside>
+
+  <section class="pane build" id="build" aria-live="polite">
+    <div class="placeholder">
+      <span class="big">Choose a package to build</span>
+      <p>Pick a bid package on the left. This console assembles the build request, then hands you the three files the PM reviews once the package has been drafted.</p>
+    </div>
+  </section>
+</div>
+
+<footer class="foot" id="foot"></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+"use strict";
+
+const DATA = /*__DATA__*/null;
+const REPO = DATA.repo;
+const BRANCH = DATA.branch;
+const PKGS = DATA.packages;
+
+/* ── formatting helpers ──────────────────────────────────────────────── */
+const money = n => n == null ? "—" :
+  "$" + Number(n).toLocaleString("en-US",{minimumFractionDigits:(n%1?2:0),maximumFractionDigits:2});
+/* ITB-044 and ITB-062 really are carried at $0, behind a "(SEE LINE #060)"
+   pointer. Show the zero -- an em-dash would read as "not known yet". */
+const compact = n =>
+  n == null    ? "—" :
+  n >= 1e6     ? "$" + (n/1e6).toFixed(2) + "M" :
+  n >= 1e3     ? "$" + Math.round(n/1e3) + "K" :
+                 "$" + Math.round(n);
+/* Project date convention, used throughout CLAUDE.md: MM.DD.YY */
+const dot = iso => {
+  if(!iso) return "—";
+  const [y,m,d] = iso.split("-");
+  return m + "." + d + "." + y.slice(2);
+};
+const kb = b => Math.round(b/1024) + " KB";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pathUrl = (kind, p) => REPO + "/" + kind + "/" + BRANCH + "/" +
+  p.split("/").map(encodeURIComponent).join("/");
+
+/* ── state ───────────────────────────────────────────────────────────── */
+const state = {
+  sel: null,
+  q: "",
+  tier: "all",
+  status: "all",
+  notes: {},         /* package_id -> freeform requirements */
+  items: {},         /* package_id -> Set of open-item indexes */
+  mode: "draft",     /* draft | final */
+  steps: {voice:true, atta:true, cover:true, log:true}
+};
+
+/* ── KPI strip ───────────────────────────────────────────────────────── */
+function renderKpis(){
+  const live = PKGS.filter(p => !p.removed);
+  const drafted = live.filter(p => p.drafted);
+  const carried = live.reduce((s,p) => s + (p.value||0), 0);
+  const draftedVal = drafted.reduce((s,p) => s + (p.value||0), 0);
+  const now = live.filter(p => p.tier_n === 1 && !p.drafted).length;
+  const openItems = live.reduce((s,p) => s + p.open_items.length, 0);
+  const pct = Math.round(draftedVal/carried*100);
+
+  document.getElementById("stampVal").textContent = money(carried);
+  document.getElementById("kpis").innerHTML = `
+    <div class="kpi">
+      <span class="k">Packages drafted</span>
+      <span class="v ok">${drafted.length}<span style="font-size:15px;color:var(--ink-3)"> / ${live.length}</span></span>
+      <span class="s">With the PM for review</span>
+      <span class="meter"><i style="width:${Math.round(drafted.length/live.length*100)}%"></i></span>
+    </div>
+    <div class="kpi">
+      <span class="k">Value drafted</span>
+      <span class="v">${compact(draftedVal)}</span>
+      <span class="s">${pct}% of ${compact(carried)} carried</span>
+      <span class="meter"><i style="width:${pct}%"></i></span>
+    </div>
+    <div class="kpi">
+      <span class="k">Awaiting a draft</span>
+      <span class="v">${live.length - drafted.length}</span>
+      <span class="s">No exhibit written yet</span>
+    </div>
+    <div class="kpi">
+      <span class="k">Tier 1 · release now</span>
+      <span class="v ${now ? "warn" : "ok"}">${now}</span>
+      <span class="s">${now ? "Undrafted and past the buy-out window" : "All Tier 1 packages drafted"}</span>
+    </div>
+    <div class="kpi">
+      <span class="k">Open PM items</span>
+      <span class="v ${openItems ? "warn" : ""}">${openItems}</span>
+      <span class="s">Decisions logged against packages</span>
+    </div>`;
+}
+
+/* ── package list ────────────────────────────────────────────────────── */
+function visible(){
+  const q = state.q.trim().toLowerCase();
+  return PKGS.filter(p => {
+    if(state.tier !== "all" && String(p.tier_n) !== state.tier) return false;
+    if(state.status === "drafted" && !p.drafted) return false;
+    if(state.status === "todo" && (p.drafted || p.removed)) return false;
+    if(!q) return true;
+    return (p.id + " " + p.title + " " + (p.sub||"")).toLowerCase().includes(q);
+  });
+}
+
+function renderList(){
+  const rows = visible();
+  const host = document.getElementById("list");
+  if(!rows.length){
+    host.innerHTML = `<p class="empty">No package matches that filter.</p>`;
+    return;
+  }
+  const tiers = [];
+  rows.forEach(p => {
+    let t = tiers.find(t => t.label === p.tier);
+    if(!t){ t = {label:p.tier, n:p.tier_n, rows:[]}; tiers.push(t); }
+    t.rows.push(p);
+  });
+
+  host.innerHTML = tiers.map(t => {
+    const val = t.rows.reduce((s,p) => s + (p.value||0), 0);
+    return `<div class="tier">
+      <div class="tier-h">
+        <span class="t">${esc(t.label)}</span>
+        <span class="m">${t.rows.length} pkg · ${compact(val)}</span>
+      </div>
+      ${t.rows.map(p => {
+        const cls = p.removed ? "is-removed" : p.drafted ? "is-drafted" : p.tier_n === 1 ? "is-now" : "";
+        const tag = p.removed ? `<span class="tag todo">Removed</span>`
+                  : p.drafted ? `<span class="tag done">Drafted</span>`
+                  : `<span class="tag todo">Not started</span>`;
+        const flag = p.open_items.length ? `<span class="tag flag">${p.open_items.length} open</span>` : "";
+        return `<button class="row ${cls}" data-id="${p.id}" aria-current="${state.sel===p.id}">
+          <span class="rail" aria-hidden="true"></span>
+          <span class="id">${esc(p.id)}</span>
+          <span class="mid">
+            <span class="ti">${esc(p.title)}</span>
+            <span class="sub">${esc(p.sub || "No carried subcontractor")}</span>
+          </span>
+          <span class="rt">
+            <span class="amt">${compact(p.value)}</span><br>
+            ${tag}${flag ? " " + flag : ""}
+          </span>
+        </button>`;
+      }).join("")}
+    </div>`;
+  }).join("");
+}
+
+/* ── the build request ───────────────────────────────────────────────── */
+function commands(p){
+  const out = [];
+  if(state.steps.voice) out.push(`python3 scripts/voice_check.py ${p.id}`);
+  if(state.steps.atta)  out.push(`python3 scripts/build_attachment_a.py ${p.id}${state.mode==="final" ? " --final" : ""}`);
+  if(state.steps.cover) out.push(`python3 scripts/build_att_a_cover.py ${p.id}`);
+  if(state.steps.log){
+    out.push(`# add ${p.id} to ATT_A_DRAFTED in scripts/build_buyout_log.py, then:`);
+    out.push(`python3 scripts/build_buyout_log.py`);
+  }
+  return out.length ? out : ["# no build steps selected"];
+}
+
+function request(p){
+  const L = [];
+  const picked = [...(state.items[p.id] || [])].sort((a,b)=>a-b);
+  const notes = (state.notes[p.id] || "").trim();
+
+  L.push("BUILD REQUEST — ATTACHMENT A");
+  L.push("NCSD Tonopah THS Sports Complex · CORE job 26-01-019 · CMAR/GMP");
+  L.push("");
+  L.push(`Package        ${p.id} — ${p.title}`);
+  L.push(`List           ${p.source}`);
+  L.push(`Carried sub    ${p.sub || "none carried"}`);
+  L.push(`Carried value  ${money(p.value)}   (GMP R2 BackSheet — the authority)`);
+  L.push(`Phase code     ${p.phase_code || "none in the budget"}`);
+  L.push(`Release by     ${dot(p.release_by)}   ·   ${p.tier}`);
+  if(p.draft_by)     L.push(`Draft by       ${dot(p.draft_by)}`);
+  if(p.binding_chain)L.push(`Binding chain  ${p.binding_chain}${p.chain_days ? ` (${p.chain_days} working days)` : ""}`);
+  L.push("");
+
+  L.push(`Output mode    ${state.mode === "final"
+    ? "FINAL — build with --final, no RULE 14 REVIEW appendix (Stage 7)"
+    : "DRAFT — keep the RULE 14 REVIEW appendix for PM markup"}`);
+  L.push("");
+
+  if(picked.length){
+    L.push("Open items to resolve or carry forward");
+    picked.forEach(i => L.push("  - " + p.open_items[i]));
+    L.push("");
+  }
+  if(p.other_factors && p.other_factors.length){
+    L.push("Scheduling and scope factors on record");
+    p.other_factors.forEach(f => L.push("  - " + f));
+    L.push("");
+  }
+  if(notes){
+    L.push("Additional requirements");
+    notes.split("\n").forEach(l => L.push("  " + l));
+    L.push("");
+  }
+
+  L.push("Ground rules — follow CLAUDE.md, do not restate it back");
+  L.push("  - Document authority: addenda & clarifications, then the Scope of Work");
+  L.push("    narrative for trade boundaries, then specs, then drawings. Subcontractor");
+  L.push("    proposals are diagnostic only and never narrow the subcontract.");
+  L.push("  - Apply the PM rulings log and the voice profile (rules 11, 12, 14, 14a, 16, 17).");
+  L.push("  - Cite no spec section absent from the Project Manual (ruling D) — use its title.");
+  L.push("  - Reconcile the amount buildup to the GMP BackSheet, to the cent.");
+  L.push("  - Read every bidder's proposal for the package, not just the awarded sub's.");
+  L.push("");
+  L.push("Pipeline");
+  commands(p).forEach(c => L.push("  " + c));
+  L.push("");
+  L.push("Deliver into 02-drafts/" + p.id + "/");
+  L.push(`  ${p.sub || "<Sub>"} Draft Att A.docx`);
+  L.push(`  ${p.sub || "<Sub>"} - Att A Review Cover Sheet.xlsx`);
+  L.push("  PM-NOTES.md   — every judgment call that does not belong in an exhibit");
+  return L.join("\n");
+}
+
+/* ── build pane ──────────────────────────────────────────────────────── */
+function renderBuild(){
+  const host = document.getElementById("build");
+  const p = PKGS.find(x => x.id === state.sel);
+  if(!p){ return; }
+
+  const chosen = state.items[p.id] || new Set();
+  const req = request(p);
+
+  const facts = [
+    ["Carried subcontractor", esc(p.sub || "None carried"), ""],
+    ["Carried value", money(p.value), "mono"],
+    ["Phase code", esc(p.phase_code || "—"), "mono"],
+    ["Latest release date", dot(p.release_by), "mono"],
+    ["Release tier", esc(p.tier), ""],
+    ["Draft status", p.drafted ? "Drafted — with PM" : "Not started", ""]
+  ].map(([k,v,c]) => `<div class="fact"><dt>${k}</dt><dd class="${c}">${v}</dd></div>`).join("");
+
+  const itemChecks = p.open_items.length ? `
+    <div class="checks">
+      ${p.open_items.map((it,i) => {
+        const sev = (it.match(/^\[(\w+)\]/) || [,""])[1].toLowerCase();
+        return `<label class="check sev-${sev}">
+          <input type="checkbox" data-item="${i}" ${chosen.has(i) ? "checked" : ""}>
+          <span class="cl">${esc(it)}</span>
+        </label>`;
+      }).join("")}
+    </div>` : `<p class="step-note" style="margin-bottom:16px">No open PM items are logged against this package.</p>`;
+
+  const factors = (p.other_factors && p.other_factors.length) ? `
+    <div class="factors">
+      <span class="eyebrow">Carried into the request automatically</span>
+      <ul>${p.other_factors.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+    </div>` : "";
+
+  const files = p.files.length ? `
+    <div class="files">
+      ${p.files.map(f => `
+        <a class="file" href="${pathUrl(f.view === "blob" ? "blob" : "raw", f.path)}"
+           ${f.view === "blob" ? 'target="_blank" rel="noopener"' : ""} data-dl="${f.view}">
+          <span class="ext">${esc(f.kind)}</span>
+          <span class="fn">${esc(f.name)}</span>
+          <span class="fm">${kb(f.size)}${f.view === "blob" ? " · opens on GitHub" : " · downloads"}</span>
+        </a>`).join("")}
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="dlAll">Download all three</button>
+      <a class="btn" href="${REPO}/tree/${BRANCH}/02-drafts/${p.id}" target="_blank" rel="noopener">Open folder on GitHub</a>
+    </div>`
+  : `<div class="notbuilt">
+      <b>${esc(p.id)} has not been drafted yet.</b><br>
+      Send the build request above into a Claude Code session on this repo. When the
+      three files land in <code>02-drafts/${esc(p.id)}/</code> and are pushed, rebuild this
+      console with <code>python3 scripts/build_attachment_a_console.py</code> and the
+      download buttons appear here.
+    </div>`;
+
+  host.innerHTML = `
+    <div class="dh">
+      <span class="pid">${esc(p.id)}</span>
+      <h2>${esc(p.title)}</h2>
+      <span class="src">${esc(p.source)}${p.removed ? " · scope removed by Owner (VE)" : ""}</span>
+    </div>
+
+    <dl class="facts">${facts}</dl>
+
+    <section class="step">
+      <div class="step-h"><span class="n">1</span><h3>Requirements</h3></div>
+      <p class="step-note">Tick the open items this build has to settle, then add anything
+        specific to this package. Everything you enter here is written into the request below.</p>
+      ${itemChecks}
+      ${factors}
+      <textarea class="notes" id="notes" placeholder="Additional requirements — e.g. hold the exhibit until the foundations duplication is decided; carry the integral water repellent; exclude the top-of-wall nailers without routing them."
+        aria-label="Additional requirements">${esc(state.notes[p.id] || "")}</textarea>
+    </section>
+
+    <section class="step">
+      <div class="step-h"><span class="n">2</span><h3>Build options</h3></div>
+      <div class="opts">
+        <div class="optgrp">
+          <span class="eyebrow">Output mode</span>
+          <label class="radio"><input type="radio" name="mode" value="draft" ${state.mode==="draft"?"checked":""}>
+            <span>Draft for PM review<span class="cd">Keeps the RULE 14 REVIEW appendix</span></span></label>
+          <label class="radio"><input type="radio" name="mode" value="final" ${state.mode==="final"?"checked":""}>
+            <span>Final exhibit<span class="cd">Builds with <code>--final</code>, appendix suppressed</span></span></label>
+        </div>
+        <div class="optgrp">
+          <span class="eyebrow">Pipeline steps</span>
+          <label class="cbx"><input type="checkbox" data-step="voice" ${state.steps.voice?"checked":""}>
+            <span>Voice check<span class="cd">voice_check.py</span></span></label>
+          <label class="cbx"><input type="checkbox" data-step="atta" ${state.steps.atta?"checked":""}>
+            <span>Attachment A<span class="cd">build_attachment_a.py</span></span></label>
+          <label class="cbx"><input type="checkbox" data-step="cover" ${state.steps.cover?"checked":""}>
+            <span>Review cover sheet<span class="cd">build_att_a_cover.py</span></span></label>
+          <label class="cbx"><input type="checkbox" data-step="log" ${state.steps.log?"checked":""}>
+            <span>Update the buy-out log<span class="cd">build_buyout_log.py</span></span></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="step-h"><span class="n">3</span><h3>Build request</h3></div>
+      <p class="step-note">Paste this into a Claude Code session on the repo, or file it as an
+        issue so the request is captured online.</p>
+      <pre class="req" id="req">${esc(req)}</pre>
+      <div class="actions">
+        <button class="btn primary" id="copyReq">Copy request</button>
+        <button class="btn" id="copyCmd">Copy commands only</button>
+        <a class="btn" id="issue" href="#" target="_blank" rel="noopener">File as a GitHub issue</a>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="step-h"><span class="n">4</span><h3>Review files for the PM</h3></div>
+      <p class="step-note">The three files the PM reviews: the exhibit, the cover sheet that
+        carries the price buildup, and the notes behind the judgment calls.</p>
+      ${files}
+    </section>`;
+
+  document.getElementById("issue").href =
+    REPO + "/issues/new?title=" + encodeURIComponent(`Build Attachment A — ${p.id} ${p.title}`) +
+    "&body=" + encodeURIComponent("```\n" + req + "\n```");
+}
+
+/* ── refresh only what changed ───────────────────────────────────────── */
+function refreshRequest(){
+  const p = PKGS.find(x => x.id === state.sel);
+  if(!p) return;
+  const req = request(p);
+  document.getElementById("req").textContent = req;
+  document.getElementById("issue").href =
+    REPO + "/issues/new?title=" + encodeURIComponent(`Build Attachment A — ${p.id} ${p.title}`) +
+    "&body=" + encodeURIComponent("```\n" + req + "\n```");
+}
+
+/* ── clipboard + toast ───────────────────────────────────────────────── */
+let toastTimer;
+function toast(msg){
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove("on"), 1900);
+}
+function copy(text, msg){
+  const done = () => toast(msg);
+  if(navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(text).then(done, () => fallback(text, done));
+  } else fallback(text, done);
+}
+function fallback(text, done){
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.setAttribute("readonly","");
+  ta.style.cssText = "position:fixed;top:-1000px";
+  document.body.appendChild(ta);
+  ta.select();
+  try{ document.execCommand("copy"); done(); }
+  catch(e){ toast("Copy failed — select the text instead"); }
+  document.body.removeChild(ta);
+}
+
+/* ── events ──────────────────────────────────────────────────────────── */
+document.getElementById("srch").addEventListener("input", e => {
+  state.q = e.target.value; renderList();
+});
+
+document.querySelectorAll(".chip").forEach(c => {
+  c.addEventListener("click", () => {
+    const grp = c.dataset.tier !== undefined ? "tier" : "status";
+    const key = grp === "tier" ? "tier" : "status";
+    state[key] = c.dataset[key];
+    c.parentElement.querySelectorAll(".chip").forEach(o =>
+      o.setAttribute("aria-pressed", String(o === c)));
+    renderList();
+  });
+});
+
+document.getElementById("list").addEventListener("click", e => {
+  const row = e.target.closest(".row");
+  if(!row) return;
+  state.sel = row.dataset.id;
+  renderList();
+  renderBuild();
+  if(window.matchMedia("(max-width:1000px)").matches){
+    document.getElementById("build").scrollIntoView({behavior:"smooth", block:"start"});
+  }
+});
+
+document.getElementById("build").addEventListener("input", e => {
+  const t = e.target;
+  if(t.id === "notes"){ state.notes[state.sel] = t.value; refreshRequest(); }
+  else if(t.dataset.item !== undefined){
+    const set = state.items[state.sel] || (state.items[state.sel] = new Set());
+    t.checked ? set.add(+t.dataset.item) : set.delete(+t.dataset.item);
+    refreshRequest();
+  }
+  else if(t.name === "mode"){ state.mode = t.value; refreshRequest(); }
+  else if(t.dataset.step){ state.steps[t.dataset.step] = t.checked; refreshRequest(); }
+});
+
+document.getElementById("build").addEventListener("click", e => {
+  const p = PKGS.find(x => x.id === state.sel);
+  if(!p) return;
+  if(e.target.id === "copyReq") copy(request(p), "Request copied");
+  if(e.target.id === "copyCmd") copy(commands(p).join("\n"), "Commands copied");
+  if(e.target.id === "dlAll"){
+    /* Binaries come back as application/octet-stream and download from a hidden
+       frame without leaving the page. PM-NOTES.md is markdown, so it opens on
+       GitHub rendered rather than downloading as plain text. */
+    p.files.filter(f => f.view === "raw").forEach((f,i) => {
+      setTimeout(() => {
+        const fr = document.createElement("iframe");
+        fr.style.display = "none";
+        fr.src = pathUrl("raw", f.path);
+        document.body.appendChild(fr);
+        setTimeout(() => fr.remove(), 60000);
+      }, i * 400);
+    });
+    const md = p.files.find(f => f.view === "blob");
+    if(md) setTimeout(() => window.open(pathUrl("blob", md.path), "_blank", "noopener"), 900);
+    toast("Downloading review files");
+  }
+});
+
+/* ── boot ────────────────────────────────────────────────────────────── */
+document.getElementById("foot").innerHTML =
+  `Generated ${DATA.generated} by <code>scripts/build_attachment_a_console.py</code> from ` +
+  `<code>01-index/buyout-log.json</code> (GMP R2 BackSheet for sub and value; the 04.21.26 ` +
+  `preliminary schedule for dates) and the files on disk in <code>02-drafts/</code>. ` +
+  `Downloads point at branch <code>${DATA.branch}</code> of ` +
+  `<a href="${REPO}" target="_blank" rel="noopener">${DATA.repo_name}</a>. ` +
+  `Rebuild the console after every package build so this page keeps up.`;
+
+renderKpis();
+renderList();
+})();
+</script>
