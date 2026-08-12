@@ -43,6 +43,15 @@ TITLE = "Attachment A Build Console"
 DESCRIPTION = ("Pick a Tonopah bid package, set the requirements, and download the "
                "three Attachment A files the PM reviews.")
 
+# Repository the "Open in Claude Code" button preselects, as an owner/repo slug.
+#
+# None means the repo this console is generated from. That is the safe default,
+# but it is not always the right one: a build reads the scope narratives, specs
+# and subcontractor proposals under 00-source-docs/, and a clone that omits them
+# will fail on a missing path. Point this at whichever repo carries the full
+# document set -- the buy-out system of record -- if that is not this one.
+BUILD_REPO = None
+
 # The three files a completed package hands to the PM, listed in the order the
 # Bluebeam process document builds the review packet: cover sheet first, then
 # the draft exhibit, then the notes behind it.
@@ -152,6 +161,8 @@ def main():
         "branch": "main",
         "packages": packages,
     }
+
+    data["build_repo"] = BUILD_REPO or data["repo_name"]
 
     core = SHELL.read_text()
     if "/*__DATA__*/null" not in core:

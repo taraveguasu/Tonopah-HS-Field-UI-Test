@@ -734,11 +734,13 @@ function renderBuild(){
 
     <section class="step">
       <div class="step-h"><span class="n">3</span><h3>Build request</h3></div>
-      <p class="step-note">Paste this into a Claude Code session on the repo, or file it as an
-        issue so the request is captured online.</p>
+      <p class="step-note">Send it straight to Claude Code with the repository already
+        selected — the request lands in the composer, so you can read it over and press
+        Enter to start the build. Copying it or filing it as an issue still work.</p>
       <pre class="req" id="req">${esc(req)}</pre>
       <div class="actions">
-        <button class="btn primary" id="copyReq">Copy request</button>
+        <a class="btn primary" id="openCC" href="#" target="_blank" rel="noopener">Open in Claude Code</a>
+        <button class="btn" id="copyReq">Copy request</button>
         <button class="btn" id="copyCmd">Copy commands only</button>
         <a class="btn" id="issue" href="#" target="_blank" rel="noopener">File as a GitHub issue</a>
       </div>
@@ -751,8 +753,25 @@ function renderBuild(){
       ${files}
     </section>`;
 
+  setLinks(p, req);
+}
+
+/* Both dispatch buttons carry the whole request in their URL, so they have to be
+   rewritten every time the request changes -- not just when the package does.
+   claude.ai/code takes `prompt` and `repositories` as documented query
+   parameters; it prefills the composer rather than submitting, which leaves the
+   request reviewable before a session is spent on it. */
+function setLinks(p, req){
+  const title = `Build Attachment A — ${p.id} ${p.title}`;
+  const cc = "https://claude.ai/code?prompt=" + encodeURIComponent(req) +
+             "&repositories=" + DATA.build_repo;
+  const open = document.getElementById("openCC");
+  open.href = cc;
+  /* A very long requirements note can push the URL past what a browser or an
+     edge proxy will carry. Say so rather than letting it truncate in silence. */
+  open.dataset.long = String(cc.length > 8000);
   document.getElementById("issue").href =
-    REPO + "/issues/new?title=" + encodeURIComponent(`Build Attachment A — ${p.id} ${p.title}`) +
+    REPO + "/issues/new?title=" + encodeURIComponent(title) +
     "&body=" + encodeURIComponent("```\n" + req + "\n```");
 }
 
@@ -762,9 +781,7 @@ function refreshRequest(){
   if(!p) return;
   const req = request(p);
   document.getElementById("req").textContent = req;
-  document.getElementById("issue").href =
-    REPO + "/issues/new?title=" + encodeURIComponent(`Build Attachment A — ${p.id} ${p.title}`) +
-    "&body=" + encodeURIComponent("```\n" + req + "\n```");
+  setLinks(p, req);
 }
 
 /* ── clipboard + toast ───────────────────────────────────────────────── */
@@ -836,6 +853,12 @@ document.getElementById("build").addEventListener("input", e => {
 document.getElementById("build").addEventListener("click", e => {
   const p = PKGS.find(x => x.id === state.sel);
   if(!p) return;
+  if(e.target.id === "openCC" && e.target.dataset.long === "true"){
+    e.preventDefault();
+    copy(request(p), "Request too long for a link — copied instead");
+    window.open("https://claude.ai/code?repositories=" + DATA.build_repo, "_blank", "noopener");
+    return;
+  }
   if(e.target.id === "copyReq") copy(request(p), "Request copied");
   if(e.target.id === "copyCmd") copy(commands(p).join("\n"), "Commands copied");
   if(e.target.id === "dlAll"){
