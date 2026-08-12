@@ -3,6 +3,24 @@
 A working-files clone of [`taraveguasu/tonopah-sports-field-complex`](https://github.com/taraveguasu/tonopah-sports-field-complex),
 created for UI development and testing against the project's structured data.
 
+## Attachment A Build Console
+
+`docs/index.html` is an HTML console for the drafting pipeline. Pick a bid package,
+tick the open PM items the build has to settle, add any extra requirements, and it
+assembles a build request you can paste into a Claude Code session or file as an
+issue. For packages already drafted it links the three files the PM reviews — the
+review cover sheet, the draft exhibit, and `PM-NOTES.md` — straight off this repo.
+
+```bash
+python3 scripts/build_attachment_a_console.py   # rebuild after every package build
+```
+
+It reads `01-index/buyout-log.json` and the files actually present in `02-drafts/`,
+so a package moves from "not started" to live download buttons the moment its build
+lands and the console is regenerated. Two outputs: `docs/index.html` (a full page,
+ready for GitHub Pages from the `docs/` folder) and `docs/artifact.html` (the same
+page as a body-only fragment for publishing as a Claude Artifact).
+
 ## What this repo is
 
 Everything from the source repo **except the source-document PDFs**. That means the
